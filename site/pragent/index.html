@@ -1,0 +1,916 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../codiumate/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>PR-Agent - CodiumAI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="PR-Agent - CodiumAI" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="./assets/images/social/pragent/index.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="None" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="PR-Agent - CodiumAI" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="./assets/images/social/pragent/index.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pr-agent" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CodiumAI" class="md-header__button md-logo" aria-label="CodiumAI" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CodiumAI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PR-Agent
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  PR-Agent
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../codiumate/" class="md-tabs__link">
+        
+  
+    
+  
+  VSC Codiumate
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../jebrains/" class="md-tabs__link">
+        
+  
+    
+  
+  JetBrains
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../alphacodium/" class="md-tabs__link">
+        
+  
+    
+  
+  AlphaCodium
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CodiumAI" class="md-nav__button md-logo" aria-label="CodiumAI" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    CodiumAI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    PR-Agent
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    PR-Agent
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#news-and-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      News and Updates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="News and Updates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jan-21-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jan 21, 2024
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jan-17-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jan 17, 2024
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example results
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#try-it-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      Try it now
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pr-agent-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      PR-Agent Pro 💎
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-pr-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why use PR-Agent?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codiumate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VSC Codiumate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jebrains/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JetBrains
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alphacodium/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AlphaCodium
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="pr-agent">PR-Agent</h1>
+<p><img alt="" src="https://codium.ai/images/pr_agent/logo-dark.png" /></p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#news-and-updates">News and Updates</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#example-results">Example results</a></li>
+<li><a href="#features-overview">Features overview</a></li>
+<li><a href="#try-it-now">Try it now</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#pr-agent-pro-">PR-Agent Pro 💎</a></li>
+<li><a href="#how-it-works">How it works</a></li>
+<li><a href="#why-use-pr-agent">Why use PR-Agent?</a></li>
+</ul>
+<h2 id="news-and-updates">News and Updates</h2>
+<h3 id="jan-21-2024">Jan 21, 2024</h3>
+<ul>
+<li>💎 Custom suggestions - A new tool, <code>/custom_suggestions</code>, was added to PR-Agent Pro. The tool will propose only suggestions that follow specific guidelines defined by the user. 
+See <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/CUSTOM_SUGGESTIONS.md">here</a> for more details.</li>
+</ul>
+<h3 id="jan-17-2024">Jan 17, 2024</h3>
+<ul>
+<li>💎 Inline file summary - The <code>describe</code> tool has a new option, <code>--pr_description.inline_file_summary</code>, which allows adding a summary of each file change to the Diffview page. See <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/DESCRIBE.md#inline-file-summary-">here</a></li>
+<li>The <code>improve</code> tool now can present suggestions in a nice collapsible format, which significantly reduces the PR footprint. See <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/IMPROVE.md#summarized-vs-commitable-code-suggestions">here</a> for more details. </li>
+<li>To accompany the improved interface of the  <code>improve</code> tool, we change the <a href="https://github.com/Codium-ai/pr-agent/blob/main/pr_agent/settings/configuration.toml#L116">default automation settings</a> of our GithupApp to:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pr_commands = [
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    &quot;/describe --pr_description.add_original_user_description=true --pr_description.keep_original_user_title=true&quot;,
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    &quot;/review --pr_reviewer.num_code_suggestions=0&quot;,
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    &quot;/improve --pr_code_suggestions.summarize=true&quot;,
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>]
+</code></pre></div>
+Meaning that by default, for each PR the <code>describe</code>, <code>review</code>, and <code>improve</code> tools will be triggered automatically, and the <code>improve</code> tool will present the suggestions in a single comment.<br />
+You can of course overwrite these defaults by adding a <code>.pr_agent.toml</code> file to your repo. See <a href="https://github.com/Codium-ai/pr-agent/blob/main/Usage.md#working-with-github-app">here</a>.</li>
+</ul>
+<h2 id="overview">Overview</h2>
+<p>CodiumAI PR-Agent is an open-source tool to help efficiently review and handle pull requests. It automatically analyzes the pull request and can provide several types of commands:</p>
+<p>‣ <strong>Auto Description (<a href="./docs/DESCRIBE.md"><code>/describe</code></a>)</strong>: Automatically generating PR description - title, type, summary, code walkthrough and labels.
+\
+‣ <strong>Auto Review (<a href="./docs/REVIEW.md"><code>/review</code></a>)</strong>: Adjustable feedback about the PR main theme, type, relevant tests, security issues, score, and various suggestions for the PR content.
+\
+‣ <strong>Question Answering (<a href="./docs/ASK.md"><code>/ask ...</code></a>)</strong>: Answering free-text questions about the PR.
+\
+‣ <strong>Code Suggestions (<a href="./docs/IMPROVE.md"><code>/improve</code></a>)</strong>: Committable code suggestions for improving the PR.
+\
+‣ <strong>Update Changelog (<a href="./docs/UPDATE_CHANGELOG.md"><code>/update_changelog</code></a>)</strong>: Automatically updating the CHANGELOG.md file with the PR changes.
+\
+‣ <strong>Find Similar Issue (<a href="./docs/SIMILAR_ISSUE.md"><code>/similar_issue</code></a>)</strong>: Automatically retrieves and presents similar issues.
+\
+‣ <strong>Add Documentation 💎  (<a href="./docs/ADD_DOCUMENTATION.md"><code>/add_docs</code></a>)</strong>: Automatically adds documentation to methods/functions/classes that changed in the PR.
+\
+‣ <strong>Generate Custom Labels 💎 (<a href="./docs/GENERATE_CUSTOM_LABELS.md"><code>/generate_labels</code></a>)</strong>: Automatically suggests custom labels based on the PR code changes.
+\
+‣ <strong>Analyze 💎 (<a href="./docs/Analyze.md"><code>/analyze</code></a>)</strong>: Automatically analyzes the PR, and presents changes walkthrough for each component.
+\
+‣ <strong>Custom Suggestions 💎 (<a href="./docs/CUSTOM_SUGGESTIONS.md"><code>/custom_suggestions</code></a>)</strong>: Automatically generates custom suggestions for improving the PR code, based on specific guidelines defined by the user.</p>
+<p>See the <a href="./INSTALL.md">Installation Guide</a> for instructions on installing and running the tool on different git platforms.</p>
+<p>See the <a href="./Usage.md">Usage Guide</a> for running the PR-Agent commands via different interfaces, including <em>CLI</em>, <em>online usage</em>, or by <em>automatically triggering</em> them when a new PR is opened.</p>
+<p>See the <a href="./docs/TOOLS_GUIDE.md">Tools Guide</a> for a detailed description of the different tools (tools are run via the commands).</p>
+<h2 id="example-results">Example results</h2>
+<p><a href="https://github.com/Codium-ai/pr-agent/pull/530">/describe</a></p>
+<p><img alt="" src="https://www.codium.ai/images/pr_agent/describe_new_short_main.png" /></p>
+<p><a href="https://github.com/Codium-ai/pr-agent/pull/472#discussion_r1435819374">/improve</a></p>
+<p><img alt="" src="https://www.codium.ai/images/pr_agent/improve_short_main.png" /></p>
+<p>[/generate_labels]https://github.com/Codium-ai/pr-agent/pull/530)</p>
+<p><img alt="" src="https://www.codium.ai/images/pr_agent/geneare_custom_labels_main_short.png" /></p>
+<p><a href="https://github.com/Codium-ai/pr-agent/pull/78#issuecomment-1639739496">/reflect_and_review</a></p>
+<p><img alt="" src="https://www.codium.ai/images/reflect_and_review.gif" /></p>
+<p><a href="https://github.com/Codium-ai/pr-agent/pull/229#issuecomment-1695020538">/ask</a></p>
+<p><img alt="" src="https://www.codium.ai/images/ask-2.gif" /></p>
+<p><a href="https://github.com/Codium-ai/pr-agent/pull/229#issuecomment-16950249520">/improve</a></p>
+<p><img alt="" src="https://www.codium.ai/images/improve-2.gif" /></p>
+<h2 id="features-overview">Features overview</h2>
+<p><code>PR-Agent</code> offers extensive pull request functionalities across various git providers:
+|       |                                             | GitHub | Gitlab | Bitbucket |
+|-------|---------------------------------------------|:------:|:------:|:---------:|
+| TOOLS | Review                                      |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />       |
+|       | ⮑ Incremental                              |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |                         |                            |
+|       | ⮑ <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/REVIEW.md#soc2-ticket-compliance-">SOC2 Compliance</a> 💎                       |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | Ask                                         |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | Describe                                    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | ⮑ <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/DESCRIBE.md#inline-file-summary-">Inline file summary</a> 💎                       |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | Improve                                     |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | ⮑ Extended                                 |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/CUSTOM_SUGGESTIONS.md">Custom Suggestions</a> 💎        |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | Reflect and Review                          |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | Update CHANGELOG.md                         |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | Find Similar Issue                          |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |                         |                             |
+|       | <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/ADD_DOCUMENTATION.md">Add PR Documentation</a> 💎                     |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />        |
+|       | <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/DESCRIBE.md#handle-custom-labels-from-the-repos-labels-page-gem">Generate Custom Labels</a> 💎                   |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |         |
+|       | <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/Analyze.md">Analyze PR Components</a> 💎                    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />      |
+|       |                                             |        |        |      |
+| USAGE | CLI                                         |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />       |
+|       | App / webhook                               |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |           |
+|       | Tagging bot                                 |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |        |           | 
+|       | Actions                                     |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |        |           | 
+|       |                                             |        |        |      |
+| CORE  | PR compression                              |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />       |
+|       | Repo language prioritization                |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />       |
+|       | Adaptive and token-aware file patch fitting |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />     |
+|       | Multiple models support |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />       | <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" /> |
+|       | Incremental PR review |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |      |      |
+|       | <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/Analyze.md">Static code analysis</a> 💎 |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />     |    <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |
+|       | <a href="https://github.com/Codium-ai/pr-agent/blob/main/Usage.md#global-configuration-file-">Global configuration</a> 💎 |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |   <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />     |    <img alt="✅" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/2705.svg" title=":white_check_mark:" />    |</p>
+<ul>
+<li>💎 means this feature is available only in <a href="https://www.codium.ai/pricing/">PR-Agent Pro</a></li>
+<li>Support for additional git providers is described in <a href="./docs/Full_enviroments.md">here</a> </li>
+</ul>
+<h2 id="try-it-now">Try it now</h2>
+<p>Try the GPT-4 powered PR-Agent instantly on <em>your public GitHub repository</em>. Just mention <code>@CodiumAI-Agent</code> and add the desired command in any PR comment. The agent will generate a response based on your command.
+For example, add a comment to any pull request with the following text:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>@CodiumAI-Agent /review
+</code></pre></div>
+and the agent will respond with a review of your PR</p>
+<p><img alt="Review generation process" src="https://www.codium.ai/images/demo-2.gif" /></p>
+<p>To set up your own PR-Agent, see the <a href="#installation">Installation</a> section below.
+Note that when you set your own PR-Agent or use CodiumAI hosted PR-Agent, there is no need to mention <code>@CodiumAI-Agent ...</code>. Instead, directly start with the command, e.g., <code>/ask ...</code>.</p>
+<hr />
+<h2 id="installation">Installation</h2>
+<p>To use your own version of PR-Agent, you first need to acquire two tokens:</p>
+<ol>
+<li>An OpenAI key from <a href="https://platform.openai.com/">here</a>, with access to GPT-4.</li>
+<li>A GitHub personal access token (classic) with the repo scope.</li>
+</ol>
+<p>There are several ways to use PR-Agent:</p>
+<ul>
+<li><a href="INSTALL.md#method-1-use-docker-image-no-installation-required">Method 1: Use Docker image (no installation required)</a></li>
+<li><a href="INSTALL.md#method-2-run-from-source">Method 2: Run from source</a></li>
+<li><a href="INSTALL.md#method-3-run-as-a-github-action">Method 3: Run as a GitHub Action</a></li>
+<li><a href="INSTALL.md#method-4-run-as-a-polling-server">Method 4: Run as a polling server</a></li>
+<li>Request reviews by tagging your GitHub user on a PR</li>
+<li><a href="INSTALL.md#method-5-run-as-a-github-app">Method 5: Run as a GitHub App</a></li>
+<li>Allowing you to automate the review process on your private or public repositories</li>
+<li><a href="INSTALL.md#method-6---deploy-as-a-lambda-function">Method 6: Deploy as a Lambda Function</a></li>
+<li><a href="INSTALL.md#method-7---aws-codecommit-setup">Method 7: AWS CodeCommit</a></li>
+<li><a href="INSTALL.md#method-8---run-a-gitlab-webhook-server">Method 8: Run a GitLab webhook server</a></li>
+<li><a href="INSTALL.md#method-9-run-as-a-bitbucket-pipeline">Method 9: Run as a Bitbucket Pipeline</a></li>
+</ul>
+<h2 id="pr-agent-pro">PR-Agent Pro 💎</h2>
+<p><a href="https://www.codium.ai/pricing/">PR-Agent Pro</a> is a hosted version of PR-Agent, provided by CodiumAI. It is available for a monthly fee, and provides the following benefits:
+1. <strong>Fully managed</strong> - We take care of everything for you - hosting, models, regular updates, and more. Installation is as simple as signing up and adding the PR-Agent app to your GitHub\BitBucket repo.
+2. <strong>Improved privacy</strong> - No data will be stored or used to train models. PR-Agent Pro will employ zero data retention, and will use an OpenAI account with zero data retention.
+3. <strong>Improved support</strong> - PR-Agent Pro users will receive priority support, and will be able to request new features and capabilities.
+4. <strong>Extra features</strong> -In addition to the benefits listed above, PR-Agent Pro will emphasize more customization, and the usage of static code analysis, in addition to LLM logic, to improve results. It has the following additional features:
+    - <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/REVIEW.md#soc2-ticket-compliance-"><strong>SOC2 compliance check</strong></a>
+    - <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/ADD_DOCUMENTATION.md"><strong>PR documentation</strong></a>
+    - <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/DESCRIBE.md#handle-custom-labels-from-the-repos-labels-page-gem"><strong>Custom labels</strong></a>
+    - <a href="https://github.com/Codium-ai/pr-agent/blob/main/Usage.md#global-configuration-file-"><strong>Global configuration</strong></a>
+    - <a href="https://github.com/Codium-ai/pr-agent/blob/main/docs/Analyze.md"><strong>Analyze PR components</strong></a>
+    - <strong>Custom Code Suggestions</strong> [WIP]
+    - <strong>Chat on Specific Code Lines</strong> [WIP]</p>
+<h2 id="how-it-works">How it works</h2>
+<p>The following diagram illustrates PR-Agent tools and their flow:</p>
+<p><img alt="PR-Agent Tools" src="https://codium.ai/images/pr_agent/diagram-v0.9.png" /></p>
+<p>Check out the <a href="./PR_COMPRESSION.md">PR Compression strategy</a> page for more details on how we convert a code diff to a manageable LLM prompt</p>
+<h2 id="why-use-pr-agent">Why use PR-Agent?</h2>
+<p>A reasonable question that can be asked is: <code>"Why use PR-Agent? What makes it stand out from existing tools?"</code></p>
+<p>Here are some advantages of PR-Agent:</p>
+<ul>
+<li>We emphasize <strong>real-life practical usage</strong>. Each tool (review, improve, ask, ...) has a single GPT-4 call, no more. We feel that this is critical for realistic team usage - obtaining an answer quickly (~30 seconds) and affordably.</li>
+<li>Our <a href="./PR_COMPRESSION.md">PR Compression strategy</a>  is a core ability that enables to effectively tackle both short and long PRs.</li>
+<li>Our JSON prompting strategy enables to have <strong>modular, customizable tools</strong>. For example, the '/review' tool categories can be controlled via the <a href="pr_agent/settings/configuration.toml">configuration</a> file. Adding additional categories is easy and accessible.</li>
+<li>We support <strong>multiple git providers</strong> (GitHub, Gitlab, Bitbucket), <strong>multiple ways</strong> to use the tool (CLI, GitHub Action, GitHub App, Docker, ...), and <strong>multiple models</strong> (GPT-4, GPT-3.5, Anthropic, Cohere, Llama2).</li>
+</ul>
+<h2 id="data-privacy">Data privacy</h2>
+<p>If you host PR-Agent with your OpenAI API key, it is between you and OpenAI. You can read their API data privacy policy here:
+https://openai.com/enterprise-privacy</p>
+<p>When using PR-Agent Pro 💎, hosted by CodiumAI, we will not store any of your data, nor will we use it for training.
+You will also benefit from an OpenAI account with zero data retention.</p>
+<h2 id="links">Links</h2>
+<p><a href="https://discord.gg/kG35uSHDBc"><img alt="Join our Discord community" src="https://raw.githubusercontent.com/Codium-ai/codiumai-vscode-release/main/media/docs/Joincommunity.png" /></a></p>
+<ul>
+<li>Discord community: https://discord.gg/kG35uSHDBc</li>
+<li>CodiumAI site: https://codium.ai</li>
+<li>Blog: https://www.codium.ai/blog/</li>
+<li>Troubleshooting: https://www.codium.ai/blog/technical-faq-and-troubleshooting/</li>
+<li>Support: support@codium.ai</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href=""  target="_blank" rel="noopener">CodiumAI</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/james-willett" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/TheJamesWillett" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/willettjames/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>

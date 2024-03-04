@@ -1,0 +1,80 @@
+site_name: CodiumAI
+
+nav: 
+  - 'index.md'
+  - 'pragent/index.md'
+  - 'codiumate/index.md'
+  - 'alphacodium/index.md'
+  - 'changelog/index.md'
+
+theme:
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - toc.integrate
+  language: en
+    
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: deep purple
+      accent: teal 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: deep purple
+      accent: teal
+
+plugins:
+  - social
+  - search
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Codium-ai
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/SgSxuQ65GF
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@Codium-AI
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/codiumai
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/CodiumAI
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/codiumai/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="https://www.codium.ai/"  target="_blank" rel="noopener">CodiumAI</a>
