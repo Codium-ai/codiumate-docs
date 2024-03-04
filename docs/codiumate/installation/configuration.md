@@ -1,6 +1,0 @@
-# Configuration
-
-TODO
-
-## Download extensions
-

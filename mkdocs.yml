@@ -2,9 +2,10 @@ site_name: CodiumAI
 
 nav: 
   - 'index.md'
-  - 'pragent/index.md'
-  - 'codiumate/index.md'
-  - 'alphacodium/index.md'
+  - 'installation/index.md'
+  - 'context/index.md'
+  - 'commands/index.md'
+  - 'guides/index.md'
   - 'changelog/index.md'
 
 theme:
