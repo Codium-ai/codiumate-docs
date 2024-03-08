@@ -1,9 +1,39 @@
 # Overview
 
-**CodiumAI** analyzes your code and generates meaningful tests to catch bugs before you ship. With CodiumAI, you can easily and quickly create comprehensive test suites that help you ensure the reliability and correctness of your software. It supports all languages!
 
-## Links
-- [Discord community](https://discord.gg/kG35uSHDBc{:target="_blank"})
-- [CodiumAI website](https://codium.ai{:target="_blank"})
-- [Blog](https://www.codium.ai/blog/{:target="_blank"})
-- [Troubleshooting](https://www.codium.ai/blog/technical-faq-and-troubleshooting/{:target="_blank"})
+#### Code, test and review with confidence - your AI mate by CodiumAI
+
+Elevate your coding experience with iterative test generation, intelligent code assistant, and efficient PR reviewer, all smoothly integrated into your development workflow. 
+
+Boost your productivity, code with confidence, and optimize your development process!
+
+## Features
+
+- Generate unit tests suite automatically
+
+- Analyze your code
+
+- Suggest code modifications to improve the performance and correctness of your code
+
+- Find potential bugs in your code and suggest ways to fix them
+
+- Document and enhance your code automatically
+
+- Prepare better for your PR
+
+- Help you improve code quality
+
+## Supported IDEs
+
+Codiumate is supported in [VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium) and all [JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
+
+## Supported Languages
+
+Codiumate is supported in Python, Java, JavaScript, TypeScript, C++, C#, Go, PHP, Ruby, Rust, Scala, Swift and all other languages!
+
+
+## News
+
+...
+
+## Bug Report

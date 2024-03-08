@@ -1,0 +1,5 @@
+- lens
+- right click
+- command palette
+- codium button JB
+- chat
