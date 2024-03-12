@@ -2,11 +2,44 @@ site_name: Codiumate
 
 nav: 
   - 'index.md'
-  - 'installation/index.md'
-  - 'context/index.md'
-  - 'commands/index.md'
-  - 'guides/index.md'
-  - 'changelog/index.md'
+  - Installation:
+    - 'installation/index.md'
+  - Test Generation:
+    - 'tests/index.md'
+    - What can I test?: 'tests/what-can-i-test.md'
+    - Supported Languages: 'tests/supported-languages.md'
+    - How to use: 'tests/how-to-use.md'
+    - Configuration: 'tests/configuration.md'
+    - Example Test: 'tests/example-test.md'
+    - Behaviors: 'tests/behaviors.md'
+    - Context Preview: 'tests/context.md'
+    - Running Tests: 'tests/running-tests.md'
+  - Chat:
+    - 'chat/index.md'
+    - Choose your Context:
+      - 'chat/context/index.md'
+    - File Mode:
+      - 'chat/file-mode/index.md'
+      - Ask: 'chat/file-mode/ask.md'
+      - Docstring: 'chat/file-mode/docstring.md'
+      - Enahnce: 'chat/file-mode/enhance.md'
+      - Improve: 'chat/file-mode/improve.md'
+      - Test: 'chat/file-mode/test.md'
+      - Quick-Test: 'chat/file-mode/quick-test.md'
+    - Workspace Mode:
+      - 'chat/workspace-mode/index.md'
+      - Ask: 'chat/workspace-mode/ask.md'
+      - Describe: 'chat/workspace-mode/describe.md'
+      - Review: 'chat/workspace-mode/review.md'
+      - Find Issues: 'chat/workspace-mode/issues.md'
+      - Recap: 'chat/workspace-mode/recap.md'
+      - Improve: 'chat/workspace-mode/improve.md'
+      - Update Changelog: 'chat/workspace-mode/changelog.md'
+    - Threads: 'chat/threads.md'
+  - Guides:
+    - 'guides/index.md'
+    - Open a PR with Codiumate: 'guides/open-pr.md'
+    - Generate tests for Python: 'guides/generate-tests-python.md'
 
 theme:
   logo: assets/logo.png
@@ -14,16 +47,19 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.expand
-    - toc.integrate
+    - navigation.path
     - navigation.top
+    - navigation.tracking
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
     - toc.integrate
+    - content.tabs.link
+  language: en
   language: en
   custom_dir: overrides
     
@@ -88,6 +124,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      title: On this page
+      toc_depth: 3
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 copyright: |
   &copy; 2024 <a href="https://www.codium.ai/"  target="_blank" rel="noopener">CodiumAI</a>
