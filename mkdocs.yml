@@ -2,47 +2,47 @@ site_name: Codiumate
 
 nav: 
   - 'index.md'
-  - Installation:
-    - 'installation/index.md'
-  - Test Generation:
-    - 'tests/index.md'
-    - What can I test?: 'tests/what-can-i-test.md'
-    - Supported Languages: 'tests/supported-languages.md'
-    - How to use: 'tests/how-to-use.md'
-    - Configuration: 'tests/configuration.md'
-    - Example Test: 'tests/example-test.md'
-    - Behaviors: 'tests/behaviors.md'
-    - Context Preview: 'tests/context.md'
-    - Running Tests: 'tests/running-tests.md'
-  - Chat:
-    - 'chat/index.md'
-    - Choose your Context:
-      - 'chat/context/index.md'
-    - File Mode:
-      - 'chat/file-mode/index.md'
-      - Ask: 'chat/file-mode/ask.md'
-      - Docstring: 'chat/file-mode/docstring.md'
-      - Enahnce: 'chat/file-mode/enhance.md'
-      - Improve: 'chat/file-mode/improve.md'
-      - Test: 'chat/file-mode/test.md'
-      - Quick-Test: 'chat/file-mode/quick-test.md'
-    - Workspace Mode:
-      - 'chat/workspace-mode/index.md'
-      - Ask: 'chat/workspace-mode/ask.md'
-      - Describe: 'chat/workspace-mode/describe.md'
-      - Review: 'chat/workspace-mode/review.md'
-      - Find Issues: 'chat/workspace-mode/issues.md'
-      - Recap: 'chat/workspace-mode/recap.md'
-      - Improve: 'chat/workspace-mode/improve.md'
-      - Update Changelog: 'chat/workspace-mode/changelog.md'
-    - Threads: 'chat/threads.md'
-  - Guides:
-    - 'guides/index.md'
-    - Open a PR with Codiumate: 'guides/open-pr.md'
-    - Generate tests for Python: 'guides/generate-tests-python.md'
+  # - Installation:
+  #   - 'installation/index.md'
+  # - Test Generation:
+  #   - 'tests/index.md'
+  #   - What can I test?: 'tests/what-can-i-test.md'
+  #   - Supported Languages: 'tests/supported-languages.md'
+  #   - How to use: 'tests/how-to-use.md'
+  #   - Configuration: 'tests/configuration.md'
+  #   - Example Test: 'tests/example-test.md'
+  #   - Behaviors: 'tests/behaviors.md'
+  #   - Context Preview: 'tests/context.md'
+  #   - Running Tests: 'tests/running-tests.md'
+  # - Chat:
+  #   - 'chat/index.md'
+  #   - Choose your Context:
+  #     - 'chat/context/index.md'
+  #   - File Mode:
+  #     - 'chat/file-mode/index.md'
+  #     - Ask: 'chat/file-mode/ask.md'
+  #     - Docstring: 'chat/file-mode/docstring.md'
+  #     - Enahnce: 'chat/file-mode/enhance.md'
+  #     - Improve: 'chat/file-mode/improve.md'
+  #     - Test: 'chat/file-mode/test.md'
+  #     - Quick-Test: 'chat/file-mode/quick-test.md'
+  #   - Workspace Mode:
+  #     - 'chat/workspace-mode/index.md'
+  #     - Ask: 'chat/workspace-mode/ask.md'
+  #     - Describe: 'chat/workspace-mode/describe.md'
+  #     - Review: 'chat/workspace-mode/review.md'
+  #     - Find Issues: 'chat/workspace-mode/issues.md'
+  #     - Recap: 'chat/workspace-mode/recap.md'
+  #     - Improve: 'chat/workspace-mode/improve.md'
+  #     - Update Changelog: 'chat/workspace-mode/changelog.md'
+  #   - Threads: 'chat/threads.md'
+  # - Guides:
+  #   - 'guides/index.md'
+  #   - Open a PR with Codiumate: 'guides/open-pr.md'
+  #   - Generate tests for Python: 'guides/generate-tests-python.md'
 
 theme:
-  logo: assets/logo.png
+  logo: assets/logo_.png
   favicon: assets/favicon.ico
   name: material
   features:
