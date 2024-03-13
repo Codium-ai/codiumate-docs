@@ -1,9 +1,9 @@
 # `/commit`
 
-## Description
+<h2>Description</h2>
 The `/commit` command streamlines the process of crafting commit messages for your staged changes. Available in Workspace Mode, this command analyzes your staged changes and generates a comprehensive commit message that succinctly describes all modifications. For added convenience, Codiumate integrates an "Auto commit message" button within the source control panel of the IDE, offering an alternative method to directly apply the generated message to the commit field.
 
-## How to Use
+<h2>How to Use</h2>
 To utilize the `/commit` command effectively, follow these steps:
 
 1. **Select Workspace Mode**: The `/commit` command operates in Workspace Mode, catering to changes made across multiple files within your project's workspace.
@@ -16,12 +16,12 @@ To utilize the `/commit` command effectively, follow these steps:
 
     Alternatively, use the **Auto commit message** button directly in the source control panel of your IDE. This button performs the same action, automatically inserting the generated commit message into the commit field, streamlining the process.
 
-## Available in
+<h2>Available in</h2>
 - Workspace Mode
 
-## Example
+<h2>Example</h2>
 
-### Workspace Mode Example
+<h3>Workspace Mode Example
 **User**: Has staged several changes across multiple files, including bug fixes, feature additions, and documentation updates.
 
 **Command**: `/commit`

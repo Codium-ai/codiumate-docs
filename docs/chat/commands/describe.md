@@ -1,9 +1,9 @@
 # `/describe`
 
-## Description
+<h2>Description</h2>
 The `/describe` command in Codiumate is designed to streamline the process of preparing pull requests (PRs) and understanding changes within your workspace. By invoking this command with a focus on selected changes (local, staged, or committed), Codiumate generates a structured description of the changeset. This includes a title, type of changes (e.g., bug fix, feature addition, performance improvement), and a detailed description. This functionality is particularly useful for developers looking to summarize their work before opening a PR, ensuring that colleagues and contributors can quickly grasp the intent and scope of the changes.
 
-## How to Use
+<h2>How to Use</h2>
 To utilize the `/describe` command effectively, follow these steps:
 
 1. **Select Your Changeset**: Identify the scope by selecting file, local, staged, or committed changes. 
@@ -14,13 +14,13 @@ To utilize the `/describe` command effectively, follow these steps:
 
 4. **Review and Use the Description**: Review the generated description for accuracy and completeness. You can then use this structured summary directly in your Git PR, facilitating clear communication and efficient collaboration with your team.
 
-## Available in
+<h2>Available in</h2>
 - Workspace Mode
 - File Changes Mode
 
-## Example
+<h2>Example</h2>
 
-### Workspace Mode Example
+<h3>Workspace Mode Example</h3>
 **User**: Plans to open a PR for a series of changes that include bug fixes and a new feature.
 
 **Command**: `/describe`

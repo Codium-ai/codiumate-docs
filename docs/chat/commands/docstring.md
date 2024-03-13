@@ -1,9 +1,9 @@
 # `/docstring`
 
-## Description
+<h2>Description</h2>
 Automatically generate or improve docstrings for your code, enhancing documentation quality and maintainability. The `/docstring` command is designed to aid in creating comprehensive, clear, and consistent docstrings for functions, classes, and modules, following best documentation practices.
 
-## How to Use
+<h2>How to Use</h2>
 To use the `/docstring` command, follow these steps:
 
 1. **Select Your Mode**: Choose the appropriate context for adding or improving docstrings. Codiumate supports this command in two modes:
@@ -16,20 +16,20 @@ To use the `/docstring` command, follow these steps:
 
 4. **Review and Apply**: Evaluate the suggested docstring provided by Codiumate. You can directly apply the changes with a single click or edit the suggestion to better fit your requirements before applying.
 
-## Available in
+<h2>Available in</h2>
 - File Mode
 - Workspace Mode
 
-## Examples
+<h2>Examples</h2>
 
-### File Mode Example
+<h3>File Mode Example</h3>
 **User**: Selects a function that currently lacks a docstring.
 
 **Command**: `/docstring`
 
 **Codiumate Response**: Codiumate generates a comprehensive docstring for the selected function, including a description, parameters, return type, and any exceptions raised, following the conventions of the programming language in use.
 
-### Workspace Mode Example
+<h3>Workspace Mode Example</h3>
 **User**: Chooses to improve docstrings across multiple files within the changeset.
 
 **Command**: `/docstring enhance readability`

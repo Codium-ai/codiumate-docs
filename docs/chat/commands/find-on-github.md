@@ -1,9 +1,9 @@
 # `/find-on-github`
 
-## Description
+<h2>Description</h2>
 The `/find-on-github` command connects your development environment to the vast world of open-source projects on GitHub. By selecting a segment of code, you can use this command to search for similar code across GitHub repositories. Codiumate efficiently scans open-source projects, providing you with links to repositories that contain code akin to your selection. This feature is invaluable for discovering how similar challenges are addressed in other projects, learning new coding practices, or finding potential libraries to integrate into your project.
 
-## How to Use
+<h2>How to Use</h2>
 Leverage the `/find-on-github` command by following these steps:
 
 1. **Select File Mode**: The `/find-on-github` command is available in File Mode, focusing on finding similarities for specific code segments within single files.
@@ -14,12 +14,12 @@ Leverage the `/find-on-github` command by following these steps:
 
 4. **Review the Results**: Codiumate provides a list of links to GitHub repositories that contain similar code. These links are directly accessible from the chat interface, allowing you to quickly explore the findings.
 
-## Available in
+<h2>Available in</h2>
 - File Mode
 
-## Example
+<h2>Example</h2>
 
-### File Mode Example
+<h3>File Mode Example</h3>
 **User**: Discovers a custom sorting algorithm within their project and wishes to see if similar implementations exist on GitHub.
 
 **Command**: `/find-on-github`

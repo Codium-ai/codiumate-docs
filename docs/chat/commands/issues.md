@@ -1,9 +1,9 @@
 # `/issues`
 
-## Description
+<h2>Description</h2>
 The `/issues` command in Codiumate is engineered to enhance code quality and security by identifying potential issues within your codebase. Available in both Workspace Mode and File Changes Mode, this command scrutinizes your code for a variety of issues, such as security vulnerabilities, logical errors, debugging remnants, and more. Each identified issue is accompanied by a tag indicating its type, a direct link to the implicated code, and a detailed description of the problem. This feature is essential for preemptively addressing problems that could compromise your project's integrity or performance.
 
-## How to Use
+<h2>How to Use</h2>
 Follow these steps to efficiently utilize the `/issues` command:
 
 1. **Select Your Changeset**: Identify the scope by selecting file, local, staged, or committed changes. 
@@ -16,13 +16,13 @@ Follow these steps to efficiently utilize the `/issues` command:
 
 4. **Start a Thread for Fixes**: If you wish to receive suggestions for fixing the identified issues, you can initiate a [thread](../threads.md) directly from the issues list. In this interactive discussion, ask Codiumate for specific advice on how to address each concern. Codiumate will provide tailored suggestions for resolving the problems, enhancing the security and quality of your code.
 
-## Available in
+<h2>Available in</h2>
 - Workspace Mode
 - File Changes Mode
 
-## Example
+<h2>Example</h2>
 
-### Workspace Mode Example
+<h3>Workspace Mode Example</h3>
 **User**: Wants to ensure their project is free from security vulnerabilities and coding errors before deployment.
 [TBD]
 **Command**: `/issues`

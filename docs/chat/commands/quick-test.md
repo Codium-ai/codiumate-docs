@@ -1,9 +1,9 @@
 # `/quick-test`
 
-## Description
+<h2>Description</h2>
 The `/quick-test` command initiates an iterative and interactive mode for generating test suites for your code. Unlike the comprehensive approach of the `/test-suite` command, `/quick-test` focuses on quickly producing a basic set of tests covering key behaviors. Users can fine-tune the generated tests through natural language chatting in a thread, allowing for precise customization until the desired test suite is achieved.
 
-## How to Use
+<h2>How to Use</h2>
 To efficiently use the `/quick-test` command, follow these steps:
 
 1. **Select File Mode**: Available exclusively in File Mode, `/quick-test` is designed to provide rapid test generation for specific segments of code within a single file.
@@ -17,12 +17,12 @@ To efficiently use the `/quick-test` command, follow these steps:
 5. **Finalize Your Test Suite**: Continue this interactive refinement until the test suite satisfactorily covers all desired behaviors and test scenarios. This step concludes the process, ensuring the final test suite is comprehensive and tailored to your specific testing goals.
 
 
-## Available in
+<h2>Available in</h2>
 - File Mode
 
-## Example
+<h2>Example</h2>
 
-### File Mode Example
+<h3>File Mode Example</h3>
 **User**: Wants to quickly generate tests for a newly implemented utility function.
 
 **Command**: `/quick-test`

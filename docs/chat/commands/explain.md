@@ -1,10 +1,10 @@
 # `/explain`
 
-## Description
+<h2>Description</h2>
 
 The `/explain` command is designed to provide detailed explanations and insights of your codebase. It is useful for understanding complex or unfamiliar code, identifying potential issues, and gaining a deeper understanding of the logic behind your project. This includes a detailed description of the selected code, inputs and outputs, code flow, and examples of usage. 
 
-## How to Use
+<h2>How to Use</h2>
 Follow these steps to leverage the `/explain` command effectively:
 
 1. **Select File Mode**: The `/explain` command is exclusively available in File Mode, focusing on providing detailed explanations for specific code segments within a single file.
@@ -19,12 +19,12 @@ Follow these steps to leverage the `/explain` command effectively:
     - The code flow, outlining the execution path within the code.
     - Example of usage, showing how the code can be used in real-world scenarios.
 
-## Available in
+<h2>Available in</h2>
 - File Mode
 
-## Example
+<h2>Example</h2>
 
-### File Mode Example
+<h3>File Mode Example</h3>
 **User**: Chooses a complex algorithm within their code that they're struggling to understand.
 
 **Command**: `/explain`

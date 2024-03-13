@@ -1,9 +1,9 @@
 # `/ask` 
 
-## Description
+<h2>Description</h2>
 Ask open questions about your code, useful to get a better understanding of the code and asking very detailed questions.
 
-## How to Use
+<h2>How to Use</h2>
 To use the `/ask` command, follow these steps:
 
 1. **Select Your Mode**: First, determine the context in which you need assistance. Codiumate supports two main modes for this command:
@@ -16,20 +16,20 @@ To use the `/ask` command, follow these steps:
 
 4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a Thread, allowing for a more in-depth conversation regarding your query.
 
-## Available in
+<h2>Available in</h2>
 - File Mode
 - Workspace Mode
 
-## Examples
+<h2>Examples</h2>
 
-### File Mode Example
+<h3>File Mode Example</h3>
 **User**: Selects a block of code within a file that they suspect contains a bug.
 
 **Command**: `/ask Why is this function returning an unexpected value?`
 
 **Codiumate Response**: Codiumate analyzes the selected code and provides a detailed explanation, potential reasons for the issue, and suggested fixes.
 
-### Workspace Mode Example
+<h3>Workspace Mode Example</h3>
 **User**: Highlights a recent changeset that includes several file modifications.
 
 **Command**: `/ask Could these changes affect performance?`
