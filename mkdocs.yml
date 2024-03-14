@@ -6,14 +6,14 @@ nav:
     - 'installation/index.md'
   - Test Generation:
     - 'tests/index.md'
-    - What can I test?: 'tests/what-can-i-test.md'
-    - Supported Languages: 'tests/supported-languages.md'
-    - How to use: 'tests/how-to-use.md'
-    - Configuration: 'tests/configuration.md'
-    - Example Test: 'tests/example-test.md'
-    - Behaviors: 'tests/behaviors.md'
-    - Context Preview: 'tests/context.md'
-    - Running Tests: 'tests/running-tests.md'
+    # - What can I test?: 'tests/what-can-i-test.md'
+    # - Supported Languages: 'tests/supported-languages.md'
+    # - How to use: 'tests/how-to-use.md'
+    # - Configuration: 'tests/configuration.md'
+    # - Example Test: 'tests/example-test.md'
+    # - Behaviors: 'tests/behaviors.md'
+    # - Context Preview: 'tests/context.md'
+    # - Running Tests: 'tests/running-tests.md'
   - Chat:
     - 'chat/index.md'
     - Choose your Context:
@@ -40,8 +40,8 @@ nav:
     - Threads: 'chat/threads.md'
   - Guides:
     - 'guides/index.md'
-    - Open a PR with Codiumate: 'guides/open-pr.md'
-    - Generate tests for Python: 'guides/generate-tests-python.md'
+    # - Open a PR with Codiumate: 'guides/open-pr.md'
+    # - Generate tests for Python: 'guides/generate-tests-python.md'
 
 theme:
   logo: assets/logo_.png
