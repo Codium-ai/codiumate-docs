@@ -1,6 +1,6 @@
 # Overview
 
-# Documatation portal is Coming Soon!
+# Documatation portal is still WIP!
 
 ---
 
