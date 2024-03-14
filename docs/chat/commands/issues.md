@@ -36,6 +36,6 @@ Follow these steps to efficiently utilize the `/issues` command:
 
 For each issue, Codiumate provides a direct link to the implicated code and a detailed description, helping the user understand and prioritize fixes.
 
-**User Follow-Up**: Initiates a thread asking, "How can I secure the API keys?"
+**User Follow-Up**: Initiates a [thread](../threads.md) asking, "How can I secure the API keys?"
 
 **Codiumate Suggestion**: Offers strategies for securing API keys, such as environment variables or secure vault services, along with links to further reading.
