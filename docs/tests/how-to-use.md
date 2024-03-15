@@ -7,13 +7,13 @@ Test Generation is a standout feature of Codiumate, designed to streamline and e
 There are multiple pathways to initiate test generation, catering to your workflow and preferences:
 
 ### From the Chat
-- **`/test-suite` Command**: Execute the `/test-suite` command on selected code within the chat interface to trigger test generation.
+- **`/test-suite` Command**: Execute the [`/test-suite`](../chat/commands/test-suite.md) command on selected code within the chat interface to trigger test generation.
 
 ### From the Editor
 1. **Codiumate Test Lens**: Click the "Codiumate: test" lens button appearing above every function, class, or method.
 2. **Context Menu**: Right-click on any selected code or component name and select "Codiumate - Test this component" from the context menu.
-3. **Command Palette in VSCode**: Highlight the desired code, open the command palette, and execute "Codiumate: Generate tests."
-4. **JetBrains IDE**: Click on the Codiumate icon located near every identifiable component.
+3. **Command Palette (In VSCode)**: Highlight the desired code, open the command palette, and execute "Codiumate: Generate tests."
+4. **Codiumate Button (In JetBrains)**: Click on the Codiumate icon located near every identifiable component.
 
 ## The Advanced Panel
 
