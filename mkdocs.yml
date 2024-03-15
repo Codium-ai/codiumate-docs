@@ -6,14 +6,14 @@ nav:
     - 'installation/index.md'
   - Test Generation:
     - 'tests/index.md'
-    # - What can I test?: 'tests/what-can-i-test.md'
-    # - Supported Languages: 'tests/supported-languages.md'
-    # - How to use: 'tests/how-to-use.md'
-    # - Configuration: 'tests/configuration.md'
-    # - Example Test: 'tests/example-test.md'
-    # - Behaviors: 'tests/behaviors.md'
-    # - Context Preview: 'tests/context.md'
-    # - Running Tests: 'tests/running-tests.md'
+    - How to use: 'tests/how-to-use.md'
+    - Behaviors: 'tests/behaviors.md'
+    - Test Suite: 'tests/test-suite.md'
+    - Configuration: 'tests/configuration.md'
+    - Example Test: 'tests/example-test.md'
+    - Context Tab: 'tests/context.md'
+    - Running Tests: 'tests/running-tests.md'
+    - Supported Languages: 'tests/supported-languages.md'
   - Chat:
     - 'chat/index.md'
     - Chat Modes:
