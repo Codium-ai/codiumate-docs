@@ -21,7 +21,8 @@ To utilize the `/commit` command effectively, follow these steps:
 
 <h2>Example</h2>
 
-<h3>Workspace Mode Example
+<h3>Workspace Mode Example</h3>
+
 **User**: Has staged several changes across multiple files, including bug fixes, feature additions, and documentation updates.
 
 **Command**: `/commit`

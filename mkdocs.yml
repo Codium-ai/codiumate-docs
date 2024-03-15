@@ -38,8 +38,8 @@ nav:
       - /update-changelog: 'chat/commands/update-changelog.md'
       - /find-on-github: 'chat/commands/find-on-github.md'
     - Threads: 'chat/threads.md'
-  - Guides:
-    - 'guides/index.md'
+  # - Guides:
+  #   - 'guides/index.md'
     # - Open a PR with Codiumate: 'guides/open-pr.md'
     # - Generate tests for Python: 'guides/generate-tests-python.md'
 

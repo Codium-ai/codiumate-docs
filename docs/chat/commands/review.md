@@ -24,7 +24,7 @@ To make the most out of the `/review` command, follow these steps:
 - Workspace Mode
 - File Changes Mode
 
-<h2>Example</h2>
+<!-- <h2>Example</h2>
 
 <h3>Workspace Mode Example</h3>
 **User**: Prepares to submit a pull request including a new documentation file for a recently added command.
@@ -33,6 +33,6 @@ To make the most out of the `/review` command, follow these steps:
 
 **Codiumate Response**:
 
-[TBD]
+[TBD] -->
 
 

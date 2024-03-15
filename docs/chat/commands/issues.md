@@ -20,7 +20,7 @@ Follow these steps to efficiently utilize the `/issues` command:
 - Workspace Mode
 - File Changes Mode
 
-<h2>Example</h2>
+<!-- <h2>Example</h2>
 
 <h3>Workspace Mode Example</h3>
 **User**: Wants to ensure their project is free from security vulnerabilities and coding errors before deployment.
@@ -38,4 +38,4 @@ For each issue, Codiumate provides a direct link to the implicated code and a de
 
 **User Follow-Up**: Initiates a [thread](../threads.md) asking, "How can I secure the API keys?"
 
-**Codiumate Suggestion**: Offers strategies for securing API keys, such as environment variables or secure vault services, along with links to further reading.
+**Codiumate Suggestion**: Offers strategies for securing API keys, such as environment variables or secure vault services, along with links to further reading. -->

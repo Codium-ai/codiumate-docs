@@ -1,43 +1,46 @@
-# Overview
+# Welcome to Codiumate
 
-# Documatation portal is still WIP!
+### **Code, Test, and Review with Confidence - Your AI Mate by CodiumAI**
 
----
+Unlock the full potential of your coding process with Codiumate. Our integrated AI-powered tools offer iterative test generation, intelligent code assistance, and efficient pull request reviews, all designed to fit seamlessly into your development workflow.
 
-
-#### Code, test and review with confidence - your AI mate by CodiumAI
-
-Elevate your coding experience with iterative test generation, intelligent code assistant, and efficient PR reviewer, all smoothly integrated into your development workflow. 
-
-Boost your productivity, code with confidence, and optimize your development process!
+Elevate your productivity, code with unparalleled confidence, and streamline your development process like never before!
 
 ## Features
 
-- Generate unit tests suite automatically
+Codiumate comes packed with features to enhance every step of your development cycle:
 
-- Analyze your code
-
-- Suggest code modifications to improve the performance and correctness of your code
-
-- Find potential bugs in your code and suggest ways to fix them
-
-- Document and enhance your code automatically
-
-- Prepare better for your PR
-
-- Help you improve code quality
+- **[Iterative Test Generation](./tests/index.md)**: Automatically generate comprehensive test suites tailored to your codebase, ensuring high code quality and reliability.
+- **[Intelligent Code Assistance](./chat/modes/file-mode.md)**: Receive real-time suggestions and solutions for coding queries, documentation, debugging, and more.
+- **[Efficient PR Reviews](./chat/modes/workspace-mode.md)**: Simplify your pull request review process with AI-powered insights, highlighting potential issues and improvements.
 
 ## Supported IDEs
 
-Codiumate is supported in [VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium) and all [JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
+Codiumate seamlessly integrates with your favorite IDEs:
+
+- **VSCode**: [Download from VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
+- **JetBrains IDEs**: [Download from JetBrains Plugins](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
+
+Ensure your IDE is set up to harness the full capabilities of Codiumate.
 
 ## Supported Languages
 
-Codiumate is supported in Python, Java, JavaScript, TypeScript, C++, C#, Go, PHP, Ruby, Rust, Scala, Swift and all other languages!
+Codiumate supports ALL programming languages for test generation, with enhanced support and features for:
 
+- Python
+- JavaScript
+- TypeScript
+- Java
 
-## News
-
-...
+[Learn more about language support](./tests/supported-languages.md)
 
 ## Bug Report
+
+Encountered an issue? Help us improve Codiumate by reporting bugs:
+
+- [Report a bug in VSCode](https://github.com/Codium-ai/codiumai-vscode-release/issues)
+- [Report a bug in JetBrains](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)
+
+Your feedback is invaluable in making Codiumate the best coding companion for developers worldwide.
+
+Welcome aboard, and let's code, test, and review with confidence!
