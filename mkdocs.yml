@@ -44,7 +44,7 @@ nav:
     # - Generate tests for Python: 'guides/generate-tests-python.md'
 
 theme:
-  logo: assets/logo_.png
+  logo: assets/logo.svg
   favicon: assets/favicon.ico
   name: material
   features:
