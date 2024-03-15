@@ -1,4 +1,6 @@
-# Welcome to Codiumate Chat
+# Codiumate Chat
+
+## Overview 
 
 Welcome to Codiumate Chat, the integrated chat-based assistant designed to elevate your coding experience. Leveraging the power of advanced language models, Codiumate offers real-time coding assistance, documentation generation, code review, and more, all within your development environment. Whether you're a solo developer or part of a team, Codiumate streamlines your workflow, enhances code quality, and accelerates your project development.
 
