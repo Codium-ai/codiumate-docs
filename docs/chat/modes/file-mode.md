@@ -30,14 +30,14 @@ For File Mode option 3 (File Changes), you can use the workspace commands [Works
 
 1. **Access File Mode**: In the "Mode" drop-down, select File Mode to focus Codiumate on the current file.
 2. **Choose Your Focus**: Utilize the focus dropdown to select between Selected Lines, Selected Component, or File Changes based on your current requirement.
-3. **Execute a Command**: Type in your desired command (e.g., `/ask`, `/docstring`) followed by your question or request. Ensure your command matches the focus option you've selected for contextually relevant responses.
+3. **Execute a Command**: Type in your desired command (e.g., [`/ask`](../commands/ask.md), [`/docstring`](../commands/docstring.md)) followed by your question or request. Ensure your command matches the focus option you've selected for contextually relevant responses.
 4. **Switch Modes If Needed**: If your needs extend beyond the scope of the current file, you can switch to Workspace Mode or Free Chat Mode for broader or non-contextual assistance.
 
 ## Use Cases
 
-- **Code Understanding and Documentation**: Use `/explain` or `/docstring` for in-depth understanding and documentation of specific functions or classes.
-- **Code Quality Improvement**: Employ `/enhance` or `/improve` to refine your code with best practices, optimizations, and security enhancements.
-- **Test Suite Generation**: Leverage `/test-suite` or `/quick-test` for automated generation of test cases tailored to your selected code.
+- **Code Understanding and Documentation**: Use [`/explain`](../commands/explain.md) or [`/docstring`](../commands/docstring.md) for in-depth understanding and documentation of specific functions or classes.
+- **Code Quality Improvement**: Employ [`/enhance`](../commands/enhance.md) or [`/improve`](../commands/improve.md) to refine your code with best practices, optimizations, and security enhancements.
+- **Test Suite Generation**: Leverage [`/test-suite`](../commands/test-suite.md) or [`/quick-test`](../commands/quick-test.md) for automated generation of test cases tailored to your selected code.
 
 ## Add More Context
 

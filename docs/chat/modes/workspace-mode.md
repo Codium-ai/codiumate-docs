@@ -33,6 +33,6 @@ The following commands are supported in Workspace Mode, offering a wide range of
 
 ## Use Cases
 
-- **Preparing for Commits**: Use `/commit` or `/describe` to craft meaningful commit messages and pull request descriptions.
-- **Code Quality Assurance**: Employ `/review`, `/improve`, and `/issues` to enhance the quality and security of your code before finalizing changes.
-- **Change Management**: Leverage `/recap` and `/update-changelog` to maintain comprehensive records of project evolution and ensure transparency.
+- **Preparing for Commits**: Use [`/commit`](../commands/commit.md) or [`/describe`](../commands/describe.md) to craft meaningful commit messages and pull request descriptions.
+- **Code Quality Assurance**: Employ [`/review`](../commands/review.md), [`/improve`](../commands/improve.md), and [`/issues`](../commands/issues.md) to enhance the quality and security of your code before finalizing changes.
+- **Change Management**: Leverage [`/recap`](../commands/recap.md) and [`/update-changelog`](../commands/update-changelog.md) to maintain comprehensive records of project evolution and ensure transparency.

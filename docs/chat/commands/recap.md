@@ -21,13 +21,13 @@ To effectively utilize the `/recap` command, adhere to the following steps:
 - Workspace Mode
 - File Changes Mode
 
-<h2>Example</h2>
+<!-- <h2>Example</h2>
 
 <h3>Workspace Mode Example</h3>
 **User**: Prepares to summarize recent work on a new feature for a team meeting.
 
 **Command**: `/recap`
 
-[TBD]
+[TBD] -->
 
 

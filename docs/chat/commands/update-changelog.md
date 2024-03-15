@@ -18,7 +18,7 @@ Follow these steps to seamlessly update your changelog using the `/update-change
 - Workspace Mode
 - File Changes Mode
 
-<h2>Example</h2>
+<!-- <h2>Example</h2>
 
 <h3>Workspace Mode Example</h3>
 **User**: Needs to document recent enhancements and bug fixes in the project's changelog before a new release.
@@ -27,4 +27,4 @@ Follow these steps to seamlessly update your changelog using the `/update-change
 
 **Codiumate Response**: Generates a structured changelog entry, such as:
 
-[TBD]
+[TBD] -->

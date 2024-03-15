@@ -14,7 +14,7 @@ To use the `/ask` command, follow these steps:
 
 3. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. Codiumate will process your query and return a response tailored to the context of your selected mode and focus.
 
-4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [Thread](../threads.md), allowing for a more in-depth conversation regarding your query.
+4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
 
 <h2>Available in</h2>
 - File Mode
