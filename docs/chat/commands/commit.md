@@ -16,17 +16,25 @@ To utilize the `/commit` command effectively, follow these steps:
 
     Alternatively, use the **Auto commit message** button directly in the source control panel of your IDE. This button performs the same action, automatically inserting the generated commit message into the commit field, streamlining the process.
 
-<h2>Available in</h2>
-- Workspace Mode
+!!! note "Available in"
+    - Workspace Mode
 
-<h2>Example</h2>
+!!! tip "Threads"
+    This command supports threading. [Read more about Threads](../threads.md).
 
-<h3>Workspace Mode Example</h3>
+!!! example "Example 1 - using Chat"
+    - **User**: Chooses Staged Changes mode
+    - **Command**: `/commit`
+    - **Codiumate Response**: 
+    
+        <kbd>![commit-chat](./assets/commit-chat.gif){width=700, loading=lazy}</kbd>
 
-**User**: Has staged several changes across multiple files, including bug fixes, feature additions, and documentation updates.
+!!! example "Example 1 - using Source Control panel"
+    - **User**: Clicks on Auto Commit Message in Source Control panel
+    - **Codiumate Response**: 
 
-**Command**: `/commit`
-
-**Codiumate Response**: Codiumate generates a comprehensive commit message, such as "Fixed issue #42, added login feature, and updated README documentation."
-
-**User Action**: The user can then choose to copy this message and paste it into their commit message field or click the **Auto commit message** button to automatically apply it.
+        === "VSCode"
+            <kbd>![commit-source](./assets/commit-source-vs.gif){width=700, loading=lazy}</kbd>
+        
+        === "JetBrains"
+            <kbd>![commit-source](./assets/commit-source-jb.gif){width=700, loading=lazy}</kbd>

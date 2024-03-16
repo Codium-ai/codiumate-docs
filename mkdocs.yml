@@ -35,7 +35,7 @@ nav:
       - /review: 'chat/commands/review.md'
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
-      - /update-changelog: 'chat/commands/update-changelog.md'
+      - /changelog: 'chat/commands/update-changelog.md'
       - /find-on-github: 'chat/commands/find-on-github.md'
     - Threads: 'chat/threads.md'
   # - Guides:
@@ -120,7 +120,6 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
@@ -132,6 +131,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 
 copyright: |
   &copy; 2024 <a href="https://www.codium.ai/"  target="_blank" rel="noopener">CodiumAI</a>

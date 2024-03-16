@@ -20,14 +20,20 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 
 **[Read more about Test Generation with Codiumate](../../tests/index.md)**
 
-<h2>Available in</h2>
-- File Mode
+!!! note "Available in"
+    - File Mode
 
-<h2>Example</h2>
+!!! example "Example"
+    - **User**: Chooses a code without tests
+    - **Command**: `/test-suite`
+    - **Codiumate Response**: 
+    
+        <kbd>![test-suite](./assets/test-suite.gif){width=700, loading=lazy}</kbd>
 
-<h3>File Mode Example</h3>
-**User**: Identifies a newly developed function that needs to be thoroughly tested before integration.
+!!! example "Example with General Instructions"
+    - **User**: Chooses a code without tests
+    - **Command**: `/test-suite use Arrange, Act, Assert style`
+    - **Codiumate Response**: 
+    
+        <kbd>![test-suite-instructions](./assets/test-suite-instructions.gif){width=700, loading=lazy}</kbd>
 
-**Command**: `/test-suite`
-
-**Codiumate Response**: Upon command execution, Codiumate's advanced panel opens, presenting a generated test suite tailored for the selected function. This suite includes various code behaviors and test cases, covering expected inputs, edge cases, and error handling scenarios. You can review and adjust the test suite as needed within the advanced panel. 

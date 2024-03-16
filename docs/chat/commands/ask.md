@@ -16,22 +16,68 @@ To use the `/ask` command, follow these steps:
 
 4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
 
-<h2>Available in</h2>
-- File Mode
-- Workspace Mode
+!!! note "Available in"
+    - File Mode
+    - Workspace Mode
 
-<h2>Examples</h2>
+!!! tip "Threads"
+    This command supports threading. [Read more about Threads](../threads.md).
 
-<h3>File Mode Example</h3>
-**User**: Selects a block of code within a file that they suspect contains a bug.
+<h3>File Mode Examples</h3>
 
-**Command**: `/ask Why is this function returning an unexpected value?`
+!!! example "Objective Clarification"
+    - **User:** Selects File X local changes
+    - **Command:** `/ask What is the primary goal of the changes introduced in file X?`
+    - **Codiumate Response:** The primary goal of the changes in file X is to improve data validation, ensuring more accurate input handling and reducing potential errors.
 
-**Codiumate Response**: Codiumate analyzes the selected code and provides a detailed explanation, potential reasons for the issue, and suggested fixes.
+!!! example "Suspicious behavior analysis"
+    - **User:** Selects code snippet
+    - **Command**: `/ask Why is this function returning an unexpected value?`
+    - **Codiumate Response**: Codiumate analyzes the selected code and provides a detailed explanation, potential reasons for the issue, and suggested fixes.
 
-<h3>Workspace Mode Example</h3>
-**User**: Highlights a recent changeset that includes several file modifications.
+!!! example "Code Logic Explanation"
+    - **User:** Selects function Z component
+    - **Command:** `/ask I'm unclear about the function logic Z. Could you explain the flow and expected outcomes?`
+    - **Codiumate Response:** Function Z manages user authentication. It first checks for existing sessions and proceeds to validate credentials if no session is present. The expected outcome is a secure and streamlined authentication process.
 
-**Command**: `/ask Could these changes affect performance?`
+!!! example "Security Measures Inquiry"
+    - **User:** Selects authentication file code snippet
+    - **Command:** `/ask What security measures have been taken into account for the updated authentication process?`
+    - **Codiumate Response:** The updated authentication process includes enhanced encryption protocols and additional checks to prevent common vulnerabilities like SQL injection. It undergoes regular security audits.
 
-**Codiumate Response**: Codiumate reviews the changeset in question, offering insights into potential performance impacts, areas of concern, and recommendations for optimization.
+<h3>Workspace Mode Examples</h3>
+
+!!! example "Library Usage Explanation"
+    - **User:** Selects committed changes from current branch with target branch `main`
+    - **Command:** `/ask Can you provide more context on the decision behind using library Y in this PR?`
+    - **Codiumate Response:** Library Y was chosen for its efficiency in handling asynchronous tasks, enhancing the responsiveness of our application. Its robust community support also influenced the decision.
+
+!!! example "Performance Consideration"
+    - **User:** Selects committed changes from current branch with target branch `main`
+    - **Command:** `/ask Are there any potential performance implications of the modifications in this pull request?`
+    - **Codiumate Response:** The modifications might lead to a slight performance improvement, especially in database queries. Extensive testing has been conducted to ensure overall system efficiency.
+
+!!! example "Architecture Alignment"
+    - **User:** Selects local changes
+    - **Command:** `/ask How do the changes in this changeset align with the overall architecture of the project?`
+    - **Codiumate Response:** The changes adhere to the microservices architecture, enhancing modularity. The new components seamlessly integrate with existing services, maintaining overall system coherence.
+
+!!! example "Testing Strategy Inquiry"
+    - **User:** Selects committed changes from current branch with target branch `main`
+    - **Command:** `/ask Could you elaborate on the testing strategy employed for the new features introduced in this pull request?`
+    - **Codiumate Response:** A combination of unit tests and integration tests has been employed to validate the functionality. Mock data and edge cases are extensively covered to ensure robust performance.
+
+!!! example "Configuration Changes Clarification"
+    - **User:** Selects staged changes
+    - **Command:** `/ask I noticed changes in the configuration file. What considerations were made regarding backward compatibility?`
+    - **Codiumate Response:** Backward compatibility is a priority. Configuration changes include deprecation notices for outdated settings, and existing configurations are automatically migrated to the new structure.
+
+!!! example "Code Style Guidelines"
+    - **User:** Selects staged changes
+    - **Command:** `/ask Are there any specific code style guidelines or conventions followed in these changes?`
+    - **Codiumate Response:** Yes, It follows the editor’s coding style config. Indentation is with spaces, and we use camelCase for variable names. Consistency with existing code is maintained throughout the changes.
+
+!!! example "Algorithm Choice Explanation"
+    - **User:** Selects committed changes from current branch with target branch `main`
+    - **Command:** `/ask Is there a specific reason for choosing algorithm A over algorithm B for the functionality introduced in this PR?`
+    - **Codiumate Response:** Algorithm A was chosen for its lower time complexity in our specific use case. Extensive benchmarking showed it outperforms Algorithm B, especially as the dataset scales.

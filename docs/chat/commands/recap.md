@@ -17,9 +17,11 @@ To effectively utilize the `/recap` command, adhere to the following steps:
     - **Link to Code**: A direct link to the modified code, facilitating easy access and review.
     - **Description of Changes**: A clear, concise description of what was changed in the code, providing context and understanding at a glance.
 
-<h2>Available in</h2>
-- Workspace Mode
-- File Changes Mode
+!!! note "Available in"
+    - Workspace Mode
+
+!!! tip "Threads"
+    This command supports threading. [Read more about Threads](../threads.md).
 
 <!-- <h2>Example</h2>
 

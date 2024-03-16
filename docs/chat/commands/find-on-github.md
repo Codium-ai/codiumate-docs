@@ -14,14 +14,13 @@ Leverage the `/find-on-github` command by following these steps:
 
 4. **Review the Results**: Codiumate provides a list of links to GitHub repositories that contain similar code. These links are directly accessible from the chat interface, allowing you to quickly explore the findings.
 
-<h2>Available in</h2>
-- File Mode
+!!! note "Available in"
+    - File Mode
 
-<h2>Example</h2>
+!!! example
+    - **User**: Discovers a custom sorting algorithm within their project and wishes to see if similar implementations exist on GitHub.
+    - **Command**: `/find-on-github`
+    - **Codiumate Response**:
 
-<h3>File Mode Example</h3>
-**User**: Discovers a custom sorting algorithm within their project and wishes to see if similar implementations exist on GitHub.
+        <kbd>![find-on-github](./assets/find-on-github.gif){width=700, loading=lazy}</kbd>
 
-**Command**: `/find-on-github`
-
-**Codiumate Response**: Codiumate returns a series of links to open-source repositories on GitHub, each containing variations or implementations of sorting algorithms that share similarities with the user's selected code.
