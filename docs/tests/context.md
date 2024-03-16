@@ -21,6 +21,7 @@ Each context tag is associated with a type, which helps in understanding the rol
 
 - **Reference Test**: Existing tests in your project that provide styling cues or functional insights for generating new tests.
 - **Imported File**: Files that your code depends on, offering structural and functional context that influences test generation.
+- **Referenced in Files**: Identifies locations where the code is used or referenced across your project, providing insight into real-world usage and potential edge cases that need testing.
 
 ## Benefits of Context Awareness
 By leveraging detailed context, Codiumate ensures that the generated tests are not only syntactically correct but also deeply integrated with the logic and architecture of your project, resulting in a robust and comprehensive test suite.

@@ -17,18 +17,22 @@ To efficiently use the `/quick-test` command, follow these steps:
 5. **Finalize Your Test Suite**: Continue this interactive refinement until the test suite satisfactorily covers all desired behaviors and test scenarios. This step concludes the process, ensuring the final test suite is comprehensive and tailored to your specific testing goals.
 
 
-<h2>Available in</h2>
-- File Mode
+!!! note "Available in"
+    - [File Mode](../modes/file-mode.md)
 
-<h2>Example</h2>
+!!! tip "Threads"
+    This command supports threading. [Read more about Threads](../threads.md).
 
-<h3>File Mode Example</h3>
-**User**: Wants to quickly generate tests for a newly implemented utility function.
+!!! example "Example"
+    - **User**: Chooses a code without tests
+    - **Command**: `/quick-test`
+    - **Codiumate Response**: 
+    
+        <kbd>![quick-test](./assets/quick-test.gif){width=700, loading=lazy}</kbd>
 
-**Command**: `/quick-test`
-
-**Codiumate Response**: Codiumate produces an initial set of tests covering basic inputs, outputs, and functionality of the selected utility function.
-
-**User Interaction in [Thread](../threads.md)**: The developer specifies, "Add tests for edge cases and null inputs."
-
-**Codiumate Update**: Codiumate iteratively refines the test suite, incorporating tests for edge cases and null inputs as requested.
+!!! example "Example with Threading"
+    - **User**: Clicks on `Continue this Chat` after Codiumate's initial response
+    - **Command**: `use unittest framework`
+    - **Codiumate Response**: 
+    
+        <kbd>![quick-test-thread](./assets/quick-test-thread.gif){width=700, loading=lazy}</kbd>

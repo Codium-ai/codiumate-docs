@@ -13,6 +13,7 @@ nav:
     - Example Test: 'tests/example-test.md'
     - Context Tab: 'tests/context.md'
     - Running Tests: 'tests/running-tests.md'
+    - Extend Test Suite: 'tests/extend.md'
     - Supported Languages: 'tests/supported-languages.md'
   - Chat:
     - 'chat/index.md'
@@ -30,13 +31,13 @@ nav:
       - /improve: 'chat/commands/improve.md'
       - /test-suite: 'chat/commands/test-suite.md'
       - /quick-test: 'chat/commands/quick-test.md'
+      - /find-on-github: 'chat/commands/find-on-github.md'
       - /commit: 'chat/commands/commit.md'
       - /describe: 'chat/commands/describe.md'
       - /review: 'chat/commands/review.md'
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
-      - /update-changelog: 'chat/commands/update-changelog.md'
-      - /find-on-github: 'chat/commands/find-on-github.md'
+      - /changelog: 'chat/commands/update-changelog.md'
     - Threads: 'chat/threads.md'
   # - Guides:
   #   - 'guides/index.md'
@@ -120,7 +121,6 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
@@ -132,6 +132,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 
 copyright: |
   &copy; 2024 <a href="https://www.codium.ai/"  target="_blank" rel="noopener">CodiumAI</a>

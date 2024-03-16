@@ -19,19 +19,16 @@ Follow these steps to leverage the `/explain` command effectively:
     - The code flow, outlining the execution path within the code.
     - Example of usage, showing how the code can be used in real-world scenarios.
 
-<h2>Available in</h2>
-- File Mode
+!!! note "Available in"
+    - [File Mode](../modes/file-mode.md)
 
-<h2>Example</h2>
+!!! tip "Threads"
+    This command supports threading. [Read more about Threads](../threads.md).
 
-<h3>File Mode Example</h3>
-**User**: Chooses a complex algorithm within their code that they're struggling to understand.
 
-**Command**: `/explain`
-
-**Codiumate Response**: Codiumate dissects the algorithm, providing a clear and structured explanation that includes:
-
-- A description outlining the algorithm's purpose and how it fits into the larger application.
-- Detailed inputs and outputs, including types and expected values.
-- An explanation of the code flow, highlighting key decision points and loops.
-- A practical usage example, demonstrating how the algorithm is applied within the application context.
+!!! example
+    - **User**: Chooses a complex algorithm within their code that they're struggling to understand.
+    - **Command**: `/explain`
+    - **Codiumate Response**: 
+    
+        <kbd>![explain](./assets/explain.gif){width=700, loading=lazy}</kbd>

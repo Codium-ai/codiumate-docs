@@ -24,7 +24,10 @@ In File Mode options 1 and 2 (Selected Lines and Selected Component), you can ut
 - [`/quick-test`](../commands/quick-test.md): Quickly creates an initial set of tests for your code, allowing for immediate feedback and iterative improvement through conversation.
 
 
-For File Mode option 3 (File Changes), you can use the workspace commands [Workspace Mode Commands](./workspace-mode.md#commands).
+## File Changes
+
+File changes mode is a special mode, that allows you to focus on the changes you have made inside a specific file. 
+For this mode, you can use the workspace commands [Workspace Mode Commands](./workspace-mode.md#commands).
 
 ## How to Use File Mode
 

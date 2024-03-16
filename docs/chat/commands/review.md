@@ -20,19 +20,39 @@ To make the most out of the `/review` command, follow these steps:
 
 5. **Apply Feedback**: Use the insights and recommendations provided by Codiumate to refine your changes before finalizing your pull request or code integration.
 
-<h2>Available in</h2>
-- Workspace Mode
-- File Changes Mode
+!!! note "Available in"
+    - [Workspace Mode](../modes/workspace-mode.md)
+    - [File Changes Mode](../modes/file-mode.md#file-changes)
 
-<!-- <h2>Example</h2>
+!!! example "Example - Committed changes"
+    - **User:** Selects committed changes from current branch with target branch `main`
+    - **Command:** `/review`
+    - **Codiumate Response:**
+    ---
+    <h4>Changes Analysis</h4>
 
-<h3>Workspace Mode Example</h3>
-**User**: Prepares to submit a pull request including a new documentation file for a recently added command.
+    **🎯 Main theme:**
 
-**Command**: `/review`
+    The main theme of the changes is to add new functionality for processing git patches. Two new functions have been added: `get_file_patch_info` and `get_edit_type`.
 
-**Codiumate Response**:
+    **Changes labels:** Enhancement
 
-[TBD] -->
+    **Changes summary:**
+
+    The changes introduce two new functions to the `git_patch_processing.py` file. The `get_file_patch_info` function extracts information about a file patch from a given patch string. The `get_edit_type` function determines the type of edit (addition, deletion, or modification) represented by a given patch string.
+
+    **🧪 Relevant tests added:** No
+
+    **⏱️ Estimated effort to review** [1-5]:
+    3, the changes are not too complex but they do add significant new functionality which needs to be thoroughly reviewed.
 
 
+    <h4>Changes Feedback</h4>
+
+    **💡 General suggestions:**
+
+    The code looks well-structured and follows good practices. However, it would be beneficial to add tests for these new functions to ensure they work as expected. Also, in the get_file_patch_info function, the exception handling could be improved. Instead of a broad except clause, it would be better to catch specific exceptions.
+
+    **🔒 Security concerns:** No
+
+    **Changes Score:** 85

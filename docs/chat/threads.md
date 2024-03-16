@@ -27,17 +27,17 @@ After receiving an initial response to these commands, you'll see a "continue th
 2. **Extend the Conversation**: At the end of the response, click the "continue this chat" button to open a thread. This action shifts the dialogue into a focused conversation window where you can build upon the initial response.
 3. **Refine and Expand**: Within the thread, you can ask for more details, request modifications, or explore additional scenarios related to your initial query. Codiumate will maintain the context of the ongoing conversation, providing tailored follow-up responses.
 
-## Examples of Usage
+## Examples
 
-- **Workspace Mode Issue Resolution**:
+!!! example "Workspace Mode Issue Resolution"
     - **Initial Command**: Call the `/issues` command to identify potential issues in your codebase.
     - **In a Thread**: Dive into a specific issue listed in the initial response, asking Codiumate for potential solutions or workaround strategies.
 
-- **File Mode Test Suite Refinement**:
+!!! example "File Mode Test Suite Refinement"
     - **Initial Command**: Use `/quick-test` to generate an initial test suite for a piece of code.
     - **In a Thread**: Request refinements to the test suite, such as adding more tests, changing the testing framework, incorporating mocks, or adjusting to different testing scenarios.
 
-- **Free Chat Mode Code Evolution**:
+!!! example "Free Chat Mode Code Evolution"
     - **Initial Request**: Ask Codiumate to generate a class based on your specifications.
     - **In a Thread**: Further develop the class by requesting additional functions, changing coding styles, or integrating design patterns.
 

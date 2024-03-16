@@ -16,22 +16,23 @@ To use the `/docstring` command, follow these steps:
 
 4. **Review and Apply**: Evaluate the suggested docstring provided by Codiumate. You can directly apply the changes with a single click or edit the suggestion to better fit your requirements before applying.
 
-<h2>Available in</h2>
-- File Mode
-- Workspace Mode
+!!! note "Available in"
+    - [File Mode](../modes/file-mode.md)
+    - [Workspace Mode](../modes/workspace-mode.md)
 
-<h2>Examples</h2>
+!!! tip "Threads"
+    This command supports threading. [Read more about Threads](../threads.md).
 
-<h3>File Mode Example</h3>
-**User**: Selects a function that currently lacks a docstring.
+!!! example "File Mode Example"
+    - **User**: Selects a function that currently lacks a docstring.
+    - **Command**: `/docstring`
+    - **Codiumate Response**:
 
-**Command**: `/docstring`
+        <kbd>![dosctring-file](./assets/docstring-file.gif){width=700, loading=lazy}</kbd>
 
-**Codiumate Response**: Codiumate generates a comprehensive docstring for the selected function, including a description, parameters, return type, and any exceptions raised, following the conventions of the programming language in use.
+!!! example "Workspace Mode Example"
+    - **User**: Chooses to improve docstrings across multiple files within the changeset.
+    - **Command**: `/docstring enhance readability`
+    - **Codiumate Response**: 
 
-<h3>Workspace Mode Example</h3>
-**User**: Chooses to improve docstrings across multiple files within the changeset.
-
-**Command**: `/docstring enhance readability`
-
-**Codiumate Response**: Codiumate extracts all the components that were changed in the selected changeset, and generates a comprehensive docstring for the selected function, including a description, parameters, return type, and any exceptions raised, following the conventions of the programming language in use. Additionally, Codiumate suggests ways to improve the readability and clarity of existing docstrings within the changeset.
+        <kbd>![docstring-workspace](./assets/docstring-workspace.gif){width=700, loading=lazy}</kbd>

@@ -14,20 +14,14 @@ To use the `/enhance` command, follow these steps:
 
 4. **Review and Apply**: Codiumate will generate a diff view with all enhancment suggestions. Review these suggestions and apply them directly to your code with ease. You have the option to accept all recommendations, apply them selectively, or modify them to better suit your needs before implementation.
 
-<h2>Available in</h2>
-- File Mode
 
-<h2>Example</h2>
+!!! note "Available in"
+    - [File Mode](../modes/file-mode.md)
 
-<h3>File Mode Example</h3>
-**User**: Selects a complex and poorly documented function within their code.
+!!! example 
+    - **User**: Selects a complex and poorly documented function within their code.
+    - **Command**: `/enhance`
+    - **Codiumate Response**: 
 
-**Command**: `/enhance`
+        <kbd>![enhance](./assets/enhance.gif){width=700, loading=lazy}</kbd>
 
-**Codiumate Response**: Codiumate reviews the selected function and provides a series of suggestions, including:
-
-- Refactoring suggestions to improve code readability and structure.
-- Recommendations for applying coding best practices and patterns.
-- Suggestions for adding meaningful docstrings and comments to improve code documentation.
-- Proposals for adding type hints to enhance code clarity and facilitate static analysis.
-- Code beautification tips to make the code more aesthetically pleasing and consistent with project coding standards.
