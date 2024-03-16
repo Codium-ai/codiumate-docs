@@ -16,7 +16,7 @@ To use the `/enhance` command, follow these steps:
 
 
 !!! note "Available in"
-    - File Mode
+    - [File Mode](../modes/file-mode.md)
 
 !!! example 
     - **User**: Selects a complex and poorly documented function within their code.

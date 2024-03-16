@@ -17,7 +17,8 @@ Follow these steps to seamlessly update your changelog using the `/changelog` co
 4. **Review and Implement the Update**: Codiumate presents the proposed changelog update, formatted in line with any existing changelog documentation within the project. You can review this summary for accuracy and completeness before integrating it into your changelog file, ensuring that project stakeholders are kept informed of the latest developments.
 
 !!! note "Available in"
-    - Workspace Mode
+    - [Workspace Mode](../modes/workspace-mode.md)
+    - [File Changes Mode](../modes/file-mode.md#file-changes)
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

@@ -17,7 +17,7 @@ To utilize the `/commit` command effectively, follow these steps:
     Alternatively, use the **Auto commit message** button directly in the source control panel of your IDE. This button performs the same action, automatically inserting the generated commit message into the commit field, streamlining the process.
 
 !!! note "Available in"
-    - Workspace Mode
+    - [Workspace Mode](../modes/workspace-mode.md)
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

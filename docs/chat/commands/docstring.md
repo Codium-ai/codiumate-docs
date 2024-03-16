@@ -17,8 +17,8 @@ To use the `/docstring` command, follow these steps:
 4. **Review and Apply**: Evaluate the suggested docstring provided by Codiumate. You can directly apply the changes with a single click or edit the suggestion to better fit your requirements before applying.
 
 !!! note "Available in"
-    - File Mode
-    - Workspace Mode
+    - [File Mode](../modes/file-mode.md)
+    - [Workspace Mode](../modes/workspace-mode.md)
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

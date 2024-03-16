@@ -19,8 +19,8 @@ To utilize the `/improve` command, follow these instructions:
 5. **Refactor and Apply**: After reviewing the suggestions and their associated diff views, click the "refactor" button to apply the chosen improvements directly. This streamlined process allows you to efficiently enhance your code's quality with minimal effort.
 
 !!! note "Available in"
-    - File Mode
-    - Workspace Mode
+    - [File Mode](../modes/file-mode.md)
+    - [Workspace Mode](../modes/workspace-mode.md)
 
 !!! example "File mode example"
     - **User**: Identifies a function suspected of having performance issues and security concerns.

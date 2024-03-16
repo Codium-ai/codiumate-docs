@@ -21,7 +21,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 **[Read more about Test Generation with Codiumate](../../tests/index.md)**
 
 !!! note "Available in"
-    - File Mode
+    - [File Mode](../modes/file-mode.md)
 
 !!! example "Example"
     - **User**: Chooses a code without tests

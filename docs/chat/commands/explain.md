@@ -20,7 +20,7 @@ Follow these steps to leverage the `/explain` command effectively:
     - Example of usage, showing how the code can be used in real-world scenarios.
 
 !!! note "Available in"
-    - File Mode
+    - [File Mode](../modes/file-mode.md)
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
