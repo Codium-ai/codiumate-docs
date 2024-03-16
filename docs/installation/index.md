@@ -17,9 +17,8 @@ Once the extension is installed, you'll need to log in to access Codiumate's fea
 2. **Login with GitHub**: Utilize your GitHub account for an easy login experience.
 3. **Login with Email + Verification Code**: For those who prefer using their email, enter your email address, receive a verification code, and proceed with the login.
 
-### Enterprise Users
-
-If you're an Enterprise user, you should log in with your work email to be automatically associated with your enterprise account. If your organization has Single Sign-On (SSO) configured, you may also use this method for an even smoother login process.
+!!! info "Enterprise Users"
+    If you're an Enterprise user, you should log in with your work email to be automatically associated with your enterprise account. If your organization has Single Sign-On (SSO) configured, you may also use this method for an even smoother login process.
 
 ## Getting Started with Codiumate
 
