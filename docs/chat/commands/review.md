@@ -25,9 +25,7 @@ To make the most out of the `/review` command, follow these steps:
     - [File Changes Mode](../modes/file-mode.md#file-changes)
 
 !!! example "Example - Committed changes"
-    - **User:** Selects committed changes from current branch with target branch `main`
-    - **Command:** `/review`
-    - **Codiumate Response:**
+
     ---
     <h4>Changes Analysis</h4>
 
@@ -56,3 +54,8 @@ To make the most out of the `/review` command, follow these steps:
     **🔒 Security concerns:** No
 
     **Changes Score:** 85
+
+    ---
+
+    - **User:** Selects committed changes from current branch with target branch `main`
+    - **Command:** `/review`

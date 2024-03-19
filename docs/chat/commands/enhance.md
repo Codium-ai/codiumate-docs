@@ -19,9 +19,8 @@ To use the `/enhance` command, follow these steps:
     - [File Mode](../modes/file-mode.md)
 
 !!! example 
+    <kbd>![enhance](./assets/enhance.gif){width=700, loading=lazy align=right}</kbd>
+    
+    ---
     - **User**: Selects a complex and poorly documented function within their code.
     - **Command**: `/enhance`
-    - **Codiumate Response**: 
-
-        <kbd>![enhance](./assets/enhance.gif){width=700, loading=lazy}</kbd>
-
