@@ -94,6 +94,9 @@ plugins:
 
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: ${{ secrets.GOOGLE_ANALYTICS_ID }}
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Codium-ai
