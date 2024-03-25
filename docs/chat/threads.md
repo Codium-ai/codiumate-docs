@@ -7,16 +7,16 @@ Threads are a powerful feature in Codiumate designed to enrich your interaction 
 Threads enhance the functionality of several Codiumate commands by allowing users to delve deeper into their initial inquiries. Below is a list of commands that support the threading option, each linked to its respective documentation page for detailed information:
 
 - [free chat](./modes/free-chat.md) : In free chat mode, each message can start a new thread.
-- [`/ask`](../commands/ask.md): Pose coding-related queries and receive detailed explanations.
-- [`/explain`](../commands/explain.md): Get a thorough explanation of specific code segments or concepts.
-- [`/docstring`](../commands/docstring.md): Generate or improve docstrings for better code documentation.
-- [`/quick-test`](../commands/quick-test.md): Create initial test suites with the option to refine and expand them.
-- [`/commit`](../commands/commit.md): Generate commit messages based on changes, with the ability to fine-tune the message.
-- [`/describe`](../commands/describe.md): Obtain structured descriptions of changesets, ideal for pull requests.
-- [`/recap`](../commands/recap.md): Summarize code changes in detail, allowing for further clarification and expansion.
-- [`/issues`](../commands/issues.md): Identify and explore potential issues within your codebase.
-- [`/improve`](../commands/improve.md) (Workspace mode only): Suggest improvements for identified issues, enhancing code quality.
-- [`/update-changelog`](../commands/update-changelog.md): Automatically update the changelog, with options for customization and additional context.
+- [`/ask`](./commands/ask.md): Pose coding-related queries and receive detailed explanations.
+- [`/explain`](./commands/explain.md): Get a thorough explanation of specific code segments or concepts.
+- [`/docstring`](./commands/docstring.md): Generate or improve docstrings for better code documentation.
+- [`/quick-test`](./commands/quick-test.md): Create initial test suites with the option to refine and expand them.
+- [`/commit`](./commands/commit.md): Generate commit messages based on changes, with the ability to fine-tune the message.
+- [`/describe`](./commands/describe.md): Obtain structured descriptions of changesets, ideal for pull requests.
+- [`/recap`](./commands/recap.md): Summarize code changes in detail, allowing for further clarification and expansion.
+- [`/issues`](./commands/issues.md): Identify and explore potential issues within your codebase.
+- [`/improve`](./commands/improve.md) (Workspace mode only): Suggest improvements for identified issues, enhancing code quality.
+- [`/update-changelog`](./commands/update-changelog.md): Automatically update the changelog, with options for customization and additional context.
 
 After receiving an initial response to these commands, you'll see a "continue this chat" button. Clicking this button will lead you into a thread where you can request more detailed follow-ups, refine the outcome, or explore related topics further.
 

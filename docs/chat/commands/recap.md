@@ -23,14 +23,3 @@ To effectively utilize the `/recap` command, adhere to the following steps:
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
-
-<!-- <h2>Example</h2>
-
-<h3>Workspace Mode Example</h3>
-**User**: Prepares to summarize recent work on a new feature for a team meeting.
-
-**Command**: `/recap`
-
-[TBD] -->
-
-

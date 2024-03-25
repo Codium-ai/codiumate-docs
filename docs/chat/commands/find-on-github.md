@@ -18,9 +18,10 @@ Leverage the `/find-on-github` command by following these steps:
     - [File Mode](../modes/file-mode.md)
 
 !!! example
+
+    <kbd>![find-on-github](./assets/find-on-github.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Discovers a custom sorting algorithm within their project and wishes to see if similar implementations exist on GitHub.
     - **Command**: `/find-on-github`
-    - **Codiumate Response**:
-
-        <kbd>![find-on-github](./assets/find-on-github.gif){width=700, loading=lazy}</kbd>
 

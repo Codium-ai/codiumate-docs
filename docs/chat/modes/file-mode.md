@@ -28,6 +28,10 @@ In File Mode options 1 and 2 (Selected Lines and Selected Component), you can ut
 
 File changes mode is a special mode, that allows you to focus on the changes you have made inside a specific file. 
 For this mode, you can use the workspace commands [Workspace Mode Commands](./workspace-mode.md#commands).
+With File Changes mode you can work on:
+
+1. **Local changes** - changes you have made to the file in your local workspace.
+2. **Committed changes** - changes that have been committed to your version control system.
 
 ## How to Use File Mode
 

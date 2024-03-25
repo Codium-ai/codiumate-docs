@@ -23,16 +23,21 @@ To utilize the `/improve` command, follow these instructions:
     - [Workspace Mode](../modes/workspace-mode.md)
 
 !!! example "File mode example"
+    <kbd>![/improve_file](./assets/improve-file.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Identifies a function suspected of having performance issues and security concerns.
     - **Command**: `/improve`
-    - **Codiumate Response**:
 
-        <kbd>![/improve_file](./assets/improve-file.gif){width=700, loading=lazy}</kbd>
+        
     
 
 !!! example "Workspace Mode Example"
+
+    <kbd>![/improve_workspace](./assets/improve-workspace.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Aims to improve the overall quality of a branch
     - **Command**: `/improve`
-    - **Codiumate Response**: 
 
-        <kbd>![/improve_workspace](./assets/improve-workspace.gif){width=700, loading=lazy}</kbd>
+        
