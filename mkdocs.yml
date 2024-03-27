@@ -4,6 +4,7 @@ nav:
   - 'index.md'
   - Installation:
     - 'installation/index.md'
+    - OptOut: 'installation/opt-out.md'
   - Test Generation:
     - 'tests/index.md'
     - How to use: 'tests/how-to-use.md'
