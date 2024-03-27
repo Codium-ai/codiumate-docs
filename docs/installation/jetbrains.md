@@ -9,7 +9,7 @@
 3. Start using the plugin 🥳.
 
 
-### Android Studio support JCEF
+## Android Studio support JCEF
 
 Codiumate Plugin uses JCEF (Java Chromium Embedded Framework) to create a webview component in the plugin's tool window.
 

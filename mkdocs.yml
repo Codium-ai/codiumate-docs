@@ -7,6 +7,7 @@ nav:
     - VSCode: 'installation/vscode.md'
     - JetBrains: 'installation/jetbrains.md'
     - Login: 'installation/login.md'
+    - Subscription Plans: 'installation/plans.md'
     - OptOut: 'installation/opt-out.md'
   - Test Generation:
     - 'tests/index.md'
