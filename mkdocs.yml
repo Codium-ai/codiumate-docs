@@ -4,6 +4,9 @@ nav:
   - 'index.md'
   - Installation:
     - 'installation/index.md'
+    - VSCode: 'installation/vscode.md'
+    - JetBrains: 'installation/jetbrains.md'
+    - Login: 'installation/login.md'
     - OptOut: 'installation/opt-out.md'
   - Test Generation:
     - 'tests/index.md'
