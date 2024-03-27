@@ -91,11 +91,12 @@ theme:
 plugins:
   - social
   - search
+  - glightbox
 
 extra:
   generator: false
   analytics:
-    provider: google
+    provider: custom
     property: ${{ secrets.GOOGLE_ANALYTICS_ID }}
   social:
     - icon: fontawesome/brands/github
