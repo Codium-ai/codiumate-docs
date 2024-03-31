@@ -20,6 +20,16 @@ While Codiumate's test generation feature is universally applicable, the ability
 
 This functionality enables developers working in these languages to not only generate tests but also execute them within the Codiumate environment, providing immediate feedback on their efficacy and coverage.
 
---- 
+!!! info
+    This feature is available for VSCode users only.
 
-This feature is available for VSCode users only.
+## Extend Test Suite
+
+In JetBrains, you can extend your test suite in all languages. 
+
+For VSCode, the extend test suite feature is supported for:
+
+- **Python**
+- **JavaScript**
+- **TypeScript**
+

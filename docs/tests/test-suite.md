@@ -10,7 +10,7 @@ Codiumate offers several options for refining and customizing the generated test
 2. **Manual Editing**: Directly edit the test code within the advanced panel for quick tweaks and adjustments.
 3. **Regenerate Test**: Use the "Regenerate" button beside each test to generate an alternative version based on the same behavior.
 4. **Delete Test**: If a test is unnecessary or irrelevant, you can remove it from the list.
-5. **Run and Auto Fix (VSCode Only)**: For supported languages, this option allows you to run tests directly. If a test fails, Codiumate attempts to fix it automatically and re-run it. The process stops if a potential bug is detected, alerting you to the issue. [Learn more about supported languages](./supported-languages.md).
+5. **Run and Auto Fix (VSCode Only)**: For supported languages, this option allows you to run tests directly. If a test fails, Codiumate attempts to fix it automatically and re-run it. The process stops if a potential bug is detected, alerting you to the issue. [Learn more about supported languages](./supported-languages.md). 
 6. **Regenerate Entire Test Suite**: Apply a general instruction for the entire suite via the [Configuration tab](./configuration.md), then regenerate all tests to reflect this overarching guidance.
 7. **Request More Tests**: Click "Give me more tests" to generate additional tests, covering more behaviors in one action.
 
