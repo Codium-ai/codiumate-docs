@@ -23,7 +23,7 @@ To utilize the `/commit` command effectively, follow these steps:
     This command supports threading. [Read more about Threads](../threads.md).
 
 !!! example "Commit message using Chat"
-    <kbd>![commit-chat](./assets/commit-chat.gif){width=700, loading=lazy}</kbd>
+    ![commit-chat](./assets/commit-chat.gif){width=700, loading=lazy}
 
     ---
     - **User**: Chooses Staged Changes mode
@@ -32,10 +32,10 @@ To utilize the `/commit` command effectively, follow these steps:
 !!! example "Commit message from Source Control panel"
 
     === "VSCode"
-        <kbd>![commit-source](./assets/commit-source-vs.gif){width=700, loading=lazy}</kbd>
+        ![commit-source](./assets/commit-source-vs.gif){width=700, loading=lazy}
         
     === "JetBrains"
-        <kbd>![commit-source](./assets/commit-source-jb.gif){width=700, loading=lazy}</kbd>
+        ![commit-source](./assets/commit-source-jb.gif){width=700, loading=lazy}
     
     ---
     - **User**: Clicks on Auto Commit Message in Source Control panel
