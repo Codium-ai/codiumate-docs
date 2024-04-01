@@ -4,6 +4,11 @@ nav:
   - 'index.md'
   - Installation:
     - 'installation/index.md'
+    - VSCode: 'installation/vscode.md'
+    - JetBrains: 'installation/jetbrains.md'
+    - Login: 'installation/login.md'
+    - Subscription Plans: 'installation/plans.md'
+    - OptOut: 'installation/opt-out.md'
   - Test Generation:
     - 'tests/index.md'
     - How to use: 'tests/how-to-use.md'
@@ -91,9 +96,13 @@ theme:
 plugins:
   - social
   - search
+  - glightbox
 
 extra:
   generator: false
+  analytics:
+    provider: custom
+    property: ${{ secrets.GOOGLE_ANALYTICS_ID }}
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Codium-ai
@@ -112,6 +121,7 @@ extra_css:
   - css/custom.css
 
 markdown_extensions:
+  - meta
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

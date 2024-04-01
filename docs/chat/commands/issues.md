@@ -22,23 +22,3 @@ Follow these steps to efficiently utilize the `/issues` command:
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
-
-<!-- <h2>Example</h2>
-
-<h3>Workspace Mode Example</h3>
-**User**: Wants to ensure their project is free from security vulnerabilities and coding errors before deployment.
-[TBD]
-**Command**: `/issues`
-
-**Codiumate Response**: Codiumate identifies several issues, including:
-
-- Security Concern: Insecure use of API keys detected in `config.js`.
-- Potential Issue: Unhandled exception possibility in `paymentService.js`.
-- Leftover Debugging Code: Console log found in `authController.js`.
-- Misspelled Variable: "usreId" should be "userId" in `userModel.js`.
-
-For each issue, Codiumate provides a direct link to the implicated code and a detailed description, helping the user understand and prioritize fixes.
-
-**User Follow-Up**: Initiates a [thread](../threads.md) asking, "How can I secure the API keys?"
-
-**Codiumate Suggestion**: Offers strategies for securing API keys, such as environment variables or secure vault services, along with links to further reading. -->

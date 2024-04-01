@@ -22,14 +22,3 @@ Follow these steps to seamlessly update your changelog using the `/changelog` co
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
-
-<!-- <h2>Example</h2>
-
-<h3>Workspace Mode Example</h3>
-**User**: Needs to document recent enhancements and bug fixes in the project's changelog before a new release.
-
-**Command**: `/update-changelog`
-
-**Codiumate Response**: Generates a structured changelog entry, such as:
-
-[TBD] -->

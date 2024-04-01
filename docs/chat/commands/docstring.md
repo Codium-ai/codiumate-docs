@@ -23,16 +23,17 @@ To use the `/docstring` command, follow these steps:
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
-!!! example "File Mode Example"
+!!! example "Docsctring for component (File Mode)"
+    <kbd>![dosctring-file](./assets/docstring-file.gif){width=700, loading=lazy}</kbd>
+    
+    ---
     - **User**: Selects a function that currently lacks a docstring.
     - **Command**: `/docstring`
-    - **Codiumate Response**:
 
-        <kbd>![dosctring-file](./assets/docstring-file.gif){width=700, loading=lazy}</kbd>
 
-!!! example "Workspace Mode Example"
+!!! example "Docstring for Changeset (Workspace Mode)"
+    <kbd>![docstring-workspace](./assets/docstring-workspace.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Chooses to improve docstrings across multiple files within the changeset.
     - **Command**: `/docstring enhance readability`
-    - **Codiumate Response**: 
-
-        <kbd>![docstring-workspace](./assets/docstring-workspace.gif){width=700, loading=lazy}</kbd>

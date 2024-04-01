@@ -24,15 +24,21 @@ To efficiently use the `/quick-test` command, follow these steps:
     This command supports threading. [Read more about Threads](../threads.md).
 
 !!! example "Example"
+
+    <kbd>![quick-test](./assets/quick-test.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Chooses a code without tests
     - **Command**: `/quick-test`
-    - **Codiumate Response**: 
     
-        <kbd>![quick-test](./assets/quick-test.gif){width=700, loading=lazy}</kbd>
+        
 
 !!! example "Example with Threading"
+
+    <kbd>![quick-test-thread](./assets/quick-test-thread.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Clicks on `Continue this Chat` after Codiumate's initial response
     - **Command**: `use unittest framework`
-    - **Codiumate Response**: 
     
-        <kbd>![quick-test-thread](./assets/quick-test-thread.gif){width=700, loading=lazy}</kbd>
+        

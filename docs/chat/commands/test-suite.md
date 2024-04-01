@@ -24,16 +24,20 @@ Implementing the `/test-suite` command involves a few straightforward steps:
     - [File Mode](../modes/file-mode.md)
 
 !!! example "Example"
+
+    <kbd>![test-suite](./assets/test-suite.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Chooses a code without tests
-    - **Command**: `/test-suite`
-    - **Codiumate Response**: 
-    
-        <kbd>![test-suite](./assets/test-suite.gif){width=700, loading=lazy}</kbd>
+    - **Command**: `/test-suite`    
+        
 
 !!! example "Example with General Instructions"
+
+    <kbd>![test-suite-instructions](./assets/test-suite-instructions.gif){width=700, loading=lazy}</kbd>
+
+    ---
     - **User**: Chooses a code without tests
     - **Command**: `/test-suite use Arrange, Act, Assert style`
-    - **Codiumate Response**: 
-    
-        <kbd>![test-suite-instructions](./assets/test-suite-instructions.gif){width=700, loading=lazy}</kbd>
+        
 

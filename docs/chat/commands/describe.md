@@ -24,29 +24,33 @@ To utilize the `/describe` command effectively, follow these steps:
     This command supports threading. [Read more about Threads](../threads.md).
 
 
-!!! example "Example 1"
+!!! example "Features + Bug fixed PR Description"
     - **User**: Plans to open a PR for a series of changes that include bug fixes and a new feature.
     - **Command**: `/describe`
-    - **Codiumate Response**:
-        - **Title**: "Feature Addition and Bug Fixes in User Authentication Flow"
-        - **Type**: `Feature`, `Bug Fix`
-        - **Description**: Introduces a new two-factor authentication feature to enhance security during user login. Additionally, it addresses previously reported bugs in the password reset flow, including error handling and email verification. These changes improve the overall reliability and security of the authentication process.
+    ---
+    - **Title**: "Feature Addition and Bug Fixes in User Authentication Flow"
+    - **Type**: `Feature`, `Bug Fix`
+    - **Description**: Introduces a new two-factor authentication feature to enhance security during user login. Additionally, it addresses previously reported bugs in the password reset flow, including error handling and email verification. These changes improve the overall reliability and security of the authentication process.
+    ---
+        
 
-!!! example "Example 2"
+!!! example "New feature PR Description"
     - **User**: Plans to open a PR for a new feature X.
     - **Command**: `/describe`
-    - **Codiumate Response**: 
-        - **Title:** "Implement Feature X"
-        - **Type:** `Feature`
-        - **Description:** This pull request introduces a new middleware for user authentication. The middleware validates user credentials against the authentication service and grants access if authentication is successful. It enhances the security of our application by adding a layer of protection to routes that require user authentication.
+    ---
+    - **Title:** "Implement Feature X"
+    - **Type:** `Feature`
+    - **Description:** This pull request introduces a new middleware for user authentication. The middleware validates user credentials against the authentication service and grants access if authentication is successful. It enhances the security of our application by adding a layer of protection to routes that require user authentication.
+    ----
 
-!!! example "Example 3 - With additional instructions"
+!!! example "PR Description with additional instructions"
     - **User**: Plans to open a PR for a new feature X.
     - **Command**: `/describe  and use these sub-headings in the description i.e. Nature of change, Change Score and Test suite added`
-    - **Codiumate Response**: 
-        - **Title:** "Implement User Authentication Middleware" 
-        - **Type:** `Feature`
-        - **Description:** This pull request introduces a new middleware for user authentication. The middleware validates user credentials against the authentication service and grants access if authentication is successful.
-            - Nature of change: It enhances the security of our application by adding an additional layer of protection to routes that require user authentication.
-            - Change Score: The change score is high.
-            - Test suite added: No test suite has been added with this change.
+    ---
+    - **Title:** "Implement User Authentication Middleware" 
+    - **Type:** `Feature`
+    - **Description:** This pull request introduces a new middleware for user authentication. The middleware validates user credentials against the authentication service and grants access if authentication is successful.
+        - Nature of change: It enhances the security of our application by adding an additional layer of protection to routes that require user authentication.
+        - Change Score: The change score is high.
+        - Test suite added: No test suite has been added with this change.
+    ---
