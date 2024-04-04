@@ -25,7 +25,7 @@ To efficiently use the `/quick-test` command, follow these steps:
 
 !!! example "Example"
 
-    <kbd>![quick-test](./assets/quick-test.gif){width=700, loading=lazy}</kbd>
+    ![quick-test](./assets/quick-test.gif){width=700, loading=lazy}
 
     ---
     - **User**: Chooses a code without tests
@@ -35,7 +35,7 @@ To efficiently use the `/quick-test` command, follow these steps:
 
 !!! example "Example with Threading"
 
-    <kbd>![quick-test-thread](./assets/quick-test-thread.gif){width=700, loading=lazy}</kbd>
+    ![quick-test-thread](./assets/quick-test-thread.gif){width=700, loading=lazy}
 
     ---
     - **User**: Clicks on `Continue this Chat` after Codiumate's initial response

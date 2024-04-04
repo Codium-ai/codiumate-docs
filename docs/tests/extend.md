@@ -6,6 +6,9 @@ Enhancing and maintaining a comprehensive test suite is crucial for ensuring the
 !!! info "Pro feature"
     Extend Test Suite is exclusively available for Teams and Enterprise users.
 
+!!! warning "Supported Languages"
+    In JetBrains, all languages are supported. For VSCode, the extend test suite feature is supported only for Python, JavaScript, and TypeScript. [Read more about supported languages](./supported-languages.md#extend-test-suite).
+
 ## How to Add More Tests
 
 1. **Navigate to Your Test Suite**: Open the test suite you wish to expand within your IDE.

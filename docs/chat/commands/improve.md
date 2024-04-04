@@ -23,7 +23,7 @@ To utilize the `/improve` command, follow these instructions:
     - [Workspace Mode](../modes/workspace-mode.md)
 
 !!! example "File mode example"
-    <kbd>![/improve_file](./assets/improve-file.gif){width=700, loading=lazy}</kbd>
+    ![/improve_file](./assets/improve-file.gif){width=700, loading=lazy}
 
     ---
     - **User**: Identifies a function suspected of having performance issues and security concerns.
@@ -34,7 +34,7 @@ To utilize the `/improve` command, follow these instructions:
 
 !!! example "Workspace Mode Example"
 
-    <kbd>![/improve_workspace](./assets/improve-workspace.gif){width=700, loading=lazy}</kbd>
+    ![/improve_workspace](./assets/improve-workspace.gif){width=700, loading=lazy}
 
     ---
     - **User**: Aims to improve the overall quality of a branch

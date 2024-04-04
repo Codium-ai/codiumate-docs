@@ -11,11 +11,13 @@ Codiumate proudly offers test generation capabilities for **all programming lang
 **[Learn more about supported languages](./supported-languages.md).**
 
 ### Initiating Test Generation
-Initiating test generation is straightforward, with multiple entry points to suit your workflow:
+Initiating test generation is straightforward, with multiple entry points to suit your workflow. All test generation activities converge in the advanced panel, where behaviors are analyzed, and tests are crafted.
+Generate tests with:
 
-- **From the Chat**: Utilize the `/test-suite` command.
-- **From the Editor**: Access Codiumate's features through lens buttons, context menus, or command palettes in supported IDEs like VSCode and JetBrains.
-- **The Advanced Panel**: All test generation activities converge in the advanced panel, where behaviors are analyzed, and tests are crafted.
+1. **Codiumate Test Lens**: Click the "Codiumate: test" lens button appearing above every function, class, or method.
+2. **Context Menu**: Right-click on any selected code or component name and select "Codiumate - Test this component" from the context menu.
+3. **Command Palette (In VSCode)**: Highlight the desired code, open the command palette, and execute "Codiumate: Generate tests."
+4. **Codiumate Button (In JetBrains)**: Click on the Codiumate icon located near every identifiable component.
 
 **[Learn more about using the advanced panel](./how-to-use.md)**.
 
@@ -29,7 +31,7 @@ Codiumate doesn't stop at generating tests. It offers an array of features for r
 
 **[Learn more about test suite refinement](./test-suite.md)**.
 
-### Running Tests
+### Running Tests (VSCode only)
 Codiumate integrates directly with your development environment to offer a streamlined process for running tests. This feature, available for Python, JavaScript, and TypeScript, enables you to:
 
 - **Run and Auto-Fix Tests**: Automatically run generated tests with the option for Codiumate to attempt fixes on failing tests, enhancing efficiency by iteratively improving test success rates.

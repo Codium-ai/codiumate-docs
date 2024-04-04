@@ -1,5 +1,8 @@
 # Using Example Tests for Better Test Generation
 
+!!! info
+    In JetBrains this field is called "Reference Test"
+
 ## Overview
 Codiumate enhances its test generation capabilities by allowing the use of example tests. This feature enables Codiumate to generate new tests that follow a specific style or format you prefer, ensuring consistency and adherence to your project's testing conventions.
 

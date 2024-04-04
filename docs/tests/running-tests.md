@@ -1,5 +1,8 @@
 # Running Tests in Codiumate (VSCode)
 
+!!! info
+    This feature is available for VSCode users only.
+
 ## Overview
 For VSCode users working with [supported languages](./supported-languages.md#test-running-support), Codiumate offers an integrated feature to run tests directly from the advanced panel. This ensures your generated test suite performs as expected right off the bat. You have two primary options for running tests: with automatic fixes or without.
 

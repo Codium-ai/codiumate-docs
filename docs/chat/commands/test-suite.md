@@ -25,7 +25,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 
 !!! example "Example"
 
-    <kbd>![test-suite](./assets/test-suite.gif){width=700, loading=lazy}</kbd>
+    ![test-suite](./assets/test-suite.gif){width=700, loading=lazy}
 
     ---
     - **User**: Chooses a code without tests
@@ -34,7 +34,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 
 !!! example "Example with General Instructions"
 
-    <kbd>![test-suite-instructions](./assets/test-suite-instructions.gif){width=700, loading=lazy}</kbd>
+    ![test-suite-instructions](./assets/test-suite-instructions.gif){width=700, loading=lazy}
 
     ---
     - **User**: Chooses a code without tests
