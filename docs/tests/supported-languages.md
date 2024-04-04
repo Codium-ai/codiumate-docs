@@ -8,7 +8,7 @@ Codiumate supports test generation for **ALL programming languages**, offering a
 
 ### Enhanced Support for Specific Languages
 
-For **Python, JavaScript, TypeScript, and Java**, Codiumate goes a step further by supporting multiple testing frameworks.
+For **Python, JavaScript, TypeScript, Java, and C++**, Codiumate goes a step further by supporting multiple testing frameworks.
 
 ## Test Running Support
 
@@ -20,7 +20,7 @@ While Codiumate's test generation feature is universally applicable, the ability
 
 This functionality enables developers working in these languages to not only generate tests but also execute them within the Codiumate environment, providing immediate feedback on their efficacy and coverage.
 
-!!! info
+!!! info ""VSCode only"
     This feature is available for VSCode users only.
 
 ## Extend Test Suite

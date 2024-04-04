@@ -27,6 +27,7 @@ nav:
       - 'chat/modes/index.md'
       - Free Chat Mode: 'chat/modes/free-chat.md'
       - File Mode: 'chat/modes/file-mode.md'
+      - Coding-Agent Mode: 'chat/modes/coding-agent-mode.md'
       - Workspace Mode: 'chat/modes/workspace-mode.md'
     - Commands:
       - 'chat/commands/index.md'
@@ -44,11 +45,10 @@ nav:
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
+    - Coding-Agent: 'chat/coding-agent.md'
     - Threads: 'chat/threads.md'
-  # - Guides:
-  #   - 'guides/index.md'
-    # - Open a PR with Codiumate: 'guides/open-pr.md'
-    # - Generate tests for Python: 'guides/generate-tests-python.md'
+  - Code Completion:
+    - '': 'code-completion/code-completion.md'
 
 theme:
   logo: assets/logo.svg

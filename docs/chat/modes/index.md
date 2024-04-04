@@ -8,6 +8,8 @@ Codiumate offers a versatile set of modes to cater to different coding needs and
 
 - [**File Mode**](./file-mode.md): Focuses on the current file you're working on, allowing you to send selected code to Codiumate for detailed analysis and assistance. Offers three focus options (Selected Lines, Selected Component, File Changes) to refine the context for Codiumate's responses. Supports a variety of commands tailored to enhancing your code within the scope of the selected file.
 
+- [**Coding Agent Mode**](./coding-agent-mode.md): The Coding Agent is Codiumate's AI-powered assistant, designed to significantly enhance your coding efficiency and code quality. It combines advanced AI capabilities with an intuitive interface to provide real-time assistance and guidance throughout the coding process. This mode actively supports you by generating detailed plans for coding tasks, offering suggestions to improve code quality, and integrating seamlessly with the code completion feature for a streamlined coding experience.
+
 - [**Workspace Mode 💎**](./workspace-mode.md): Expands Codiumate's focus to encompass changes across your entire project workspace, enabling you to manage and review code changes effectively. This mode provides insights into local, staged, or committed changes. Exclusive to Teams and Enterprise users, Workspace Mode supports commands for managing commits, documentation, code quality, and more.
 
 ## Selecting a Mode
