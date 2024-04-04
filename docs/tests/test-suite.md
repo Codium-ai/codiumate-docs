@@ -3,10 +3,16 @@
 ## Overview
 Following the behavior analysis, Codiumate generates an initial list of tests based on the selected testing framework, which you can configure in the [configuration file](./configuration.md). Each test corresponds to a behavior identified in the preceding analysis and is tagged according to its type: happy path, edge case, other, or custom test.
 
+=== "VSCode"
+    ![vscode-tests](https://codium.ai/images/codiumate/vscode-tests.png){ width=900 }
+
+=== "JetBrains"
+    ![jb-tests](https://codium.ai/images/codiumate/jb-tests.png){ width=900 }
+
 ## Refining Your Tests
 Codiumate offers several options for refining and customizing the generated tests to ensure they meet your project's requirements:
 
-1. **Refinement via Chat**: Beneath each test, a chat field allows you to request specific refinements in natural language. Submit your request by pressing Enter or clicking the send button, and Codiumate will update the test based on your instructions.
+1. **Refinement via Chat**: Beneath each test, a chat field allows you to request specific refinements in natural language. Submit your request by pressing Enter or clicking the send button, and Codiumate will update the test based on your instructions.        
 2. **Manual Editing**: Directly edit the test code within the advanced panel for quick tweaks and adjustments.
 3. **Regenerate Test**: Use the "Regenerate" button beside each test to generate an alternative version based on the same behavior.
 4. **Delete Test**: If a test is unnecessary or irrelevant, you can remove it from the list.
@@ -17,7 +23,7 @@ Codiumate offers several options for refining and customizing the generated test
 ### Test History and Feedback
 Codiumate maintains a history of each test's modifications, accessible through "Previous" and "Next" buttons, allowing you to track and revisit changes over time.
 
-### Provide Feedback 
+### Provide Feedback (VSCode only)
 Inside each test, you'll find "Like" or "Dislike" buttons. Your feedback helps Codiumate learn and improve test generation accuracy.
 
 ## Finalizing Your Test Suite

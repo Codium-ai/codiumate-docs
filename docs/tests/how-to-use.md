@@ -10,10 +10,32 @@ There are multiple pathways to initiate test generation, catering to your workfl
 - **`/test-suite` Command**: Execute the [`/test-suite`](../chat/commands/test-suite.md) command on selected code within the chat interface to trigger test generation.
 
 ### From the Editor
-1. **Codiumate Test Lens**: Click the "Codiumate: test" lens button appearing above every function, class, or method.
+
+
+1. **Lens Buttons**: Generate tests through lens buttons above any class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
+    
+    === "VSCode"
+        ![vscode-lens](./assets/vscode-generate-test-lens.png){ width=500 }
+
+    === "JetBrains"
+        ![jb-lens](./assets/jb-generate-test-lens.png){ width=500 }
+
 2. **Context Menu**: Right-click on any selected code or component name and select "Codiumate - Test this component" from the context menu.
-3. **Command Palette (In VSCode)**: Highlight the desired code, open the command palette, and execute "Codiumate: Generate tests."
-4. **Codiumate Button (In JetBrains)**: Click on the Codiumate icon located near every identifiable component.
+
+    === "VSCode"
+        ![vscode-lens](./assets/vscode-rightclick.png){ width=500 }
+
+    === "JetBrains"
+        ![jb-lens](./assets/jb-rightclick.png){ width=500 }
+
+3. **Command Palette (VSCode)**: use command palettes to generate tests:
+
+    ![vscode-palette](./assets/vscode-palette.png){ width=500 }
+
+
+4. **Codiumate Button (JetBrains) **: use Codiumate button near every class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
+
+    ![jb-codiumate-button](./assets/jb-button.png){ width=500 }
 
 ## The Advanced Panel
 
