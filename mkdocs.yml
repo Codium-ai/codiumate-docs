@@ -9,6 +9,7 @@ nav:
     - Login: 'installation/login.md'
     - Subscription Plans: 'installation/plans.md'
     - OptOut: 'installation/opt-out.md'
+    - Extension Setting: 'installation/extension-settings.md'
   - Test Generation:
     - 'tests/index.md'
     - How to use: 'tests/how-to-use.md'
