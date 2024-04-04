@@ -45,10 +45,8 @@ nav:
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
     - Threads: 'chat/threads.md'
-  # - Guides:
-  #   - 'guides/index.md'
-    # - Open a PR with Codiumate: 'guides/open-pr.md'
-    # - Generate tests for Python: 'guides/generate-tests-python.md'
+  - Code Completion:
+    - 'code-completion/index.md'
 
 theme:
   logo: assets/logo.svg
