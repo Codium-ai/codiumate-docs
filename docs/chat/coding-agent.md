@@ -4,6 +4,9 @@
 
 The Coding Agent is Codiumate's AI-powered assistant, designed to significantly enhance your coding efficiency and code quality. It combines advanced AI capabilities with an intuitive interface to provide real-time assistance and guidance throughout the coding process.
 
+!!! info "VSCode only"
+    Code Completion is currently available for VSCode users only.
+
 ## Tools and Features
 
 ### 1. Task Implementation Plan
