@@ -13,29 +13,13 @@ There are multiple pathways to initiate test generation, catering to your workfl
 
 
 1. **Lens Buttons**: Generate tests through lens buttons above any class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
-    
-    === "VSCode"
-        ![vscode-lens](./assets/vscode-generate-test-lens.png){ width=500 }
-
-    === "JetBrains"
-        ![jb-lens](./assets/jb-generate-test-lens.png){ width=500 }
 
 2. **Context Menu**: Right-click on any selected code or component name and select "Codiumate - Test this component" from the context menu.
 
-    === "VSCode"
-        ![vscode-lens](./assets/vscode-rightclick.png){ width=500 }
-
-    === "JetBrains"
-        ![jb-lens](./assets/jb-rightclick.png){ width=500 }
-
 3. **Command Palette (VSCode)**: use command palettes to generate tests:
-
-    ![vscode-palette](./assets/vscode-palette.png){ width=500 }
 
 
 4. **Codiumate Button (JetBrains) **: use Codiumate button near every class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
-
-    ![jb-codiumate-button](./assets/jb-button.png){ width=500 }
 
 ## The Advanced Panel
 
