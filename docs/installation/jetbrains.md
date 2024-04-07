@@ -15,8 +15,10 @@ Codiumate Plugin uses JCEF (Java Chromium Embedded Framework) to create a webvie
 
 By default, most IntelliJ-based IDEs come with a boot runtime that includes JCEF.
 
-However, Android Studio and some older versions of IntelliJ-based IDEs utilize a boot runtime lacking JCEF, which prevents the plugin from loading in these environments.
+However, Android Studio (and some other versions of IntelliJ-based IDEs) utilize a boot runtime lacking JCEF, which prevents the plugin from loading in these environments.
 
-To address this issue, navigate to the ["Choose Boot Runtime for the IDE" dialog](https://www.jetbrains.com/help/idea/switching-boot-jdk.html). Here, you can select a boot runtime equipped with JCEF.
-
+To address this issue: 
+  1. Navigate to the "Help" -> "Find Action..." and find(type) "Choose Boot Runtime for the IDE" dialog. Here, you can select a boot runtime equipped with JCEF.
+  2. Navigate to the "Help" -> "Find Action..." and find(type) "Registry". Here disable `ide.browser.jcef.sandbox.enable` option.
+  3. Restart the IDE.
 
