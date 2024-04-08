@@ -22,3 +22,24 @@ Follow these steps to seamlessly update your changelog using the `/changelog` co
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
+
+!!! example
+    ### Command: 
+    `/changelog`
+
+    ---
+    ### Response: 
+
+    [2024-04-08]
+
+
+    **Added**
+
+    - Introduced aiohttp and collections.deque for asynchronous operations and efficient stack management.
+    - Added a new utility function to retrieve API keys.
+
+    **Changed**
+
+    - Updated the API key in auto_scraper.py to a new value.
+    - Refactored the result processing logic in auto_scraper.py to use asynchronous requests and deque for stack management.
+    - Simplified the conditional check for the update parameter in auto_scraper.py.

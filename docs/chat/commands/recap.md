@@ -23,3 +23,12 @@ To effectively utilize the `/recap` command, adhere to the following steps:
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
+
+!!! example
+    ### Command: 
+    `/recap`
+    
+    ---
+
+    ### Response: 
+    ![recap](./assets/recap.png)

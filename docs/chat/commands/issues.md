@@ -22,3 +22,14 @@ Follow these steps to efficiently utilize the `/issues` command:
 
 !!! tip "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
+
+
+!!! example
+    ### Command: 
+    `/issues`
+
+    ---
+    ### Response: 
+
+    ![issues](./assets/issues.png)
+    

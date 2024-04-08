@@ -25,59 +25,114 @@ To use the `/ask` command, follow these steps:
 
 <h3>File Mode Examples</h3>
 
-!!! example "Objective Clarification"
-    - **User:** Selects File X local changes
-    - **Command:** `/ask What is the primary goal of the changes introduced in file X?`
-    - **Codiumate Response:** The primary goal of the changes in file X is to improve data validation, ensuring more accurate input handling and reducing potential errors.
+!!! example "Objective Clarification - Local Changes"
+    ### Command: 
+    `/ask What is the primary goal of the changes introduced in the file?`
 
-!!! example "Suspicious behavior analysis"
-    - **User:** Selects code snippet
-    - **Command**: `/ask Why is this function returning an unexpected value?`
-    - **Codiumate Response**: Codiumate analyzes the selected code and provides a detailed explanation, potential reasons for the issue, and suggested fixes.
+    ---
+    ### Response:
 
-!!! example "Code Logic Explanation"
-    - **User:** Selects function Z component
-    - **Command:** `/ask I'm unclear about the function logic Z. Could you explain the flow and expected outcomes?`
-    - **Codiumate Response:** Function Z manages user authentication. It first checks for existing sessions and proceeds to validate credentials if no session is present. The expected outcome is a secure and streamlined authentication process.
+    The primary goal of the changes introduced in the file `autoscraper/auto_scraper.py` is to improve the performance and efficiency of the code. This is achieved through several modifications:
 
-!!! example "Security Measures Inquiry"
-    - **User:** Selects authentication file code snippet
-    - **Command:** `/ask What security measures have been taken into account for the updated authentication process?`
-    - **Codiumate Response:** The updated authentication process includes enhanced encryption protocols and additional checks to prevent common vulnerabilities like SQL injection. It undergoes regular security audits.
+    1. The code now uses the `aiohttp` library, which is an asynchronous HTTP client/server framework for asyncio and Python. This allows for non-blocking socket operations, which can significantly improve the performance of the code when dealing with network operations.
+    2. The `deque` data structure from the `collections` module is used instead of a list for `self.stack_list`. The `deque` data structure allows for efficient appends and pops from both ends of the container, which can be more performant than using a list in certain scenarios.
+    3. The `api_key_requests` value has been changed from "123456_abcdef" to "AF603KGLLLD550304GGHLD". This could be due to a change in the API key used for making requests.
+    4. The condition `if update is False`: has been simplified to `if not update`:. This is a more Pythonic way of checking if a variable is `False`.
+    5. The code has been refactored to use a `with` statement when creating an `aiohttp.ClientSession()`. This ensures that the session is properly closed after it is no longer needed, which can help prevent resource leaks.
+    6. The `for` loops have been restructured to use the `extend` method instead of the `+=` operator for adding elements to a list. This can be more efficient in terms of memory usage and performance.
+    7. The list comprehension `[item.text for item in result_list]` has been replaced with the `map` function `list(map(lambda item: item.text, result_list))`. This could be a personal preference of the developer, as both methods achieve the same result However, using `map` can sometimes be faster than list comprehension, especially for larger lists.
+
+!!! example "Suspicious behavior analysis - Code Snippet"
+    ### Command: 
+    `/ask Why is this function returning an unexpected value?`
+
+    ---
+    ### Response: 
+    
+    The provided code for the `save` method appears to be incorrectly combining two distinct functionalities: saving data to a file and loading data from a file. This combination likely causes confusion about its purpose and functionality. The method starts by checking if the specified file path exists and raises an error if it does. It then serializes the `stack_list` attribute to JSON and writes it to the specified file path. However, immediately after writing the data, the method proceeds to read from the same file and attempts to load the data back into the `stack_list` attribute. This is not a typical behavior for a save method, as save operations usually only involve writing data to a file and not reading it back immediately.
+
+    To correct this and ensure the method behaves as expected for a save operation, you should remove the loading part of the code. The corrected `save` method should look like this:
+    ```
+    def save(self, file_path):
+    """
+    Serializes the stack_list as JSON and saves it to the disk.
+
+    Parameters
+    ----------
+    file_path: str
+        Path of the JSON output
+
+    Returns
+    -------
+    None
+    """
+
+        if os.path.exists(file_path):
+            raise ValueError("File path already exists")
+
+        data = dict(stack_list=self.stack_list)
+        with open(file_path, "w") as f:
+            json.dump(data, f)
+    ```
+    This modification ensures that the `save` method only performs the save operation, aligning with the expected behavior. If you need functionality to load data from a file, it's best to implement it in a separate method, typically named something like `load`, to maintain clear separation of concerns and improve code readability.
+
+
+
+!!! example "Code Logic Explanation - Selected Component"
+    ### Command: 
+    `/ask I'm unclear about the function logic. Could you explain the flow and expected outcomes?`
+    
+    ---
+    ### Response:
+    The `_get_fuzzy_attrs` function is designed to modify the attributes of HTML elements to enable fuzzy matching based on a specified fuzziness ratio (`attr_fuzz_ratio`). Here's a breakdown of its logic and expected outcomes:
+
+    1. Input Parameters:
+        - `attrs`: A dictionary of attributes (key-value pairs) of an HTML element.
+        - `attr_fuzz_ratio`: A float value between 0 and 1 that specifies the threshold for fuzzy matching. A value of 1 means an exact match is required, while a value closer to 0 allows for more leniency in matching.
+    2. Function Logic:
+        - The function first creates a copy of the `attrs` dictionary to avoid modifying the original input.
+        - It then iterates over each attribute in the `attrs` dictionary.
+            - If the attribute value is a string and not empty (`val`), it wraps this value in a `FuzzyText` object, passing the value and the `attr_fuzz_ratio` to the `FuzzyText` constructor. This enables fuzzy matching for this attribute value based on the specified ratio.
+            - If the attribute value is a list or tuple, it iterates over each element in the collection. For each element that is not `None`, it creates a `FuzzyText` object with the element and `attr_fuzz_ratio`. This allows each element in the list or tuple to be matched fuzzily.
+        - The modified attribute values (now potentially wrapped in `FuzzyText` objects) are assigned back to their respective keys in the `attrs` dictionary.
+    3. Expected Outcomes:
+        - The function returns a modified version of the `attrs` dictionary where each attribute value is either a `FuzzyText` object (for string values or elements of list/tuple values) or remains unchanged (for None elements in lists/tuples).
+        - This modification enables the attributes to be matched against target values using fuzzy logic, where the degree of match is determined by the `attr_fuzz_ratio`. For example, if `attr_fuzz_ratio` is set to 0.8, then the attribute values only need to match the target values with at least 80% similarity.
+    
+    In summary, `_get_fuzzy_attrs` prepares the attributes for fuzzy matching by wrapping string values and elements of list/tuple values in `FuzzyText` objects, allowing for more flexible and lenient matching based on the specified fuzziness ratio.
 
 <h3>Workspace Mode Examples</h3>
 
-!!! example "Library Usage Explanation"
-    - **User:** Selects committed changes from current branch with target branch `main`
-    - **Command:** `/ask Can you provide more context on the decision behind using library Y in this PR?`
-    - **Codiumate Response:** Library Y was chosen for its efficiency in handling asynchronous tasks, enhancing the responsiveness of our application. Its robust community support also influenced the decision.
+!!! example "Performance Consideration - Committed Changes"
+    ### Command: 
+    `/ask Are there any potential performance implications of the modifications in this pull request?`
 
-!!! example "Performance Consideration"
-    - **User:** Selects committed changes from current branch with target branch `main`
-    - **Command:** `/ask Are there any potential performance implications of the modifications in this pull request?`
-    - **Codiumate Response:** The modifications might lead to a slight performance improvement, especially in database queries. Extensive testing has been conducted to ensure overall system efficiency.
+    ---
+    ### Response:
+    Yes, there are potential performance implications in the modifications of this pull request.
 
-!!! example "Architecture Alignment"
-    - **User:** Selects local changes
-    - **Command:** `/ask How do the changes in this changeset align with the overall architecture of the project?`
-    - **Codiumate Response:** The changes adhere to the microservices architecture, enhancing modularity. The new components seamlessly integrate with existing services, maintaining overall system coherence.
+    1. The use of `aiohttp.ClientSession()` in the `autoscraper/auto_scraper.py` file introduces asynchronous HTTP requests. This can significantly improve the performance of the application if it is making multiple HTTP requests, as it allows the application to continue with other tasks while waiting for the HTTP requests to complete. However, it's important to note that the current implementation does not seem to take full advantage of the asynchronous capabilities, as no asynchronous tasks are being added to the `tasks` list and awaited.
+    2. The change from using a list (`self.stack_list.append(stack)`) to a deque (`self.stack_list.appendleft(stack)`) for `self.stack_list` can also have performance implications. Deques provide O(1) time complexity for append and pop operations from both ends, while lists in Python offer O(1) time complexity for append and pop operations only from the right end. If there are operations that involve popping elements from the left end, using a deque would be more efficient.
+    3. The change from list comprehension (`result_list = [item.text for item in result_list]`) to the `map` function (`result_list = list(map(lambda item: item.text, result_list))`) can have minor performance implications. In general, list comprehensions are known to be slightly faster than the `map` function in Python, especially for larger lists. However, the difference is usually negligible and would not significantly impact the overall performance of the application.
+    4. The change from using the `+=` operator to the `extend` method for adding elements to a list can also have performance implications. The `extend` method is generally faster than the `+=` operator when adding multiple elements to a list, as it does not involve creating a new list and copying all elements.
+    
+    Overall, while some of these changes can potentially improve the performance of the application, others might have a negligible or slightly negative impact. The actual impact would depend on the specific use case and workload of the application.
+    
 
-!!! example "Testing Strategy Inquiry"
-    - **User:** Selects committed changes from current branch with target branch `main`
-    - **Command:** `/ask Could you elaborate on the testing strategy employed for the new features introduced in this pull request?`
-    - **Codiumate Response:** A combination of unit tests and integration tests has been employed to validate the functionality. Mock data and edge cases are extensively covered to ensure robust performance.
+!!! example "Architecture Alignment - Local Changes"
+    ### Command: 
+    `/ask How do the changes in this changeset align with the overall architecture of the project?`
 
-!!! example "Configuration Changes Clarification"
-    - **User:** Selects staged changes
-    - **Command:** `/ask I noticed changes in the configuration file. What considerations were made regarding backward compatibility?`
-    - **Codiumate Response:** Backward compatibility is a priority. Configuration changes include deprecation notices for outdated settings, and existing configurations are automatically migrated to the new structure.
+    ---
+    ### Respomse:
 
-!!! example "Code Style Guidelines"
-    - **User:** Selects staged changes
-    - **Command:** `/ask Are there any specific code style guidelines or conventions followed in these changes?`
-    - **Codiumate Response:** Yes, It follows the editor’s coding style config. Indentation is with spaces, and we use camelCase for variable names. Consistency with existing code is maintained throughout the changes.
+    The changes in this changeset seem to align well with the overall architecture of the project. The modifications are primarily focused on improving the efficiency and functionality of the auto_scraper.py file, which appears to be a key component of the project.
 
-!!! example "Algorithm Choice Explanation"
-    - **User:** Selects committed changes from current branch with target branch `main`
-    - **Command:** `/ask Is there a specific reason for choosing algorithm A over algorithm B for the functionality introduced in this PR?`
-    - **Codiumate Response:** Algorithm A was chosen for its lower time complexity in our specific use case. Extensive benchmarking showed it outperforms Algorithm B, especially as the dataset scales.
+    1. The addition of `import aiohttp` and `from collections import deque` at the top of the file suggests that the project is moving towards asynchronous HTTP requests and efficient handling of data structures. This aligns with the overall architecture if the project is designed to handle large amounts of data or requires high performance.
+    2. The change of the `api_key_requests` value in the `__init__` method might be a part of a larger shift in the project's API usage or a change in the API key itself.
+    3. The replacement of `if update is False`: with `if not update`: is a more Pythonic way of checking if a variable is False. This change aligns with the project's architecture if it follows Python best practices.
+    4. The restructuring of the loop that processes `wanted_dict` items is significant. The new code uses an `aiohttp.ClientSession()` which suggests that the project is moving towards asynchronous processing. This aligns with the project's architecture if it is designed to handle large amounts of data or requires high performance.
+    5. The change from `append` to `appendleft` when adding to `self.stack_list` suggests a shift in how the data structure is being used. This could align with the project's architecture if it is designed to process items in a LIFO (Last In, First Out) manner.
+    6. In the utils.py file, a new function `getAPIKey()` has been added. This could be part of a larger architectural change where API keys are managed in a centralized manner.
+    
+    Overall, these changes suggest a move towards more efficient data processing and better management of API keys, which would align well with a project that handles large amounts of data or makes extensive use of APIs.
