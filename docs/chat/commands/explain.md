@@ -27,8 +27,12 @@ Follow these steps to leverage the `/explain` command effectively:
 
 
 !!! example
+    ### Command:
+    `/explain`
 
     ---
+    ### Response:
+
     The `get_file_patch_info` function extracts information about a file patch from a given patch string. It takes two inputs: `patch_str`, which is the patch string, and `file_name`, which is the name of the file. The function returns a `FilePatchInfo` object that contains information about the file patch.
 
     <h4>Inputs</h4>
@@ -59,8 +63,3 @@ Follow these steps to leverage the `/explain` command effectively:
     print(patch_info.start2)  # Output: 10
     print(patch_info.size2)  # Output: 7
     ```
-
-    --- 
-
-    - **User**: Chooses a complex algorithm within their code that they're struggling to understand.
-    - **Command**: `/explain`
