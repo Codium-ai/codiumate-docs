@@ -14,7 +14,7 @@ The Coding Agent is Codiumate's AI-powered assistant, designed to significantly 
 The Coding Agent can generate a detailed plan for implementing a coding task described by you. This plan outlines the steps needed to complete the task effectively:
 
 - **Review and Adjust**: Once the plan is generated, you have the opportunity to review and make any necessary adjustments to ensure it aligns with your project requirements.
-- **Code Completion Integration**: After finalizing the plan, it can be loaded into the code completion feature. As you follow the steps outlined in the plan, the code completion tool will assist you in writing the required code for each step. While the planning feature is available to all users, the integration with code completion is available for Teams and Enterprise users. [Learn more about code completion integration](../code-completion/index.md).
+- **Code Completion Integration**: After finalizing the plan, it can be loaded into the code completion feature. As you follow the steps outlined in the plan, the code completion tool will assist you in writing the required code for each step. While the planning feature is available to all users, the integration with code completion is available for Teams and Enterprise users. [Learn more about code completion integration](../code-completion/code-completion.md).
 
 #### Using the Task Implementation Plan in Coding-Agent
 

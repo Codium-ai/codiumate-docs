@@ -23,21 +23,21 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 !!! note "Available in"
     - [File Mode](../modes/file-mode.md)
 
-!!! example "Example"
-
-    ![test-suite](./assets/test-suite.gif){width=700, loading=lazy}
-
+!!! example "Example" 
+    ### Command: 
+    `/test-suite`
+    
     ---
-    - **User**: Chooses a code without tests
-    - **Command**: `/test-suite`    
+
+    ### Response: 
+    ![test-suite](./assets/test-suite.png){width=900, loading=lazy}
         
 
 !!! example "Example with General Instructions"
-
-    ![test-suite-instructions](./assets/test-suite-instructions.gif){width=700, loading=lazy}
-
+    ### Command: 
+    `/test-suite  use Arrange, Act, Assert style`
+    
     ---
-    - **User**: Chooses a code without tests
-    - **Command**: `/test-suite use Arrange, Act, Assert style`
-        
+    ### Response: 
+    ![test-suite-instructions](./assets/test-suite-instructions.png){width=900, loading=lazy}
 

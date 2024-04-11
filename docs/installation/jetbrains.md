@@ -12,13 +12,15 @@
 ## Android Studio support JCEF
 
 Codiumate Plugin uses JCEF (Java Chromium Embedded Framework) to create a webview component in the plugin's tool window.
-
 By default, most IntelliJ-based IDEs come with a boot runtime that includes JCEF.
-
 However, Android Studio (and some other versions of IntelliJ-based IDEs) utilize a boot runtime lacking JCEF, which prevents the plugin from loading in these environments.
 
+Also in some cases JCEF could persist but not been initialised.
+
 To address this issue: 
-  1. Navigate to the "Help" -> "Find Action..." and find(type) "Choose Boot Runtime for the IDE" dialog. Here, you can select a boot runtime equipped with JCEF.
-  2. Navigate to the "Help" -> "Find Action..." and find(type) "Registry". Here disable `ide.browser.jcef.sandbox.enable` option.
+
+  1. Navigate to the "Help" -> "Find Action..." and find(type) "Registry". Here disable `ide.browser.jcef.sandbox.enable` option.
+  2. Navigate to the "Help" -> "Find Action..." and find(type) "Choose Boot Runtime for the IDE" dialog. Here, you can select a boot runtime equipped with JCEF.
   3. Restart the IDE.
 
+If the issue persist, please open an issue in our [GitHub issue tracker](https://github.com/Codium-ai/codiumai-jetbrains-release/issues) or contact [support@codium.ai](mailto:support@codium.ai).
