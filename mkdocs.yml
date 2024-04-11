@@ -47,6 +47,7 @@ nav:
       - /changelog: 'chat/commands/update-changelog.md'
     - Coding-Agent: 'chat/coding-agent.md'
     - Threads: 'chat/threads.md'
+    - Chat with Images: 'chat/images.md'
   - Code Completion:
     - '': 'code-completion/code-completion.md'
 
@@ -98,6 +99,14 @@ plugins:
   - social
   - search
   - glightbox
+  - mkdocs-video:
+      css_style:
+        position: relative;
+        width: "70%"
+        height: "22.172vw"
+        margin-left: "auto"
+        margin-right: "auto"
+        display: "block"
 
 extra:
   generator: false

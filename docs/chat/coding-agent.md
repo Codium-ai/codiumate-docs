@@ -7,6 +7,9 @@ The Coding Agent is Codiumate's AI-powered assistant, designed to significantly 
 !!! info "VSCode only"
     Code Completion is currently available for VSCode users only.
 
+!!! info "Semi-Pro feature"
+    Coding-Agent is **available to all users**. However, loading the plan into Code-Completion is exclusively available to Teams and Enterprise.
+
 ## Tools and Features
 
 ### 1. Task Implementation Plan
@@ -22,8 +25,9 @@ The Task Implementation Plan streamlines your coding process by breaking down co
 
 - **Step 1: Select Your Context** - Begin by identifying all the files and code snippets relevant to your task. Add them as context by right-clicking on the code snippet and choosing "Add to Codiumate as context", or use the shortcut `Ctrl+Shift+E` on Windows, `Cmd+Shift+E` on Mac.
 
-- **Step 2: Describe Your Task** - clearly defining the task you need to accomplish. This could be anything from adding a new feature, fixing a bug, or optimizing existing code. Be as detailed as necessary to ensure Codiumate can generate an accurate plan.
+- **Step 2: Describe Your Task** - clearly defining the task you need to accomplish. This could be anything from adding a new feature, fixing a bug, or optimizing existing code. Be as detailed as necessary to ensure Codiumate can generate an accurate plan. You can add images to your description to improve the clarity of your task. Simply paste the image into your description and Codiumate will automatically include it in the generated plan. [Read more about Image Integration in Codiumate Chat](./images.md).
 
+    
 - **Step 3: Generate the Plan** - Press `Enter` after describing your task. Codiumate will process your input and generate a detailed plan outlining the steps required to complete your task.
 
 - **Step 4: Review the Plan** - Take a moment to review the generated plan. Ensure it aligns with your project's needs and covers all aspects of the task.
@@ -50,3 +54,9 @@ As you work on your code, the Coding Agent proactively offers improvements:
 - **Enhanced Productivity**: By providing a step-by-step plan for coding tasks, the Coding Agent helps streamline your development process, allowing you to focus on implementation.
 - **Improved Code Quality**: With real-time suggestions for code improvement and error resolution, your codebase becomes more robust and reliable with every save.
 - **Personalized Assistance**: The Coding Agent tailors its assistance to your specific coding tasks and preferences, making it a dynamic tool in your development arsenal.
+
+## Watch a Demo
+
+Watch this demo of the Coding Agent in action:
+
+![type:video](https://www.youtube.com/embed/9dH3pUzsbig?si=dSRMHNdeahUTtEdn)

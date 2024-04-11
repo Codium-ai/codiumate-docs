@@ -20,6 +20,9 @@ Free Chat Mode in Codiumate allows you to engage in conversations about coding-r
 3. **Continue the Conversation**: To delve deeper into the topic, click "continue this chat" on any response. This action initiates a [thread](../threads.md) where you can follow up with more questions or clarify your query, maintaining the history of the conversation.
 4. **Switch Modes If Needed**: If your question evolves to require specific code context, you can easily switch to File Mode or Workspace Mode to provide Codiumate with the necessary context for more tailored assistance.
 
+!!! tip "NEW!"
+    You can now paste an image to the chat box, and ask for any request regarding the image. This feature is using GPT-4 model, and is available for our Teams and Enterprise users only. [Learn more about Image Integration in Codiumate Chat](../images.md).
+
 ## Use Cases
 
 - **Understanding New Concepts**: When learning new programming languages or frameworks, ask about specific syntax, functionalities, or best practices.
