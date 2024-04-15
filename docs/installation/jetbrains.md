@@ -20,7 +20,7 @@ title: JetBrains IDEs
 Follow these steps to install the Cody plugin:
 
 1. Open the JetBrains editor on your machine.
-2. Open Settings (Mac: ++cmd+plus++ Windows: ++ctrl+alt+s++) and select Plugins
+2. Open Settings (Mac: ++cmd+comma++ Windows: ++ctrl+alt+s++) and select Plugins
 3. Type and search <b class="bold-green">**Codiumate**</b> plugin and click Install
 4. After installing, you may be prompted to reload the IDE to activate the plugin.
 5. Now the Codiumate icon appears in the sidebar.

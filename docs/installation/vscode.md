@@ -16,6 +16,9 @@ title: VSCode IDE
 
 ## Install Codiumate 
 
+Follow these steps to install the Cody plugin:
+
+
 1. Open VSCode IDE on your machine
 2. Click the Extensions icon in the Activity Bar on the side of VSCode, or use the keyboard shortcut ++cmd+shift+x++ (macOS) or ++ctrl+shift+x++ (Windows/Linux)
 3. Type <b class="bold-green">**Codiumate**</b> in the search bar and click the Install button.
