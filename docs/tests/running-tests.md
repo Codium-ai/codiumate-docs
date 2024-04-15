@@ -1,6 +1,6 @@
 # Running Tests in Codiumate (VSCode)
 
-!!! info
+!!! vscode "VSCode Only"
     This feature is available for VSCode users only.
 
 ## Overview
@@ -36,5 +36,3 @@ In such cases, Codiumate provides a summary of the issue without attempting auto
 ## Supported Languages
 
 This feature is available for a select range of languages supported by Codiumate in VSCode. [See the list of supported languages](./supported-languages.md#test-running-support).
-
-By leveraging Codiumate's testing features in VSCode, developers can ensure their test suites are not only comprehensive but also robust and error-free, streamlining the testing process and enhancing code quality.

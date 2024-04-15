@@ -1,13 +1,13 @@
-# Code Completion with Codiumate
+# :fontawesome-solid-code: Codiumate Code-Completion
 
 ## Overview
 
 Code Completion by Codiumate is a powerful tool designed to accelerate your coding process, reducing the need for repetitive tasks such as copying and pasting code snippets from the internet. By enabling Code Completion, Codiumate learns from your codebase and provides real-time suggestions that seamlessly integrate with your writing flow.
 
-!!! info "Pro feature"
+!!! pro "Pro feature"
     Code Completion is exclusively available for Teams and Enterprise users.
 
-!!! info "VSCode only"
+!!! vscode "VSCode only"
     Code Completion is currently available for VSCode users only.
 
 ## How It Works

@@ -1,4 +1,4 @@
-# Coding-Agent Mode
+# :fontawesome-solid-user-secret: Coding-Agent Mode
 
 ## Overview
 

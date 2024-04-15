@@ -1,4 +1,4 @@
-# Codiumate Chat
+# :fontawesome-solid-comment: Codiumate Chat 
 
 ## Overview 
 

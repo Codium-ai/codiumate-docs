@@ -15,7 +15,7 @@ To use the `/enhance` command, follow these steps:
 4. **Review and Apply**: Codiumate will generate a diff view with all enhancment suggestions. Review these suggestions and apply them directly to your code with ease. You have the option to accept all recommendations, apply them selectively, or modify them to better suit your needs before implementation.
 
 
-!!! note "Available in"
+!!! success "Available in"
     - [File Mode](../modes/file-mode.md)
 
 !!! example 

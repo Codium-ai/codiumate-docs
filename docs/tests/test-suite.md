@@ -3,10 +3,10 @@
 ## Overview
 Following the behavior analysis, Codiumate generates an initial list of tests based on the selected testing framework, which you can configure in the [configuration file](./configuration.md). Each test corresponds to a behavior identified in the preceding analysis and is tagged according to its type: happy path, edge case, other, or custom test.
 
-=== "VSCode"
+=== "VSCode :simple-visualstudiocode:"
     ![vscode-tests](https://codium.ai/images/codiumate/vscode-tests.png){ width=900 }
 
-=== "JetBrains"
+=== "JetBrains :simple-jetbrains:"
     ![jb-tests](https://codium.ai/images/codiumate/jb-tests.png){ width=900 }
 
 ## Refining Your Tests
@@ -23,7 +23,7 @@ Codiumate offers several options for refining and customizing the generated test
 ### Test History and Feedback
 Codiumate maintains a history of each test's modifications, accessible through "Previous" and "Next" buttons, allowing you to track and revisit changes over time.
 
-### Provide Feedback (VSCode only)
+### Provide Feedback (VSCode only :simple-visualstudiocode:)
 Inside each test, you'll find "Like" or "Dislike" buttons. Your feedback helps Codiumate learn and improve test generation accuracy.
 
 ## Finalizing Your Test Suite

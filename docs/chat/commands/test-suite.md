@@ -20,7 +20,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 
 **[Read more about Test Generation with Codiumate](../../tests/index.md)**
 
-!!! note "Available in"
+!!! success "Available in"
     - [File Mode](../modes/file-mode.md)
 
 !!! example "Example" 

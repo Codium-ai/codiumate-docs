@@ -9,7 +9,7 @@ You can do it by sending an email to [support@codium.ai](mailto:support@codium.a
 
 In order to opt out directly from our JetBrains plugin without emailing support, simply go to Plugin Settings and toggle the `Opt out of sharing my data with Codium AI` switch to on. This will opt you out immediately.
 
-!!! note "Please Notice"
+!!! jetbrains "Please Notice"
 
     Currently supported only on JetBrains, coming soon for VSCode.
 

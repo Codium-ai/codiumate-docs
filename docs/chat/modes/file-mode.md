@@ -1,4 +1,4 @@
-# File Mode
+# :fontawesome-solid-file-lines: File Mode
 
 ## Overview
 

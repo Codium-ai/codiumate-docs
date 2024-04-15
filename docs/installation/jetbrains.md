@@ -1,8 +1,8 @@
-# JetBrains IDEs
+# JetBrains IDEs :simple-jetbrains:
 
 ## Getting Started
 
-1. Install Codiumate Plugin via the Plugins tab in the IDE settings, or in [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai).
+1. Install Codiumate Plugin via the Plugins tab in the IDE settings, or in [JetBrains Marketplace :simple-jetbrains:](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai).
 
 2. [Login to Codiumate](./login.md).
 

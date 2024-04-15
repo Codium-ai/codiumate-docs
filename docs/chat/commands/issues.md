@@ -16,11 +16,11 @@ Follow these steps to efficiently utilize the `/issues` command:
 
 4. **Start a Thread for Fixes**: If you wish to receive suggestions for fixing the identified issues, you can initiate a [thread](../threads.md) directly from the issues list. In this interactive discussion, ask Codiumate for specific advice on how to address each concern. Codiumate will provide tailored suggestions for resolving the problems, enhancing the security and quality of your code.
 
-!!! note "Available in"
+!!! success "Available in"
     - [Workspace Mode](../modes/workspace-mode.md)
     - [File Changes Mode](../modes/file-mode.md#file-changes)
 
-!!! tip "Threads"
+!!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
 

@@ -20,7 +20,7 @@ To make the most out of the `/review` command, follow these steps:
 
 5. **Apply Feedback**: Use the insights and recommendations provided by Codiumate to refine your changes before finalizing your pull request or code integration.
 
-!!! note "Available in"
+!!! success "Available in"
     - [Workspace Mode](../modes/workspace-mode.md)
     - [File Changes Mode](../modes/file-mode.md#file-changes)
 

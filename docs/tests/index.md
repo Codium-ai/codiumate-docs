@@ -1,4 +1,4 @@
-# Codiumate Test Generation
+# :fontawesome-solid-list-check: Codiumate Test Generation 
 
 ## Overview
 Codiumate revolutionizes the way developers create, refine, and manage test suites for their projects. By harnessing advanced AI technology, Codiumate supports test generation across **all programming languages**, making it a versatile tool for developers worldwide. This feature is designed to enhance productivity, improve code quality, and streamline the testing process, ensuring your software meets the highest standards of reliability and performance.
@@ -31,7 +31,7 @@ Codiumate doesn't stop at generating tests. It offers an array of features for r
 
 **[Learn more about test suite refinement](./test-suite.md)**.
 
-### Running Tests (VSCode only)
+### Running Tests (VSCode only :simple-visualstudiocode:)
 Codiumate integrates directly with your development environment to offer a streamlined process for running tests. This feature, available for Python, JavaScript, and TypeScript, enables you to:
 
 - **Run and Auto-Fix Tests**: Automatically run generated tests with the option for Codiumate to attempt fixes on failing tests, enhancing efficiency by iteratively improving test success rates.

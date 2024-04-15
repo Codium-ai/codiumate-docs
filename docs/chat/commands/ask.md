@@ -16,11 +16,11 @@ To use the `/ask` command, follow these steps:
 
 4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
 
-!!! note "Available in"
+!!! success "Available in"
     - [File Mode](../modes/file-mode.md)
     - [Workspace Mode](../modes/workspace-mode.md)
 
-!!! tip "Threads"
+!!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
 <h3>File Mode Examples</h3>

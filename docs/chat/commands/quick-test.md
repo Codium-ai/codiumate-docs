@@ -17,10 +17,10 @@ To efficiently use the `/quick-test` command, follow these steps:
 5. **Finalize Your Test Suite**: Continue this interactive refinement until the test suite satisfactorily covers all desired behaviors and test scenarios. This step concludes the process, ensuring the final test suite is comprehensive and tailored to your specific testing goals.
 
 
-!!! note "Available in"
+!!! success "Available in"
     - [File Mode](../modes/file-mode.md)
 
-!!! tip "Threads"
+!!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
 !!! example "Example"

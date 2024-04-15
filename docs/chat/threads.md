@@ -1,4 +1,4 @@
-# Threads
+# :fontawesome-solid-comments: Threads
 
 ## Overview
 Threads are a powerful feature in Codiumate designed to enrich your interaction with the AI, allowing for deeper exploration, refinement, and expansion of responses to your commands. By engaging in a thread, you can fine-tune results, request additional information, or direct the conversation to more specific outcomes. This feature supports an iterative dialogue with Codiumate, making it possible to evolve initial responses into comprehensive solutions.
