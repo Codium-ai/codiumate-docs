@@ -1,19 +1,23 @@
+---
+title: Image Integration in Codiumate Chat
+---
+
 # :material-new-box: Image Integration in Codiumate Chat
 
-## Overview
+<h2>Overview</h2>
 
 Image Integration in Codiumate chat allows users to paste images directly into the chat. This feature is available in both [Free-Chat](./modes/free-chat.md) and [Coding-Agent](./coding-agent.md) modes, enhancing interactivity and providing valuable visual context to discussions.
 
 !!! pro "Semi-Pro feature"
     Using images in the chat is **available to all users** in Coding-Agent mode, and is exclusively available to Teams and Enterprise users in Free-Chat mode.
 
-## Using Image Integration
+<h2>Using Image Integration</h2>
 
 1. **Start a Chat**: Open a session in Free Chat or Coding Agent mode.
 2. **Upload an Image**: Paste your image into the chat window.
 3. **Engage**: Add your request - ask specific questions or request actions such as code generation or diagram interpretation.
 
-## Examples of Usage
+<h2>Examples of Usage</h2>
 
 ### Flowcharts and Schematics
 
@@ -24,7 +28,7 @@ Image Integration in Codiumate chat allows users to paste images directly into t
 
 - **Code Generation**: Upload an image of your UI design and ask for the corresponding React code, or any other framework code. The Coding Agent will generate the necessary code snippets to develop your design.
 
-## Benefits
+<h2>Benefits</h2>
 
 - **Interactive Sessions**: Enhances chat sessions by incorporating visual aids.
 - **Efficient Development**: Accelerates the process from concept to code through direct visual-to-code conversion.

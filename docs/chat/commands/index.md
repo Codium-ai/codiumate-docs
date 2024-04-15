@@ -1,3 +1,7 @@
+---
+title: Commands
+---
+
 # :fontawesome-solid-terminal: Commands
 
 [`/ask`](./ask.md)

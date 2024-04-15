@@ -1,9 +1,13 @@
+---
+title: Threads
+---
+
 # :fontawesome-solid-comments: Threads
 
-## Overview
+<h2>Overview</h2>
 Threads are a powerful feature in Codiumate designed to enrich your interaction with the AI, allowing for deeper exploration, refinement, and expansion of responses to your commands. By engaging in a thread, you can fine-tune results, request additional information, or direct the conversation to more specific outcomes. This feature supports an iterative dialogue with Codiumate, making it possible to evolve initial responses into comprehensive solutions.
 
-## Supported Commands
+<h2>Supported Commands</h2>
 Threads enhance the functionality of several Codiumate commands by allowing users to delve deeper into their initial inquiries. Below is a list of commands that support the threading option, each linked to its respective documentation page for detailed information:
 
 - [free chat](./modes/free-chat.md) : In free chat mode, each message can start a new thread.
@@ -21,13 +25,13 @@ Threads enhance the functionality of several Codiumate commands by allowing user
 After receiving an initial response to these commands, you'll see a "continue this chat" button. Clicking this button will lead you into a thread where you can request more detailed follow-ups, refine the outcome, or explore related topics further.
 
 
-## How to Use Threads
+<h2>How to Use Threads</h2>
 
 1. **Initiate a Command**: Start by executing a command as you normally would in the appropriate mode (Free Chat, File, or Workspace Mode).
 2. **Extend the Conversation**: At the end of the response, click the "continue this chat" button to open a thread. This action shifts the dialogue into a focused conversation window where you can build upon the initial response.
 3. **Refine and Expand**: Within the thread, you can ask for more details, request modifications, or explore additional scenarios related to your initial query. Codiumate will maintain the context of the ongoing conversation, providing tailored follow-up responses.
 
-## Examples
+<h2>Examples</h2>
 
 !!! example "Workspace Mode Issue Resolution"
     - **Initial Command**: Call the `/issues` command to identify potential issues in your codebase.
@@ -41,7 +45,7 @@ After receiving an initial response to these commands, you'll see a "continue th
     - **Initial Request**: Ask Codiumate to generate a class based on your specifications.
     - **In a Thread**: Further develop the class by requesting additional functions, changing coding styles, or integrating design patterns.
 
-## Benefits of Using Threads
+<h2>Benefits of Using Threads</h2>
 
 - **Detailed Exploration**: Threads allow for a granular examination of Codiumate's responses, enabling you to get precisely what you need.
 - **Iterative Improvement**: You can iteratively refine Codiumate's output, ensuring the final result closely matches your requirements.
