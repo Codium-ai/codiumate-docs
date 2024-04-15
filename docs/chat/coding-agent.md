@@ -1,6 +1,6 @@
 # :material-new-box: Codiumate's Coding-Agent
 
-## Overview
+<h2>Overview</h2>
 
 The Coding Agent is Codiumate's AI-powered assistant, designed to significantly enhance your coding efficiency and code quality. It combines advanced AI capabilities with an intuitive interface to provide real-time assistance and guidance throughout the coding process.
 
@@ -10,7 +10,7 @@ The Coding Agent is Codiumate's AI-powered assistant, designed to significantly 
 !!! pro "Semi-Pro feature"
     Coding-Agent is **available to all users**. However, loading the plan into Code-Completion is exclusively available to Teams and Enterprise.
 
-## Tools and Features
+<h2>Tools and Features</h2>
 
 ### 1. Task Implementation Plan
 
@@ -49,13 +49,13 @@ As you work on your code, the Coding Agent proactively offers improvements:
   - For mid-size changesets, the agent runs the `/improve` command to suggest enhancements that elevate your code's quality. [Explore `/improve`](./commands/improve.md).
 - **Customizable**: This feature can be enabled or disabled in the extension settings, allowing you to customize your experience and control when and how you receive coding suggestions. [Adjust your settings](../installation/extension-settings.md).
 
-## Benefits
+<h2>Benefits</h2>
 
 - **Enhanced Productivity**: By providing a step-by-step plan for coding tasks, the Coding Agent helps streamline your development process, allowing you to focus on implementation.
 - **Improved Code Quality**: With real-time suggestions for code improvement and error resolution, your codebase becomes more robust and reliable with every save.
 - **Personalized Assistance**: The Coding Agent tailors its assistance to your specific coding tasks and preferences, making it a dynamic tool in your development arsenal.
 
-## Watch a Demo
+<h2>Watch a Demo</h2>
 
 Watch this demo of the Coding Agent in action:
 
