@@ -1,6 +1,6 @@
 # Understanding Context in Test Generation
 
-!!! info
+!!! vscode "VSCode only"
     This feature is available for VSCode users only.
 
 ## Overview

@@ -2,7 +2,7 @@
 
 Customize your Codiumate experience with a range of settings designed to tailor the extension's functionality to your workflow. Whether you're using VSCode or JetBrains, you can adjust Codiumate to fit your development environment perfectly.
 
-=== "VSCode"
+=== "VSCode :simple-visualstudiocode:"
 
     ### 1. Enable / Disable Codiumate
     Toggle Codiumate's functionality on or off within your VSCode environment.

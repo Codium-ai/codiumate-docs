@@ -4,4 +4,4 @@ Welcome to the first step in enhancing your development workflow with Codiumate.
 
 ## Supported IDEs
 
-Codiumate is supported in all [JetBrains IDEs](./jetbrains.md) and [VSCode IDE](./vscode.md).
+Codiumate is supported in all [JetBrains IDEs](./jetbrains.md) and [VSCode IDE :simple-visualstudiocode:](./vscode.md).

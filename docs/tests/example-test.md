@@ -1,6 +1,6 @@
 # Using Example Tests for Better Test Generation
 
-!!! info
+!!! jetbrains "Please Notice"
     In JetBrains this field is called "Reference Test"
 
 ## Overview

@@ -18,8 +18,8 @@ Codiumate comes packed with features to enhance every step of your development c
 
 Codiumate seamlessly integrates with your favorite IDEs:
 
-- **VSCode**: [Download from VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
-- **JetBrains IDEs**: [Download from JetBrains Plugins](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
+- **VSCode :simple-visualstudiocode: :** [Download from VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
+- **JetBrains IDEs :simple-jetbrains: :** [Download from JetBrains Plugins](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
 
 Ensure your IDE is set up to harness the full capabilities of Codiumate.
 
@@ -38,8 +38,8 @@ Codiumate supports ALL programming languages for test generation, with enhanced 
 
 Encountered an issue? Help us improve Codiumate by reporting bugs:
 
-- [Report a bug in VSCode](https://github.com/Codium-ai/codiumai-vscode-release/issues)
-- [Report a bug in JetBrains](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)
+- [Report a bug in VSCode :simple-visualstudiocode:](https://github.com/Codium-ai/codiumai-vscode-release/issues)
+- [Report a bug in JetBrains :simple-jetbrains:](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)
 
 Your feedback is invaluable in making Codiumate the best coding companion for developers worldwide.
 

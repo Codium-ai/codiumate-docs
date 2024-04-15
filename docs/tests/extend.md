@@ -3,11 +3,11 @@
 ## Overview
 Enhancing and maintaining a comprehensive test suite is crucial for ensuring the quality and reliability of your code. Codiumate simplifies this process by enabling you to seamlessly add more tests to your existing test suite. Whether you've introduced new code, made changes to existing code, or aim to improve your code coverage, Codiumate's Extend Test Suite feature is designed to facilitate these enhancements with ease.
 
-!!! info "Pro feature"
+!!! pro "Pro feature"
     Extend Test Suite is exclusively available for Teams and Enterprise users.
 
 !!! warning "Supported Languages"
-    In JetBrains, all languages are supported. For VSCode, the extend test suite feature is supported only for Python, JavaScript, and TypeScript. [Read more about supported languages](./supported-languages.md#extend-test-suite).
+    In JetBrains, all languages are supported. In VSCode, the extend test suite feature is supported only for Python, JavaScript, and TypeScript. [Read more about supported languages](./supported-languages.md#extend-test-suite).
 
 ## How to Add More Tests
 
