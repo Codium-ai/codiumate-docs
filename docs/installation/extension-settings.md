@@ -2,7 +2,7 @@
 
 Customize your Codiumate experience with a range of settings designed to tailor the extension's functionality to your workflow. Whether you're using VSCode or JetBrains, you can adjust Codiumate to fit your development environment perfectly.
 
-=== "VSCode :simple-visualstudiocode:"
+=== ":simple-visualstudiocode: VSCode"
 
     ### 1. Enable / Disable Codiumate
     Toggle Codiumate's functionality on or off within your VSCode environment.
@@ -35,7 +35,7 @@ Customize your Codiumate experience with a range of settings designed to tailor 
     Adjust settings for automatically running `/improve` on mid-size changesets and `/issues` on small-size changesets, optimizing your use of Codiumate's AI assistance.
 
 
-=== "JetBrains"
+=== ":simple-jetbrains: JetBrains"
 
     ### 1. Enable / Disable Lens Button Display
     Control the visibility of lens buttons within your editor, tailoring how Codiumate integrates into your coding environment.

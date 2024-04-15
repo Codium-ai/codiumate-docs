@@ -1,3 +1,7 @@
+---
+title: Codiumate Code Completion
+---
+
 # :fontawesome-solid-code: Codiumate Code-Completion
 
 ## Overview

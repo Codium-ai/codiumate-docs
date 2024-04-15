@@ -1,3 +1,7 @@
+---
+title: Workspace Mode
+---
+
 # :fontawesome-solid-folder-tree: Workspace Mode
 
 <h2>Overview</h2>

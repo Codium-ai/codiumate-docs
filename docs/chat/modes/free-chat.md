@@ -1,3 +1,7 @@
+---
+title: Free Chat Mode
+---
+
 # :fontawesome-solid-comment-dots: Free Chat Mode
 
 <h2>Overview</h2>

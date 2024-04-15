@@ -1,3 +1,7 @@
+---
+title: Coding-Agent Mode
+---
+
 # :fontawesome-solid-user-secret: Coding-Agent Mode
 
 <h2>Overview</h2>

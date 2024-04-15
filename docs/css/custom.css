@@ -88,3 +88,8 @@
     -webkit-mask-image: var(--md-admonition-icon--threads);
             mask-image: var(--md-admonition-icon--threads);
   }
+
+.bold-green {
+  font-weight: bold;
+  color: #05E5AD;
+}

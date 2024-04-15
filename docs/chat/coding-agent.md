@@ -1,3 +1,8 @@
+---
+title: Codiumate's Coding-Agent
+---
+
+
 # :material-new-box: Codiumate's Coding-Agent
 
 <h2>Overview</h2>
@@ -23,7 +28,7 @@ The Coding Agent can generate a detailed plan for implementing a coding task des
 
 The Task Implementation Plan streamlines your coding process by breaking down complex tasks into manageable steps. Here's how to utilize this feature:
 
-- **Step 1: Select Your Context** - Begin by identifying all the files and code snippets relevant to your task. Add them as context by right-clicking on the code snippet and choosing "Add to Codiumate as context", or use the shortcut `Ctrl+Shift+E` on Windows, `Cmd+Shift+E` on Mac.
+- **Step 1: Select Your Context** - Begin by identifying all the files and code snippets relevant to your task. Add them as context by right-clicking on the code snippet and choosing "Add to Codiumate as context", or use the shortcut ++ctrl+shift+e++ on Windows, ++cmd+shift+e++ on Mac.
 
 - **Step 2: Describe Your Task** - clearly defining the task you need to accomplish. This could be anything from adding a new feature, fixing a bug, or optimizing existing code. Be as detailed as necessary to ensure Codiumate can generate an accurate plan. You can add images to your description to improve the clarity of your task. Simply paste the image into your description and Codiumate will automatically include it in the generated plan. [Read more about Image Integration in Codiumate Chat](./images.md).
 
@@ -38,7 +43,7 @@ The Task Implementation Plan streamlines your coding process by breaking down co
 
 - **Step 7: Implement the Plan** - Once satisfied with the plan, proceed to implement it step by step. Follow the outlined steps carefully to ensure thorough completion of your task.
 
-- **Step 8: Load Plan into Code Completion (Pro Feature 💎)** - For paying users, enhance your coding experience by loading the plan into the code completion tool. Click on "Load plan into auto-completer". As you work through the steps, the code completion will assist you, providing relevant suggestions to efficiently write your code according to the plan.
+- **Step 8: Load Plan into Code Completion (Pro Feature :fontawesome-solid-star:)** - For paying users, enhance your coding experience by loading the plan into the code completion tool. Click on "Load plan into auto-completer". As you work through the steps, the code completion will assist you, providing relevant suggestions to efficiently write your code according to the plan.
 
 ### 2. Continuous Code Improvement
 

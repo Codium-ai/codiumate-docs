@@ -6,7 +6,6 @@ nav:
     - 'installation/index.md'
     - VSCode: 'installation/vscode.md'
     - JetBrains: 'installation/jetbrains.md'
-    - Login: 'installation/login.md'
     - Subscription Plans: 'installation/plans.md'
     - OptOut: 'installation/opt-out.md'
     - Extension Setting: 'installation/extension-settings.md'
@@ -143,6 +142,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.mark
   - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.keys
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

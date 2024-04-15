@@ -1,13 +1,50 @@
-# JetBrains IDEs :simple-jetbrains:
+---
+title: JetBrains IDEs
+---
+
+# :simple-jetbrains: JetBrains IDEs 
 
 ## Getting Started
 
-1. Install Codiumate Plugin via the Plugins tab in the IDE settings, or in [JetBrains Marketplace :simple-jetbrains:](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai).
 
-2. [Login to Codiumate](./login.md).
+<div class="grid cards" markdown>
 
-3. Start using the plugin 🥳.
+- :simple-jetbrains: __JetBrains__ 
+    
+    [:octicons-arrow-right-24: Install Codiumate plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
 
+</div>
+
+## Install Codiumate 
+
+Follow these steps to install the Cody plugin:
+
+1. Open the JetBrains editor on your machine.
+2. Open Settings (Mac: ++cmd+plus++ Windows: ++ctrl+alt+s++) and select Plugins
+3. Type and search <b class="bold-green">**Codiumate**</b> plugin and click Install
+4. After installing, you may be prompted to reload the IDE to activate the plugin.
+5. Now the Codiumate icon appears in the sidebar.
+
+## Login methods
+
+There are three login methods:
+
+1. **Login with Google**: Quick access using your Google account.
+2. **Login with GitHub**: Utilize your GitHub account for an easy login experience.
+3. **Login with Email + Verification Code**: For those who prefer using their email, enter your email address, receive a verification code, and proceed with the login.
+
+## Login to Teams Plan
+
+Once you receive your invitation email from your team administrator and have installed the extension, please log in **using the email address to which the invitation was sent**. Choose one of the [login methods](#login-methods) to complete your login.
+
+
+## Login to Enterprise Plan
+
+For Enterprise users, please login with your work email with the registered domain. You will be automatically connect to youe organization workspace. Choose one of the [login methods](#login-methods) to complete your login.
+
+If your organization has Single Sign-On (SSO) configured, you may also use this method for an even smoother login process.
+
+---
 
 ## Android Studio support JCEF
 

@@ -1,3 +1,7 @@
+---
+title: Image Integration in Codiumate Chat
+---
+
 # :material-new-box: Image Integration in Codiumate Chat
 
 <h2>Overview</h2>

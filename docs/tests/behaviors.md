@@ -10,12 +10,12 @@ Codiumate categorizes identified behaviors into three main types, each represent
 - **Edge Case**: Behaviors that occur at the boundaries of your code's logic, handling unusual or extreme inputs or scenarios that might not be immediately obvious.
 - **Other**: A catch-all category that encompasses behaviors not fitting neatly into the first two categories, including less common use cases or those requiring special consideration.
 
-    === "VSCode :simple-visualstudiocode:"
+    === ":simple-visualstudiocode: VSCode"
         <figure markdown="1">
         ![vscode-behaviors](https://codium.ai/images/codiumate/vscode-behaviors.png){ width=900 }
         </figure>
 
-    === "JetBrains :simple-jetbrains:"
+    === ":simple-jetbrains: JetBrains"
         <figure markdown="1">
         ![jb-behaviors](https://codium.ai/images/codiumate/jb-behaviors.png){ width=900 }
         </figure>
@@ -26,12 +26,12 @@ Each identified behavior can be expanded to reveal its sub behaviors, which are 
 1. **Click the Arrow**: Next to each behavior, an arrow icon allows you to expand the behavior and view its sub behaviors.
 2. **Review Sub Behaviors**: Each sub behavior represents a more explicit use case of the parent behavior, providing insight into detailed operational nuances of your code.
 
-    === "VSCode :simple-visualstudiocode:"
+    === ":simple-visualstudiocode: VSCode"
         <figure markdown="1">
         ![vscode-behaviors](https://codium.ai/images/codiumate/vscode-sub-behaviors.png){ width=900 }
         </figure>
 
-    === "JetBrains :simple-jetbrains:"
+    === ":simple-jetbrains: JetBrains"
         <figure markdown="1">
         ![jb-behaviors](https://codium.ai/images/codiumate/jb-sub-behaviors.png){ width=900 }
         </figure>

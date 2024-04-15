@@ -1,3 +1,7 @@
+---
+title: File Mode
+---
+
 # :fontawesome-solid-file-lines: File Mode
 
 <h2>Overview</h2>
@@ -54,7 +58,7 @@ This feature allows you to enrich the context for your Codiumate interactions by
 
 1. **Navigate to the Code**: In your IDE, go to the file that contains the code you want to add as additional context.
 2. **Select the Code**: Highlight the specific lines or components that you wish to add.
-3. **Right-Click to Add Context**: Right-click on the selected code and choose "Add to Codiumate as context" from the context menu.
+3. **Add Context**: Right-click on the selected code and choose "Add to Codiumate as context" from the context menu, or use the shortcut ++ctrl+shift+e++ on Windows, ++cmd+shift+e++ on Mac.
 4. **Confirm the Addition**: The selected code is added as a tag to the chat panel, visually confirming that your context has been expanded.
 
 ### Utilizing Additional Context
