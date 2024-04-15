@@ -14,7 +14,7 @@ Leverage the `/find-on-github` command by following these steps:
 
 4. **Review the Results**: Codiumate provides a list of links to GitHub repositories that contain similar code. These links are directly accessible from the chat interface, allowing you to quickly explore the findings.
 
-!!! note "Available in"
+!!! success "Available in"
     - [File Mode](../modes/file-mode.md)
 
 !!! example

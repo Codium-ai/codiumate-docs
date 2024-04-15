@@ -1,4 +1,4 @@
-# Free Chat Mode
+# :fontawesome-solid-comment-dots: Free Chat Mode
 
 ## Overview
 Free Chat Mode in Codiumate allows you to engage in conversations about coding-related topics without tying the discussion to specific code files or changesets. This mode is ideal for general coding questions, advice, brainstorming sessions, or any coding-related inquiry where your code doesn't serve as the context.

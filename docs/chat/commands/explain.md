@@ -19,10 +19,10 @@ Follow these steps to leverage the `/explain` command effectively:
     - The code flow, outlining the execution path within the code.
     - Example of usage, showing how the code can be used in real-world scenarios.
 
-!!! note "Available in"
+!!! success "Available in"
     - [File Mode](../modes/file-mode.md)
 
-!!! tip "Threads"
+!!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
 

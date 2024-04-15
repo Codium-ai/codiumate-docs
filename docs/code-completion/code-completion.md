@@ -1,4 +1,4 @@
-# Code Completion with Codiumate
+# :fontawesome-solid-code: Codiumate Code-Completion
 
 ## Overview
 

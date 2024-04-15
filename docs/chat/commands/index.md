@@ -1,4 +1,4 @@
-# Commands
+# :fontawesome-solid-terminal: Commands
 
 [`/ask`](./ask.md)
 Enables developers to query about specific aspects of their code, offering immediate assistance with code improvement, debugging, and documentation.

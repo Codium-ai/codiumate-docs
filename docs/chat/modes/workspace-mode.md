@@ -1,9 +1,9 @@
-# Workspace Mode 💎
+# :fontawesome-solid-folder-tree: Workspace Mode
 
 ## Overview
 Workspace Mode in Codiumate is designed to facilitate work with code changes across your entire project. This mode enables you to focus on different types of changes within your workspace, providing a broad view that's essential for managing version control and preparing for commits or pull requests. 
 
-!!! info "Pro feature"
+!!! pro "Pro feature"
     Workspace Mode is exclusively available for Teams and Enterprise users, reflecting its utility for collaborative and advanced coding endeavors.
 
 ## Focus Options
