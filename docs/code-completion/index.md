@@ -1,5 +1,6 @@
 ---
 title: Codiumate Code Completion
+icon: fontawesome/solid/code
 ---
 
 # :fontawesome-solid-code: Codiumate Code-Completion

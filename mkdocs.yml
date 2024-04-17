@@ -44,11 +44,11 @@ nav:
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
-    - NEW! Coding-Agent: 'chat/coding-agent.md'
+    - Coding-Agent: 'chat/coding-agent.md'
     - Threads: 'chat/threads.md'
-    - NEW! Chat with Images: 'chat/images.md'
+    - Images: 'chat/images.md'
   - Code Completion:
-    - '': 'code-completion/code-completion.md'
+    - 'code-completion/index.md'
 
 theme:
   logo: assets/logo.svg
@@ -98,6 +98,7 @@ plugins:
   - social
   - search
   - glightbox
+  - typeset
   - mkdocs-video:
       css_style:
         position: relative;
@@ -106,6 +107,19 @@ plugins:
         margin-left: "auto"
         margin-right: "auto"
         display: "block"
+    # CI=1 mkdocs build
+  - group:
+      enabled: !ENV CI
+      plugins:
+        - git-revision-date-localized
+        - git-committers
+
+  # INSIDERS=1 mkdocs build
+  - group:
+      enabled: !ENV INSIDERS
+      plugins:
+        - optimize
+        - privacy
 
 extra:
   generator: false

@@ -1,5 +1,6 @@
 ---
 title: Codiumate Chat
+icon: fontawesome/solid/comment
 ---
 
 

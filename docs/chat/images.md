@@ -1,5 +1,6 @@
 ---
 title: Image Integration in Codiumate Chat
+status: new
 ---
 
 # :material-new-box: Image Integration in Codiumate Chat
