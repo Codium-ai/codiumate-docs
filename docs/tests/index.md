@@ -1,5 +1,6 @@
 ---
 title: Codiumate Test Generation
+icon: fontawesome/solid/list-check
 ---
 
 # :fontawesome-solid-list-check: Codiumate Test Generation 

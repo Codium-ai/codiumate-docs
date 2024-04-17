@@ -1,4 +1,9 @@
-# Welcome to Codiumate 
+---
+title: Welcome
+icon: material/heart
+---
+
+# Welcome 
 
 <h3 class="bold-green" markdown>
 **Code, Test, and Review with Confidence - Your AI Mate by CodiumAI**

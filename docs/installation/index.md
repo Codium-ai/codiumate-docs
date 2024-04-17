@@ -1,5 +1,6 @@
 ---
 title: Installing Codiumate
+icon: fontawesome/solid/download
 ---
 
 # :fontawesome-solid-download: Installing Codiumate
