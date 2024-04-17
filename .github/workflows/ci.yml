@@ -29,4 +29,5 @@ jobs:
       - run: pip install "mkdocs-material[imaging]"
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-video
+      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
