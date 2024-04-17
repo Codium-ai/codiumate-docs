@@ -111,8 +111,6 @@ plugins:
   - group:
       enabled: !ENV CI
       plugins:
-        - git-revision-date-localized
-        - git-committers
         - typeset
 
   # INSIDERS=1 mkdocs build
