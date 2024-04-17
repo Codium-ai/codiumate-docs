@@ -108,19 +108,6 @@ plugins:
         margin-right: "auto"
         display: "block"
 
-  - group:
-      enabled: !ENV CI
-      plugins:
-        - typeset
-
-  # INSIDERS=1 mkdocs build
-  - group:
-      enabled: !ENV INSIDERS
-      plugins:
-        - optimize
-        - privacy
-        - typeset
-
 extra:
   generator: false
   analytics:

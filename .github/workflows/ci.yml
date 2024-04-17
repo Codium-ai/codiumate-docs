@@ -18,7 +18,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - run: echo "token = " >> ${GH_TOKEN}
       - uses: actions/cache@v4
         with:
@@ -30,5 +29,4 @@ jobs:
       - run: pip install "mkdocs-material[imaging]"
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-video
-      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
