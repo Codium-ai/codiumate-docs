@@ -1,9 +1,14 @@
 ---
 title: Welcome
 icon: material/heart
+hide:
+  - toc
+  - path
+  - navigation
 ---
 
-# Welcome 
+
+# Welcome to Codiumate
 
 <h3 class="bold-green" markdown>
 **Code, Test, and Review with Confidence - Your AI Mate by CodiumAI**
