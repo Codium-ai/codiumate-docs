@@ -1,10 +1,10 @@
 # `/explain`
 
-<h2>Description</h2>
+##Description
 
 The `/explain` command is designed to provide detailed explanations and insights of your codebase. It is useful for understanding complex or unfamiliar code, identifying potential issues, and gaining a deeper understanding of the logic behind your project. This includes a detailed description of the selected code, inputs and outputs, code flow, and examples of usage. 
 
-<h2>How to Use</h2>
+##How to Use
 Follow these steps to leverage the `/explain` command effectively:
 
 1. **Select File Mode**: The `/explain` command is exclusively available in File Mode, focusing on providing detailed explanations for specific code segments within a single file.
@@ -20,7 +20,7 @@ Follow these steps to leverage the `/explain` command effectively:
     - Example of usage, showing how the code can be used in real-world scenarios.
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

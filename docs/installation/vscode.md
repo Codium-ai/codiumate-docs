@@ -40,6 +40,6 @@ Once you receive your invitation email from your team administrator and have ins
 
 ## Login to Enterprise Plan
 
-For Enterprise users, please login with your work email with the registered domain. You will be automatically connect to youe organization workspace. Choose one of the [login methods](#login-methods) to complete your login.
+For Enterprise users, please login with your work email with the registered domain. You will be automatically connect to your organization workspace. Choose one of the [login methods](#login-methods) to complete your login.
 
 If your organization has Single Sign-On (SSO) configured, you may also use this method for an even smoother login process.

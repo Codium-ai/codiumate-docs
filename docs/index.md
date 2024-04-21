@@ -41,7 +41,7 @@ Codiumate comes packed with features to enhance every step of your development c
 | **[Iterative Test Generation](./tests/index.md)**  | Automatically generate comprehensive test suites tailored to your codebase, ensuring high code quality and reliability.  |
 | **[Intelligent Code Assistance](./chat/modes/file-mode.md)** | Receive real-time suggestions and solutions for coding queries, documentation, debugging, and more. |
 | **[Efficient PR Reviews](./chat/modes/workspace-mode.md)** | Simplify your pull request review process with AI-powered insights, highlighting potential issues and improvements. |
-| **[Smart Code Completion](./code-completion/code-completion.md)** | Enhance your coding efficiency with AI-driven suggestions that anticipate your needs and complete code faster. |
+| **[Smart Code Completion](./code-completion/index.md)** | Enhance your coding efficiency with AI-driven suggestions that anticipate your needs and complete code faster. |
 | **[Coding-Agent](./chat/coding-agent.md)** | Empower your coding process with an AI-powered assistant that generates detailed task implementation plans and provides you with step-by-step guidance and actionable insights to efficiently tackle coding tasks. |
 
 

@@ -1,9 +1,9 @@
 # `/enhance`
 
-<h2>Description</h2>
+##Description
 Use `/enhance` command to get suggestions for code enhancements. Codiumate analyzes your code and provides recommendations to enhance the quality, maintainability, and performance of your code. This includes improving code readability, adhering to best practices, beautifying code, adding type hints, and enhancing documentation. 
 
-<h2>How to Use</h2>
+##How to Use
 To use the `/enhance` command, follow these steps:
 
 1. **Select File Mode**: The `/enhance` command is available in File Mode, tailored for targeted code enhancement within a specific file. 
@@ -16,7 +16,7 @@ To use the `/enhance` command, follow these steps:
 
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
 
 !!! example 
     ### Commands:

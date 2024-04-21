@@ -1,9 +1,9 @@
 # `/quick-test`
 
-<h2>Description</h2>
+##Description
 The `/quick-test` command initiates an iterative and interactive mode for generating test suites for your code. Unlike the comprehensive approach of the `/test-suite` command, `/quick-test` focuses on quickly producing a basic set of tests covering key behaviors. Users can fine-tune the generated tests through natural language chatting in a [thread](../threads.md), allowing for precise customization until the desired test suite is achieved.
 
-<h2>How to Use</h2>
+##How to Use
 To efficiently use the `/quick-test` command, follow these steps:
 
 1. **Select File Mode**: Available exclusively in File Mode, `/quick-test` is designed to provide rapid test generation for specific segments of code within a single file.
@@ -18,7 +18,7 @@ To efficiently use the `/quick-test` command, follow these steps:
 
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

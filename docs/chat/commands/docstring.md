@@ -1,9 +1,9 @@
 # `/docstring`
 
-<h2>Description</h2>
+##Description
 Automatically generate or improve docstrings for your code, enhancing documentation quality and maintainability. The `/docstring` command is designed to aid in creating comprehensive, clear, and consistent docstrings for functions, classes, and modules, following best documentation practices.
 
-<h2>How to Use</h2>
+##How to Use
 To use the `/docstring` command, follow these steps:
 
 1. **Select Your Mode**: Choose the appropriate context for adding or improving docstrings. Codiumate supports this command in two modes:
@@ -17,8 +17,8 @@ To use the `/docstring` command, follow these steps:
 4. **Review and Apply**: Evaluate the suggested docstring provided by Codiumate. You can directly apply the changes with a single click or edit the suggestion to better fit your requirements before applying.
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
-    - [Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

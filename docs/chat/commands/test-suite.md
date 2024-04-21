@@ -1,9 +1,9 @@
 # `/test-suite`
 
-<h2>Description</h2>
+##Description
 The `/test-suite` command streamlines the process of creating comprehensive test suites for your code. By simply selecting the code segment you wish to test, Codiumate automatically generates a robust test suite within its advanced panel. 
 
-<h2>How to Use</h2>
+##How to Use
 Implementing the `/test-suite` command involves a few straightforward steps:
 
 1. **Select File Mode**: The `/test-suite` command is designed to operate within File Mode, allowing you to generate test suites for specific code segments or entire files.
@@ -21,7 +21,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 **[Read more about Test Generation with Codiumate](../../tests/index.md)**
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
 
 !!! example "Example" 
     ### Command: 

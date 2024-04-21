@@ -1,9 +1,9 @@
 # `/ask` 
 
-<h2>Description</h2>
+##Description
 Ask open questions about your code, useful to get a better understanding of the code and asking very detailed questions.
 
-<h2>How to Use</h2>
+##How to Use
 To use the `/ask` command, follow these steps:
 
 1. **Select Your Mode**: First, determine the context in which you need assistance. Codiumate supports two main modes for this command:
@@ -17,8 +17,8 @@ To use the `/ask` command, follow these steps:
 4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
-    - [Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

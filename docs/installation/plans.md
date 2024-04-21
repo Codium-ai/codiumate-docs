@@ -4,11 +4,31 @@ Codiumate offers three distinct subscription plans to cater to the diverse needs
 
 ## Available Plans
 
-- **Free**: The Free plan is ideal for individual developers or small teams just getting started with Codiumate. It offers basic features that improve coding efficiency and test generation.
+<div class="grid cards" markdown>
 
-- **Teams**: Tailored for development teams looking for advanced features and collaborative tools to boost productivity and code quality. The Teams plan includes everything in the Free plan, plus additional pro features for a more comprehensive development experience.
+-   :fontawesome-solid-user: __Free__
 
-- **Enterprise**: Designed for large organizations requiring enterprise-level support, security, and customization. This plan includes all the benefits of the Teams plan, with additional features and services to meet the needs of enterprise projects.
+    ---
+
+    The Free plan is ideal for individual developers or small teams just getting started with Codiumate. It offers basic features that improve coding efficiency and test generation.
+
+
+-   :fontawesome-solid-users: __Teams__
+
+    ---
+
+    Tailored for development teams looking for advanced features and collaborative tools to boost productivity and code quality. The Teams plan includes everything in the Free plan, plus additional pro features for a more comprehensive development experience.
+
+
+-   :fontawesome-solid-users-between-lines: __Enterprise__
+
+    ---
+
+     Designed for large organizations requiring enterprise-level support, security, and customization. This plan includes all the benefits of the Teams plan, with additional features and services to meet the needs of enterprise projects.
+
+
+</div>
+
 
 [Learn more about our plans and choose the one that fits your needs](https://www.codium.ai/pricing/).
 

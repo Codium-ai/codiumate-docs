@@ -1,9 +1,9 @@
 # `/recap`
 
-<h2>Description</h2>
+##Description
 The `/recap` command in Codiumate is designed for developers seeking a comprehensive overview of modifications within a selected changeset, be it file, local, staged, or committed changes. This command meticulously lists all changes, organizing them by modified file. Each change is annotated with a tag indicating the type of modification, a link to the affected code, and a detailed description of what was altered. This command is invaluable for code review, documentation, and ensuring a clear understanding of the work done or the changes made before moving forward with commits, merges, or deployments.
 
-<h2>How to Use</h2>
+##How to Use
 To effectively utilize the `/recap` command, adhere to the following steps:
 
 1. **Select Your Changeset**: Identify the scope of your recap by selecting file, local, staged, or committed changes. This focus directs Codiumate to compile a detailed account of modifications relevant to your current review or documentation needs.
@@ -18,8 +18,8 @@ To effectively utilize the `/recap` command, adhere to the following steps:
     - **Description of Changes**: A clear, concise description of what was changed in the code, providing context and understanding at a glance.
 
 !!! success "Available in"
-    - [Workspace Mode](../modes/workspace-mode.md)
-    - [File Changes Mode](../modes/file-mode.md#file-changes)
+    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-pen: File Changes Mode](../modes/file-mode.md#file-changes)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

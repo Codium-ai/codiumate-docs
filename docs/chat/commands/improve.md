@@ -1,9 +1,9 @@
 # `/improve`
 
-<h2>Description</h2>
+##Description
 The `/improve` command is designed to delve into the deeper aspects of your code, providing insights and recommendations for improving code quality, maintainability, and performance. Codiumate analyzes your codebase to identify areas that require attention or enhancement, such as otential issues such as bugs, security vulnerabilities, performance bottlenecks, and readability concerns. Unlike the `/enhance` command, `/improve` focuses on more substantial improvements, aiming to bolster the overall integrity and efficiency of your codebase.
 
-<h2>How to Use</h2>
+##How to Use
 To utilize the `/improve` command, follow these instructions:
 
 1. **Select Your Mode**: This command is versatile, available in both File and Workspace Modes. Choose the mode that best fits the scope of improvements you're aiming for:
@@ -19,8 +19,8 @@ To utilize the `/improve` command, follow these instructions:
 5. **Refactor and Apply**: After reviewing the suggestions and their associated diff views, click the "refactor" button to apply the chosen improvements directly. This streamlined process allows you to efficiently enhance your code's quality with minimal effort.
 
 !!! success "Available in"
-    - [File Mode](../modes/file-mode.md)
-    - [Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
 
 !!! example "File mode example"
     ### Command:

@@ -93,3 +93,7 @@
   font-weight: bold;
   color: #05E5AD;
 }
+
+.md-typeset .grid {
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}

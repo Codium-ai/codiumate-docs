@@ -1,9 +1,9 @@
 # `/review`
 
-<h2>Description</h2>
+##Description
 The `/review` command in Codiumate is designed to facilitate the code review process by providing a comprehensive analysis of selected changesets (local, staged, or committed changes). This automated review includes an assessment of the main theme, labels, and summary of the changes, along with evaluations on the addition of relevant tests, effort estimation for the review process, and a final score. Additionally, it offers general suggestions for improvement, notes on security concerns, and feedback on the documentation. This command is invaluable for streamlining reviews and ensuring high-quality contributions.
 
-<h2>How to Use</h2>
+##How to Use
 To make the most out of the `/review` command, follow these steps:
 
 1. **Select Your Changeset**: Identify the scope by selecting file, local, staged, or committed changes. 
@@ -21,8 +21,8 @@ To make the most out of the `/review` command, follow these steps:
 5. **Apply Feedback**: Use the insights and recommendations provided by Codiumate to refine your changes before finalizing your pull request or code integration.
 
 !!! success "Available in"
-    - [Workspace Mode](../modes/workspace-mode.md)
-    - [File Changes Mode](../modes/file-mode.md#file-changes)
+    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-pen: File Changes Mode](../modes/file-mode.md#file-changes)
 
 !!! example "Example - Committed changes"
 

@@ -66,7 +66,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    - toc.integrate
     - content.tabs.link
   language: en
   language: en
@@ -148,7 +147,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       title: On this page
       toc_depth: 2
