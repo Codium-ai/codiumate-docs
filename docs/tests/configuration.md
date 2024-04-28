@@ -42,8 +42,8 @@ To preserve your configurations and ensure consistency across your project or te
     - **Description**: Specifies the testing framework to be used, affecting both the content of the generated tests and the command used to run them.
     - **Possible Values**:
         - **Python**: `Pytest`, `Unittest`
-        - **JavaScript / TypeScript**: `Jest`, `Mocha`, `Vitest`, `Karma`, `Jasmine`, `QUnit`, `React Testing Library`
-    - **Note**: Test execution in JavaScript / TypeScript is currently supported only for `Jest`, `Mocha`, `Vitest`, and `React Testing Library`.
+        - **JavaScript / TypeScript**: `Jest`, `Mocha`, `Karma`, `Jasmine`, `QUnit`, `React Testing Library`
+    - **Note**: Test execution in JavaScript / TypeScript is currently supported only for `Jest`, `Mocha`, and `React Testing Library`.
 
 - **`utility_library`**:
     - **Description**: An additional JavaScript utility library used for testing, if any. 
