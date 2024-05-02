@@ -44,6 +44,7 @@ nav:
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
+    - Add Context: 'chat/add-context.md'
     - Coding-Agent: 'chat/coding-agent.md'
     - Threads: 'chat/threads.md'
     - Images: 'chat/images.md'
