@@ -28,3 +28,20 @@ Once you've added more context, proceed with choosing your primary focus and cal
 
 Remember, the added context persists through your session, enriching every command you execute afterwards with a deeper understanding of your project's structure and logic. You can remove it by clicking the X button on every code snuppet tag.
 
+## This is a step-by-step guide for adding a code snippet as additional context to the chat
+
+1. Choose the code you want to add a context to the chat
+
+    ![](https://glitter-screenshots-production.s3.amazonaws.com/exports/62f65c53-5437-4685-9d0a-baa4c5b420d5/0/2dcb16f7-8d1c-4c9c-873a-bc946e15b331.png)
+
+2. Right-click on it
+
+    ![](https://glitter-screenshots-production.s3.amazonaws.com/exports/62f65c53-5437-4685-9d0a-baa4c5b420d5/0/68bf953d-1b2b-45c2-bcd9-fcf6888ed9c0.png)
+
+3. Click "Add to Codiumate as context"
+
+    ![](https://glitter-screenshots-production.s3.amazonaws.com/exports/62f65c53-5437-4685-9d0a-baa4c5b420d5/0/2e3607b1-2e46-4c19-8a3c-93c43531fb41.png)
+
+4. Now it is added to the bottom of the chat and sent to the model as context
+
+    ![](https://glitter-screenshots-production.s3.amazonaws.com/exports/62f65c53-5437-4685-9d0a-baa4c5b420d5/0/cd9cd7af-1934-4c8d-8a76-1c2536a8b145.png)
