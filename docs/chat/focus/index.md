@@ -1,3 +1,8 @@
+---
+title: Introduction to Focus Selection
+status: new
+---
+
 # Introduction to Focus Selection
 
 Codiumate offers a versatile range of focuses to address various coding needs and scenarios, thereby enhancing your development experience through tailored support. Each focus is meticulously designed to harness Codiumate's capabilities, targeting specific aspects of your coding projects—from general coding queries to in-depth code analysis and documentation. Familiarizing yourself with these focuses will enable you to leverage Codiumate more effectively, ensuring you receive the most pertinent assistance precisely when you need it.
