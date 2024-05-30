@@ -30,6 +30,9 @@ Different context options include:
     - **Action**: Click on the "Add a file or a folder" option in the `+` button, or by typing `@` in the chat. Select "Entire Project" to index and include your entire project as context.
     - **Behavior**: This option functions similarly to the Folder option, providing comprehensive context.
 
+5. **Add an Image**
+    You can add an image as a context to your request. [Read more about adding images to the chat.](./images.md)
+
 ## Utilizing Additional Context
 
 After adding context, proceed with selecting your primary focus and invoking any command. Codiumate automatically considers the added context, enhancing the accuracy and relevance of the responses.

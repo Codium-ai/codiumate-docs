@@ -6,7 +6,6 @@ output:
     toc_float:
       collapsed: false
     toc_depth: 1
-
 ---
 <style>
 .md-sidebar--secondary .md-nav__list .md-nav__list {display: none}
