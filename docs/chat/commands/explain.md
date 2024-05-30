@@ -7,9 +7,9 @@ The `/explain` command is designed to provide detailed explanations and insights
 ##How to Use
 Follow these steps to leverage the `/explain` command effectively:
 
-1. **Select File Mode**: The `/explain` command is exclusively available in File Mode, focusing on providing detailed explanations for specific code segments within a single file.
+1. **Select Current File Focus**: The `/explain` command is exclusively available in Current File Focus, focusing on providing detailed explanations for specific code segments within a single file.
 
-2. **Select Your Focus**: Identify the piece of code you need elucidation on. This selection ensures that Codiumate tailors the explanation to the relevant code segment, offering precise and actionable insights.
+2. **Select Your Secondary Focus**: Identify the piece of code you need elucidation on. This selection ensures that Codiumate tailors the explanation to the relevant code segment, offering precise and actionable insights.
 
 3. **Initiate the Command**: Type `/explain` into the chat interface after selecting your code. Codiumate will then process the selected segment and generate a structured explanation.
 
@@ -20,7 +20,7 @@ Follow these steps to leverage the `/explain` command effectively:
     - Example of usage, showing how the code can be used in real-world scenarios.
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

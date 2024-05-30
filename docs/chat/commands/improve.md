@@ -6,9 +6,9 @@ The `/improve` command is designed to delve into the deeper aspects of your code
 ##How to Use
 To utilize the `/improve` command, follow these instructions:
 
-1. **Select Your Mode**: This command is versatile, available in both File and Workspace Modes. Choose the mode that best fits the scope of improvements you're aiming for:
-    - **File Mode**: Targets specific files for detailed code improvement suggestions.
-    - **Workspace Mode**: Expands the improvement suggestions across multiple files within your changeset, ideal for pre Pull Request enhancements.
+1. **Select Your Mode**: This command is versatile, available in all types of focuses. Choose the focus that best fits the scope of improvements you're aiming for:
+    - **Current File Focus**: Targets specific files for detailed code improvement suggestions.
+    - **Git-Diff Focus**: Expands the improvement suggestions across multiple files within your changeset, ideal for pre Pull Request enhancements.
 
 2. **Select Your Focus**: Pinpoint the code segments or files you're looking to improve. Your selection will guide Codiumate in generating precise and actionable suggestions.
 
@@ -19,10 +19,10 @@ To utilize the `/improve` command, follow these instructions:
 5. **Refactor and Apply**: After reviewing the suggestions and their associated diff views, click the "refactor" button to apply the chosen improvements directly. This streamlined process allows you to efficiently enhance your code's quality with minimal effort.
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../focus/git-diff.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
-!!! example "File mode example"
+!!! example "Current File Focus example"
     ### Command:
     `/improve`
 
@@ -34,7 +34,7 @@ To utilize the `/improve` command, follow these instructions:
         
     
 
-!!! example "Workspace Mode Example"
+!!! example "Git-Diff Focus Example"
     ### Command:
     `/improve`
 

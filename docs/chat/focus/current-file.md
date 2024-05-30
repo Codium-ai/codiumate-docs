@@ -25,7 +25,7 @@ Focus on Current File in Codiumate enhances your coding experience by concentrat
 
 ## Commands
 
-In File Mode options 1 and 2 (Selected Lines and Selected Component), you can utilize the following commands:
+In Current File Focus you can utilize the following commands:
 
 - [`/ask`](../commands/ask.md): Pose queries about specific code issues or seek advice on coding practices, enhancing your understanding and coding skills.
 - [`/docstring`](../commands/docstring.md): Automatically generates or improves docstrings for your functions, classes, or methods, helping to document your code more effectively.

@@ -17,8 +17,7 @@ To utilize the `/describe` command effectively, follow these steps:
 4. **Review and Use the Description**: Review the generated description for accuracy and completeness. You can then use this structured summary directly in your Git PR, facilitating clear communication and efficient collaboration with your team.
 
 !!! success "Available in"
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../focus/git-diff.md)
-    - [:fontawesome-solid-file-pen: File Changes Mode](../focus/current-file.md#file-changes)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

@@ -6,9 +6,9 @@ Use `/enhance` command to get suggestions for code enhancements. Codiumate analy
 ##How to Use
 To use the `/enhance` command, follow these steps:
 
-1. **Select File Mode**: The `/enhance` command is available in File Mode, tailored for targeted code enhancement within a specific file. 
+1. **Select Current File Focus**: The `/enhance` command is available in Current File Focus, tailored for targeted code enhancement within a specific file. 
 
-2. **Select Your Focus**: Choose the segment of code you wish to enhance. This precise selection ensures that Codiumate provides relevant and actionable suggestions for improving your code.
+2. **Select Your Secondary Focus**: Choose the segment of code you wish to enhance. This precise selection ensures that Codiumate provides relevant and actionable suggestions for improving your code.
 
 3. **Initiate the Command**: Type `/enhance` in the chat interface. Codiumate will analyze the selected code segment and return a set of enhancement suggestions.
 
@@ -16,7 +16,7 @@ To use the `/enhance` command, follow these steps:
 
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
 
 !!! example 
     ### Commands:

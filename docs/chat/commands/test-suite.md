@@ -6,9 +6,9 @@ The `/test-suite` command streamlines the process of creating comprehensive test
 ##How to Use
 Implementing the `/test-suite` command involves a few straightforward steps:
 
-1. **Select File Mode**: The `/test-suite` command is designed to operate within File Mode, allowing you to generate test suites for specific code segments or entire files.
+1. **Select Current File Focus**: The `/test-suite` command is designed to operate within Current File Focus, allowing you to generate test suites for specific code segments or entire files.
 
-2. **Select Your Focus**: Choose the code for which you want to create a test suite. Precise selection ensures the generated tests are relevant and cover the selected code adequately.
+2. **Select Your Secondary Focus**: Choose the code for which you want to create a test suite. Precise selection ensures the generated tests are relevant and cover the selected code adequately.
 
 3. **Initiate the Command**: Type `/test-suite` followed by any free text in the chat interface. This free text will be added to the general instructions field of the advanced panel, providing context or specific directions for the test suite generation. Upon execution, Codiumate opens the advanced panel where the test suite generation process takes place.
 
@@ -21,7 +21,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 **[Read more about Test Generation with Codiumate](../../tests/index.md)**
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
 
 !!! example "Example" 
     ### Command: 
