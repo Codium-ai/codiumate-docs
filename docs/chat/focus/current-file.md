@@ -9,8 +9,6 @@ output:
 
 ---
 <style>
-/*number of ".md-nav__list" determines the max level of TOC to be displayed in TOC*/
-/*e.g. if ".md-nav__list" is repeated 2 times - the headers ###, ####, #####,  ... will not be displayed in TOC*/
 .md-sidebar--secondary .md-nav__list .md-nav__list {display: none}
 </style>
 
@@ -18,13 +16,12 @@ output:
 
 ## Overview {.unlisted .unnumbered}
 
-File Mode in Codiumate enhances your coding experience by focusing on the current file you're working on. This mode allows you to send selected portions of your code to the model, ensuring the responses are contextually relevant to your specific codebase. With three focus options available via a dropdown menu, File Mode adapts to your needs, whether you're looking at specific lines, components, or changes within a file.
+Focus on Current File in Codiumate enhances your coding experience by concentrating on the file you're currently working on. This focus allows you to send selected portions of your code to the model, ensuring the responses are contextually relevant to your specific codebase. With two focus options available via a dropdown menu, Focus on Current File adapts to your needs, whether you're examining specific lines or a desired components.
 
 ## Focus Options
 
 1. **Selected Lines**: Manually select lines in your code to set as the focus for your request.
 2. **Selected Component**: Choose a function, class, or method from the focus list to concentrate on that particular component.
-3. **File Changes**: Focus on the changes made to the specific file, whether they're committed or local changes.
 
 ## Commands
 
@@ -39,22 +36,11 @@ In File Mode options 1 and 2 (Selected Lines and Selected Component), you can ut
 - [`/test-suite`](../commands/test-suite.md): Generates a comprehensive test suite for your selected code, aiding in the development of robust and reliable software.
 - [`/quick-test`](../commands/quick-test.md): Quickly creates an initial set of tests for your code, allowing for immediate feedback and iterative improvement through conversation.
 
+## How to focus on Current File
 
-## File Changes
-
-File changes mode is a special mode, that allows you to focus on the changes you have made inside a specific file. 
-For this mode, you can use the workspace commands [Workspace Mode Commands](./git-diff.md#commands).
-With File Changes mode you can work on:
-
-1. **Local changes** - changes you have made to the file in your local workspace.
-2. **Committed changes** - changes that have been committed to your version control system.
-
-## How to Use File Mode
-
-1. **Access File Mode**: In the "Mode" drop-down, select File Mode to focus Codiumate on the current file.
-2. **Choose Your Focus**: Utilize the focus dropdown to select between Selected Lines, Selected Component, or File Changes based on your current requirement.
+1. **Add Focus**: Within Codiumate chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows, and choose `Current File`.
+2. **Choose Your Focus**: Utilize the secondary focus dropdown to select between Selected Lines or Selected Component based on your current requirement.
 3. **Execute a Command**: Type in your desired command (e.g., [`/ask`](../commands/ask.md), [`/docstring`](../commands/docstring.md)) followed by your question or request. Ensure your command matches the focus option you've selected for contextually relevant responses.
-4. **Switch Modes If Needed**: If your needs extend beyond the scope of the current file, you can switch to Workspace Mode or Free Chat Mode for broader or non-contextual assistance.
 
 ## Use Cases
 
