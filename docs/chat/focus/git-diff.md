@@ -14,8 +14,8 @@ Git-Diff Focus in Codiumate is designed to facilitate work with code changes acr
 Git-Diff Focus offers four distinct options to tailor the Codiumate experience to your current workflow needs:
 
 1. **Local Changes**: Concentrate on all local changes made in your project or your current file.
-3. **Staged Changes**: Highlight changes that have been staged for commit.
-4. **Committed Changes**: Review changes that have already been committed. This option requires you to select a target branch to compare your changes against, enhancing the context for Codiumate's analysis and suggestions.
+2. **Staged Changes**: Highlight changes that have been staged for commit.
+3. **Committed Changes**: Review changes that have already been committed. This option requires you to select a target branch to compare your changes against, enhancing the context for Codiumate's analysis and suggestions.
 
 ## Commands
 The following commands are supported in Git-Diff focus, offering a wide range of functionalities tailored to managing and understanding changeset:

@@ -5,7 +5,7 @@ Codiumate offers a versatile range of focuses to address various coding needs an
 
 ## Focus Options
 
-- [**Current File**](./current-file.md): Focuses on the current file you're working on, allowing you to send selected code to Codiumate for detailed analysis and assistance. Offers three focus options (Selected Lines, Selected Component, File Changes) to refine the context for Codiumate's responses. Supports a variety of commands tailored to enhancing your code within the scope of the selected file.
+- [**Current File**](./current-file.md): Focuses on the current file you're working on, allowing you to send selected code to Codiumate for detailed analysis and assistance. Offers two focus options (Selected Lines, Selected Component) to refine the context for Codiumate's responses. Supports a variety of commands tailored to enhancing your code within the scope of the selected file.
 
 - [**Git Diff**](./git-diff.md): Expands Codiumate's focus to encompass changes across your entire project workspace, enabling you to manage and review code changes effectively. This mode provides insights into local, staged, or committed changes. Exclusive to Teams and Enterprise users, Workspace Mode supports commands for managing commits, documentation, code quality, and more.
 
