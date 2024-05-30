@@ -6,9 +6,9 @@ The `/quick-test` command initiates an iterative and interactive mode for genera
 ##How to Use
 To efficiently use the `/quick-test` command, follow these steps:
 
-1. **Select File Mode**: Available exclusively in File Mode, `/quick-test` is designed to provide rapid test generation for specific segments of code within a single file.
+1. **Select Current File Focus**: Available exclusively in Current File Focus, `/quick-test` is designed to provide rapid test generation for specific segments of code within a single file.
 
-2. **Select Your Focus**: Identify the code segment you wish to test. This selection is crucial for ensuring that the generated tests are relevant and targeted.
+2. **Select Your Secondary Focus**: Identify the code segment you wish to test. This selection is crucial for ensuring that the generated tests are relevant and targeted.
 
 3. **Initiate the Command**: Type `/quick-test` in the chat interface. Codiumate then analyzes the selected code segment and generates a few behaviors, which are printed in the chat interface along with the initial test suite covering these behaviors. This quick generation aims to give you an immediate understanding of what aspects of the code are being tested. If you require additional behaviors to be tested, you can request more directly in the [thread](../threads.md). This initiates an iterative process where Codiumate and you collaboratively refine and expand the test suite to meet your needs fully.
 
@@ -18,7 +18,7 @@ To efficiently use the `/quick-test` command, follow these steps:
 
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

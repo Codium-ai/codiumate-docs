@@ -18,8 +18,7 @@ To effectively utilize the `/recap` command, adhere to the following steps:
     - **Description of Changes**: A clear, concise description of what was changed in the code, providing context and understanding at a glance.
 
 !!! success "Available in"
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
-    - [:fontawesome-solid-file-pen: File Changes Mode](../modes/file-mode.md#file-changes)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

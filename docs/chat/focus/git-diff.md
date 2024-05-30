@@ -1,25 +1,24 @@
 ---
-title: Workspace Mode
+title: Git Diff
 ---
 
-# :fontawesome-solid-folder-tree: Workspace Mode
+# :fontawesome-solid-code-compare: Git Diff
 
-##Overview
-Workspace Mode in Codiumate is designed to facilitate work with code changes across your entire project. This mode enables you to focus on different types of changes within your workspace, providing a broad view that's essential for managing version control and preparing for commits or pull requests. 
+## Overview
+Git-Diff Focus in Codiumate is designed to facilitate work with code changes across your entire project. This focus enables you to concentrate on different types of changes within your workspace, providing a broad view that's essential for managing version control and preparing for commits or pull requests.
 
 !!! pro "Pro feature"
-    Workspace Mode is exclusively available for Teams and Enterprise users, reflecting its utility for collaborative and advanced coding endeavors.
+    Some of the Git-Diff focus options are exclusively available for Teams and Enterprise users.
 
-##Focus Options
-Workspace Mode offers four distinct focuses to tailor the Codiumate experience to your current workflow needs:
+## Focus Options
+Git-Diff Focus offers four distinct options to tailor the Codiumate experience to your current workflow needs:
 
-1. **Local Changes** [:simple-visualstudiocode: :simple-jetbrains:]: Concentrate on all local changes made in your workspace.
-2. **Local Changes Without New Files** [:simple-visualstudiocode:]: Focus on modifications to existing files, excluding any new files added to the workspace.
-3. **Staged Changes** [:simple-visualstudiocode:]: Highlight changes that have been staged for commit.
-4. **Committed Changes** [:simple-visualstudiocode: :simple-jetbrains:]: Review changes that have already been committed. This option requires you to select a target branch to compare your changes against, enhancing the context for Codiumate's analysis and suggestions.
+1. **Local Changes**: Concentrate on all local changes made in your project or your current file.
+2. **Staged Changes**: Highlight changes that have been staged for commit.
+3. **Committed Changes**: Review changes that have already been committed. This option requires you to select a target branch to compare your changes against, enhancing the context for Codiumate's analysis and suggestions.
 
-##Commands
-The following commands are supported in Workspace Mode, offering a wide range of functionalities tailored to managing and understanding workspace-level changes:
+## Commands
+The following commands are supported in Git-Diff focus, offering a wide range of functionalities tailored to managing and understanding changeset:
 
 - [`/commit`](../commands/commit.md): Generate commit messages for staged changes.
 - [`/describe`](../commands/describe.md): Produce structured descriptions of changesets for pull requests.
@@ -29,14 +28,14 @@ The following commands are supported in Workspace Mode, offering a wide range of
 - [`/issues`](../commands/issues.md): Identify potential issues within the code, such as security vulnerabilities or bugs.
 - [`/update-changelog`](../commands/update-changelog.md): Automatically update the changelog file with a summary of recent changes.
 
-##How to Use Workspace Mode
+## How to Use Git-Diff focus
 
-1. **Access Workspace Mode**: In the "Mode" drop-down, select Workspace Mode to shift Codiumate's focus to your project's broader context.
+1. **Access Git-Diff Focus**: Within Codiumate chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows, choose `Git-Diff` and choose your desired diff - `Local Changes`, `Staged Changes` or `Committed Changes`.
 2. **Choose Your Focus**: Use the focus dropdown to select among Local Changes, Local Changes Without New Files, Staged Changes, or Committed Changes.
 3. **Select Target Branch (if necessary)**: For committed changes, specify the target branch you're comparing changes against to refine Codiumate's insights.
 4. **Execute a Command**: Enter your chosen command to gain insights, documentation, review, or other assistance based on your selected focus.
 
-##Use Cases
+## Use Cases
 
 - **Preparing for Commits**: Use [`/commit`](../commands/commit.md) or [`/describe`](../commands/describe.md) to craft meaningful commit messages and pull request descriptions.
 - **Code Quality Assurance**: Employ [`/review`](../commands/review.md), [`/improve`](../commands/improve.md), and [`/issues`](../commands/issues.md) to enhance the quality and security of your code before finalizing changes.

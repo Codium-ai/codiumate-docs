@@ -7,8 +7,8 @@ Automatically generate or improve docstrings for your code, enhancing documentat
 To use the `/docstring` command, follow these steps:
 
 1. **Select Your Mode**: Choose the appropriate context for adding or improving docstrings. Codiumate supports this command in two modes:
-    - **File Mode**: For generating or refining docstrings within a specific file, focusing on individual functions, classes, or entire files.
-    - **Workspace Mode**: For a broader approach, encompassing multiple files within your workspace to ensure consistent documentation across your project.
+    - **Current File Focus**: For generating or refining docstrings within a specific file, focusing on individual functions, classes, or entire files.
+    - **Git-Diff Focus**: For a broader approach, encompassing multiple files within your changeset to ensure consistent documentation across your project.
 
 2. **Select Your Focus**: Identify the code segment or entire file for which you wish to generate or enhance the docstring. 
 
@@ -17,13 +17,13 @@ To use the `/docstring` command, follow these steps:
 4. **Review and Apply**: Evaluate the suggested docstring provided by Codiumate. You can directly apply the changes with a single click or edit the suggestion to better fit your requirements before applying.
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
-!!! example "Docsctring for component (File Mode)"
+!!! example "Docsctring for component (Current File Focus)"
     ### Commands:
     `/docstring`
 
@@ -33,7 +33,7 @@ To use the `/docstring` command, follow these steps:
     ![dosctring-file](./assets/docstring-file.png){loading=lazy}
 
 
-!!! example "Docstring for Changeset (Workspace Mode)"
+!!! example "Docstring for Changeset (Git-Diff Focus)"
     ### Commands:
     `/docstring enhance readability`
 
