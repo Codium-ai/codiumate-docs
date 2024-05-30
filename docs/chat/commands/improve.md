@@ -19,8 +19,8 @@ To utilize the `/improve` command, follow these instructions:
 5. **Refactor and Apply**: After reviewing the suggestions and their associated diff views, click the "refactor" button to apply the chosen improvements directly. This streamlined process allows you to efficiently enhance your code's quality with minimal effort.
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
+    - [:fontawesome-solid-folder-tree: Workspace Mode](../focus/git-diff.md)
 
 !!! example "File mode example"
     ### Command:

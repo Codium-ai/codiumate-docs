@@ -21,7 +21,7 @@ Implementing the `/test-suite` command involves a few straightforward steps:
 **[Read more about Test Generation with Codiumate](../../tests/index.md)**
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
 
 !!! example "Example" 
     ### Command: 

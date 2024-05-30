@@ -1,5 +1,5 @@
 ---
-title: File Mode
+title: Current File
 output:
   html_document:
     toc: true
@@ -14,7 +14,7 @@ output:
 .md-sidebar--secondary .md-nav__list .md-nav__list {display: none}
 </style>
 
-# :fontawesome-solid-file-lines: File Mode
+# :fontawesome-solid-file-code: Current File
 
 ## Overview {.unlisted .unnumbered}
 
@@ -43,7 +43,7 @@ In File Mode options 1 and 2 (Selected Lines and Selected Component), you can ut
 ## File Changes
 
 File changes mode is a special mode, that allows you to focus on the changes you have made inside a specific file. 
-For this mode, you can use the workspace commands [Workspace Mode Commands](./workspace-mode.md#commands).
+For this mode, you can use the workspace commands [Workspace Mode Commands](./git-diff.md#commands).
 With File Changes mode you can work on:
 
 1. **Local changes** - changes you have made to the file in your local workspace.

@@ -18,7 +18,7 @@ To efficiently use the `/quick-test` command, follow these steps:
 
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

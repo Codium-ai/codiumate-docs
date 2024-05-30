@@ -1,8 +1,8 @@
 ---
-title: Workspace Mode
+title: Git Diff
 ---
 
-# :fontawesome-solid-folder-tree: Workspace Mode
+# :fontawesome-solid-code-compare: Git Diff
 
 ##Overview
 Workspace Mode in Codiumate is designed to facilitate work with code changes across your entire project. This mode enables you to focus on different types of changes within your workspace, providing a broad view that's essential for managing version control and preparing for commits or pull requests. 

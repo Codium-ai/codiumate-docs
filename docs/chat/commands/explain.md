@@ -20,7 +20,7 @@ Follow these steps to leverage the `/explain` command effectively:
     - Example of usage, showing how the code can be used in real-world scenarios.
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

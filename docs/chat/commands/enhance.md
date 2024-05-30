@@ -16,7 +16,7 @@ To use the `/enhance` command, follow these steps:
 
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
+    - [:fontawesome-solid-file-lines: File Mode](../focus/current-file.md)
 
 !!! example 
     ### Commands:

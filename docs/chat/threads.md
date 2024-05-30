@@ -10,7 +10,7 @@ Threads are a powerful feature in Codiumate designed to enrich your interaction 
 ##Supported Commands
 Threads enhance the functionality of several Codiumate commands by allowing users to delve deeper into their initial inquiries. Below is a list of commands that support the threading option, each linked to its respective documentation page for detailed information:
 
-- [free chat](./modes/free-chat.md) : In free chat mode, each message can start a new thread.
+- No selected focus: When using the free chat, each message can start a new thread.
 - [`/ask`](./commands/ask.md): Pose coding-related queries and receive detailed explanations.
 - [`/explain`](./commands/explain.md): Get a thorough explanation of specific code segments or concepts.
 - [`/docstring`](./commands/docstring.md): Generate or improve docstrings for better code documentation.

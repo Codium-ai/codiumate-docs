@@ -22,12 +22,11 @@ nav:
     - Supported Languages: 'tests/supported-languages.md'
   - Chat:
     - 'chat/index.md'
-    - Chat Modes:
-      - 'chat/modes/index.md'
-      - Free Chat Mode: 'chat/modes/free-chat.md'
-      - File Mode: 'chat/modes/file-mode.md'
-      - Coding-Agent Mode: 'chat/modes/coding-agent-mode.md'
-      - Workspace Mode: 'chat/modes/workspace-mode.md'
+    - Add Focus:
+      - 'chat/focus/index.md'
+      - Current File: 'chat/focus/current-file.md'
+      - Git Diff: 'chat/focus/git-diff.md'
+    - Add Extra Context: 'chat/add-context.md'
     - Commands:
       - 'chat/commands/index.md'
       - /ask: 'chat/commands/ask.md'
@@ -44,7 +43,6 @@ nav:
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
-    - Add Context: 'chat/add-context.md'
     - Coding-Agent: 'chat/coding-agent.md'
     - Threads: 'chat/threads.md'
     - Images: 'chat/images.md'
