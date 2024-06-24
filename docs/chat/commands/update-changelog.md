@@ -2,7 +2,7 @@
 
 ##Description
 
-The `/changelog` command in Codiumate is a powerful tool for maintaining an up-to-date and detailed record of changes within your project. Aimed at enhancing project documentation, this Workspace Mode command automates the process of updating your changelog file. By analyzing a selected changeset (local, staged, or committed changes), Codiumate generates a structured changelog text summarizing the modifications. If an existing changelog file is detected in the project, Codiumate uses it as a reference to match the style and formatting of the update, ensuring consistency across documentation.
+The `/changelog` command in Codiumate is a powerful tool for maintaining an up-to-date and detailed record of changes within your project. Aimed at enhancing project documentation, this command automates the process of updating your changelog file. By analyzing a selected changeset (local, staged, or committed changes), Codiumate generates a structured changelog text summarizing the modifications. If an existing changelog file is detected in the project, Codiumate uses it as a reference to match the style and formatting of the update, ensuring consistency across documentation.
 
 ##How to Use
 
@@ -17,8 +17,7 @@ Follow these steps to seamlessly update your changelog using the `/changelog` co
 4. **Review and Implement the Update**: Codiumate presents the proposed changelog update, formatted in line with any existing changelog documentation within the project. You can review this summary for accuracy and completeness before integrating it into your changelog file, ensuring that project stakeholders are kept informed of the latest developments.
 
 !!! success "Available in"
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
-    - [:fontawesome-solid-file-pen: File Changes Mode](../modes/file-mode.md#file-changes)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

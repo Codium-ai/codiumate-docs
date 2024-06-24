@@ -1,12 +1,12 @@
 # `/commit`
 
 ##Description
-The `/commit` command streamlines the process of crafting commit messages for your staged changes. Available in Workspace Mode, this command analyzes your staged changes and generates a comprehensive commit message that succinctly describes all modifications. For added convenience, Codiumate integrates an "Auto commit message" button within the source control panel of the IDE, offering an alternative method to directly apply the generated message to the commit field.
+The `/commit` command streamlines the process of crafting commit messages for your staged changes. Available in Git-Diff Focus, this command analyzes your staged changes and generates a comprehensive commit message that succinctly describes all modifications. For added convenience, Codiumate integrates an "Auto commit message" button within the source control panel of the IDE, offering an alternative method to directly apply the generated message to the commit field.
 
 ##How to Use
 To utilize the `/commit` command effectively, follow these steps:
 
-1. **Select Workspace Mode**: The `/commit` command operates in Workspace Mode, catering to changes made across multiple files within your project's workspace.
+1. **Select Git-Diff Focus**: The `/commit` command operates in Git-Diff, catering to changes made across multiple files within your project's workspace.
 
 2. **Ensure Changes are Staged**: Before initiating the command, confirm that all changes you wish to include in your commit message are correctly staged.
 
@@ -17,7 +17,7 @@ To utilize the `/commit` command effectively, follow these steps:
     Alternatively, use the **Auto commit message** button directly in the source control panel of your IDE. This button performs the same action, automatically inserting the generated commit message into the commit field, streamlining the process.
 
 !!! success "Available in"
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).

@@ -1,29 +1,27 @@
 # `/ask` 
 
-##Description
+## Description
 Ask open questions about your code, useful to get a better understanding of the code and asking very detailed questions.
 
-##How to Use
+## How to Use
 To use the `/ask` command, follow these steps:
 
-1. **Select Your Mode**: First, determine the context in which you need assistance. Codiumate supports two main modes for this command:
-    - **File Mode**: For queries related to a specific file, focusing on selected code, changes within the code, or selected components.
-    - **Workspace Mode**: For queries concerning a changeset, including committed changes, local changes etc.
+1. **Select Your Focus**: First, determine the focus in which you need assistance. Codiumate supports two main focuses for this command:
+    - **Current File Focus**: For queries related to a specific file, focusing on selected code or selected components.
+    - **Git-Diff Focus**: For queries concerning a changeset, including committed changes, local changes and staged changes.
 
-2. **Select Your Focus**: After choosing your mode, select the specific code or changeset you want to inquire about. This step ensures Codiumate provides targeted advice and information relevant to your current focus.
+2. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. Codiumate will process your query and return a response tailored to the context of your selected mode and focus.
 
-3. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. Codiumate will process your query and return a response tailored to the context of your selected mode and focus.
-
-4. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
+3. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
 
 !!! success "Available in"
-    - [:fontawesome-solid-file-lines: File Mode](../modes/file-mode.md)
-    - [:fontawesome-solid-folder-tree: Workspace Mode](../modes/workspace-mode.md)
+    - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
+    - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
 !!! threads "Threads"
     This command supports threading. [Read more about Threads](../threads.md).
 
-<h3>File Mode Examples</h3>
+### Current-File Examples
 
 !!! example "Objective Clarification - Local Changes"
     ### Command: 
@@ -101,7 +99,7 @@ To use the `/ask` command, follow these steps:
     
     In summary, `_get_fuzzy_attrs` prepares the attributes for fuzzy matching by wrapping string values and elements of list/tuple values in `FuzzyText` objects, allowing for more flexible and lenient matching based on the specified fuzziness ratio.
 
-<h3>Workspace Mode Examples</h3>
+### Git-Diff Examples
 
 !!! example "Performance Consideration - Committed Changes"
     ### Command: 
