@@ -16,6 +16,14 @@ This feature allows you to enrich the context for your Codiumate interactions by
     - In JetBrains: ++ctrl+alt+comma++ on Windows, ++cmd+alt+comma++ on Mac.
 4. **Confirm the Addition**: The selected code is added as a tag to the chat panel, visually confirming that your context has been expanded.
 
+!!! alert "Please Notice"
+    In JetBrains, you can index up to 1,000 files in a single folder or project.
+
+    In VSCode, you can index up to 50,000 files in a single folder or project.
+
+    The index is stored locally and is not shared with anyone.
+
+
 ## Utilizing Additional Context
 
 Once you've added more context, proceed with choosing your primary focus and calling any command. The additional context is automatically considered by Codiumate, enhancing the precision and relevance of the AI's responses.
