@@ -1,0 +1,99 @@
+:root {
+    --md-primary-fg-color: #765bfa;
+    --md-accent-fg-color: #AEA1F1;
+    --md-admonition-icon--pro: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>');
+    --md-admonition-icon--vscode: url('data:image/svg+xml;charset=utf-8,<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Visual Studio Code</title><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/></svg>');
+    --md-admonition-icon--jetbrains: url('data:image/svg+xml;charset=utf-8,<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JetBrains</title><path d="M7.529 8.753h-.705v.941h.706c.376 0 .565-.188.565-.471-.001-.329-.236-.47-.566-.47zm-3.2.282c0-.235-.188-.329-.471-.329h-.705v.706h.659c.329-.047.517-.141.517-.377zm6.212 1.13h.847l-.423-1.083zm-6.588 0h-.847v.706h.847c.329 0 .518-.141.518-.376s-.189-.33-.518-.33zM0 0v24h24V0H0zm8.424 3.012h3.435v.941h-1.176v2.965H9.6V3.953H8.424v-.941zm-.236 0v.894h-2.07v.612H8v.847H6.118v.612h2.118v.941H5.082l-.047-3.906h3.153zm-2.635 7.623c0 .659-.565 1.082-1.459 1.082H2.071V7.812h2.023c.471 0 .847.141 1.082.329.142.141.236.377.236.659 0 .471-.235.706-.612.894.471.141.753.424.753.941zM2.682 5.647c.188.235.376.376.612.376.282 0 .424-.188.424-.565V2.965H4.8v2.494c0 .471-.141.847-.376 1.082s-.612.377-1.083.377c-.706.047-1.082-.236-1.364-.612l.705-.659zm8.377 15.341H2.071v-1.506h8.988v1.506zm.894-9.223l-.282-.706h-1.506l-.282.706h-1.13l.02-.047h-.679l-.8-1.176h-.47v1.176H5.741V7.812h1.835c.612 0 .988.141 1.271.424.235.235.329.518.329.894 0 .612-.329.988-.8 1.224l.605.878 1.465-3.419h1.035l1.647 3.953h-1.175zm2.4-.047h-1.082V7.812h1.082v3.906zm3.953 0h-.941L15.718 9.6v2.165h-1.082V7.812h.988l1.6 2.071V7.812h1.082v3.906zm1.929.047a2.488 2.488 0 0 1-1.835-.612l.612-.706c.376.329.8.471 1.271.471.282 0 .471-.094.471-.282s-.141-.235-.659-.376c-.847-.188-1.459-.424-1.459-1.224 0-.706.565-1.271 1.506-1.271.659 0 1.176.188 1.6.518l-.565.753c-.377-.236-.753-.377-1.083-.377-.282 0-.376.094-.376.235 0 .188.141.235.659.376.894.188 1.459.471 1.459 1.224-.001.8-.612 1.271-1.601 1.271z"/></svg>');
+    --md-admonition-icon--threads: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5 .4-.9 .7-1.1 .8l-.2 .2 0 0 0 0C1 327.2-1.4 334.4 .8 340.9S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.3-11.4C134.1 343.3 169.8 352 208 352zM448 176c0 112.3-99.1 196.9-216.5 207C255.8 457.4 336.4 512 432 512c38.2 0 73.9-8.7 104.7-23.9c7.5 4 16 7.9 25.2 11.4c18.3 6.9 40.3 12.5 62.1 12.5c6.9 0 13.1-4.5 15.2-11.1c2.1-6.6-.2-13.8-5.8-17.9l0 0 0 0-.2-.2c-.2-.2-.6-.4-1.1-.8c-1-.8-2.5-2-4.3-3.7c-3.6-3.3-8.5-8.1-13.3-14.3c-5.5-7-10.7-15.4-14.2-24.7c24.9-29 39.6-64.7 39.6-103.4c0-92.8-84.9-168.9-192.6-175.5c.4 5.1 .6 10.3 .6 15.5z"/></svg>');
+
+  }
+.md-nav__title, .md-nav__link  {
+    font-size: 16px; 
+}
+
+.md-tabs__link  {
+    font-size: 16px; 
+}
+
+.md-header__title {
+    font-size: 22px;
+    margin-left: 0px !important;
+}
+
+.md-content img {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: darkgray;
+  }
+
+  .md-typeset .admonition.vscode,
+  .md-typeset details.vscode {
+    border-color: #25B1C8;
+  }
+  .md-typeset .vscode > .admonition-title,
+  .md-typeset .vscode > summary {
+    background-color: #25b2c820;
+  }
+  .md-typeset .vscode > .admonition-title::before,
+  .md-typeset .vscode > summary::before {
+    background-color: #25B1C8;
+    -webkit-mask-image: var(--md-admonition-icon--vscode);
+            mask-image: var(--md-admonition-icon--vscode);
+  }
+  
+  .md-typeset .admonition.pro,
+  .md-typeset details.pro {
+    border-color: #FF6B9C;
+  }
+  .md-typeset .pro > .admonition-title,
+  .md-typeset .pro > summary {
+    background-color: #ff6b9c32;
+  }
+  .md-typeset .pro > .admonition-title::before,
+  .md-typeset .pro > summary::before {
+    background-color: #FF6B9C;
+    -webkit-mask-image: var(--md-admonition-icon--pro);
+            mask-image: var(--md-admonition-icon--pro);
+  }
+
+  .md-typeset .admonition.jetbrains,
+  .md-typeset details.jetbrains {
+    border-color: #797979;
+  }
+  .md-typeset .jetbrains > .admonition-title,
+  .md-typeset .jetbrains > summary {
+    background-color: #00000023;
+  }
+  .md-typeset .jetbrains > .admonition-title::before,
+  .md-typeset .jetbrains > summary::before {
+    background-color: #797979;
+    -webkit-mask-image: var(--md-admonition-icon--jetbrains);
+            mask-image: var(--md-admonition-icon--jetbrains);
+  }
+
+  .md-typeset .admonition.threads,
+  .md-typeset details.threads {
+    border-color: #FF8229;
+  }
+  .md-typeset .threads > .admonition-title,
+  .md-typeset .threads > summary {
+    background-color: #ff82292a;
+  }
+  .md-typeset .threads > .admonition-title::before,
+  .md-typeset .threads > summary::before {
+    background-color: #FF8229;
+    -webkit-mask-image: var(--md-admonition-icon--threads);
+            mask-image: var(--md-admonition-icon--threads);
+  }
+
+.bold-green {
+  font-weight: bold;
+  color: #05E5AD;
+}
+
+.md-typeset .grid {
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
