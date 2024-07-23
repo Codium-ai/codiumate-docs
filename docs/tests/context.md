@@ -1,8 +1,5 @@
 # Understanding Context in Test Generation
 
-!!! vscode "VSCode only"
-    This feature is available for VSCode users only.
-
 ## Overview
 Effective test generation in Codiumate relies heavily on understanding the context of your project. When initiating test generation, Codiumate meticulously collects context based on your code's dependencies and interactions. This rich context is crucial for generating accurate and meaningful tests that closely align with your project's specific requirements.
 

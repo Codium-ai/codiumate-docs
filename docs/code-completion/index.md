@@ -12,9 +12,6 @@ Code Completion by Codiumate is a powerful tool designed to accelerate your codi
 !!! pro "Pro feature"
     Code Completion is exclusively available for Teams and Enterprise users.
 
-!!! vscode "VSCode only"
-    Code Completion is currently available for VSCode users only.
-
 ## How It Works
 
 As you type, Codiumate analyzes your code in real-time to grasp your intention. It then presents code completions in a grayed-out format directly in your editor. These suggestions aim to complete your current line of code or offer snippets that fit the context of your work. To accept a suggestion, simply press the **Tab** key, and the completion will be inserted into your code.
