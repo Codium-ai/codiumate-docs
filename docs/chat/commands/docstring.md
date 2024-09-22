@@ -20,9 +20,6 @@ To use the `/docstring` command, follow these steps:
     - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
-
 !!! example "Docsctring for component (Current File Focus)"
     ### Commands:
     `/docstring`

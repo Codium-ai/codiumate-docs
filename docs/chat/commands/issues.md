@@ -14,13 +14,10 @@ Follow these steps to efficiently utilize the `/issues` command:
 
 3. **Review Identified Issues**: Codiumate presents a list of found issues, each tagged with its type (e.g., Security Concern, Potential Issue, Leftover Debugging Code, Misspelled Variable). Alongside each issue is a link to the relevant code and a comprehensive description of the problem, enabling you to quickly grasp and locate the concern.
 
-4. **Start a Thread for Fixes**: If you wish to receive suggestions for fixing the identified issues, you can initiate a [thread](../threads.md) directly from the issues list. In this interactive discussion, ask Codiumate for specific advice on how to address each concern. Codiumate will provide tailored suggestions for resolving the problems, enhancing the security and quality of your code.
+4. **Continue the Chat for Fixes**: If you wish to receive suggestions for fixing the identified issues, you can continue the chat directly from the issues list. Ask Codiumate for specific advice on how to address each concern. Codiumate will provide tailored suggestions for resolving the problems, enhancing the security and quality of your code.
 
 !!! success "Available in"
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
-
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
 
 
 !!! example

@@ -12,14 +12,11 @@ To use the `/ask` command, follow these steps:
 
 2. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. Codiumate will process your query and return a response tailored to the context of your selected mode and focus.
 
-3. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
+3. **Continue the Chat**: If you require further assistance or have additional questions, continue your conversation in the same chat. Codiumate will maintain the context of your initial query, providing tailored responses to your follow-up questions.
 
 !!! success "Available in"
     - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
-
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
 
 ### Current-File Examples
 

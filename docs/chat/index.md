@@ -15,7 +15,7 @@ Welcome to Codiumate Chat, the integrated chat-based assistant designed to eleva
 ## Use Cases
 - **General Coding Assistance**: Ask any coding-related questions, whether it's about algorithms, best practices, language-specific queries, or debugging techniques.
 - **Code Generation**: Request code snippets or examples for understanding concepts or solving generic problems.
-- **Continued Conversations**: Each message has the option to "continue this chat," enabling a [threaded](./threads.md) conversation with history for deeper exploration of topics.
+- **Chat History**: Review [past conversations](./chat-history.md) to refresh your memory or explore new topics.
 
 ## Key Features
 
@@ -35,8 +35,8 @@ For each message you send in the chat, you can enhance the accuracy of the resul
 
 Additionally, you can attach an image to the chat and make any request related to that image. [Explore Adding Image to the Chat.](./images.md)
 
-### Threads
-Threads in Codiumate enable you to dive deeper into specific inquiries or commands. After an initial command execution, the "continue this chat" button allows for a threaded conversation, providing space for refinement, additional queries, and expanded discussions. This feature is invaluable for iterating on solutions, clarifying complex topics, and ensuring you get the most out of Codiumate's capabilities. [Explore threading.](./threads.md)
+### Chat History
+Codiumate Chat maintains a history of your 20 most recent conversations, allowing you to review past interactions, refresh your memory, or explore new topics. You can continue a past chat to dive deeper into a topic or request additional information. [Learn more about Chat History.](./chat-history.md)
 
 ### Task Coding-Agent
 Coding-Agent harnesses the power of Codiumate's AI to offer unparalleled support in your coding journey, transforming your development workflow with intelligent, real-time assistance. This mode focuses on enhancing your coding efficiency and quality by generating detailed plans for your coding tasks and guiding you through their implementation. [Discover Coding-Agent.](./coding-agent.md)

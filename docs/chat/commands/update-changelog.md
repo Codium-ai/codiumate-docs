@@ -19,9 +19,6 @@ Follow these steps to seamlessly update your changelog using the `/changelog` co
 !!! success "Available in"
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
-
 !!! example
     ### Command: 
     `/changelog`

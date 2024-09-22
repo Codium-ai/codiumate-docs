@@ -44,7 +44,7 @@ nav:
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
     - Coding-Agent: 'chat/coding-agent.md'
-    - Threads: 'chat/threads.md'
+    - Chat History: 'chat/chat-history.md'
     - Images: 'chat/images.md'
   - Code Completion:
     - 'code-completion/index.md'
