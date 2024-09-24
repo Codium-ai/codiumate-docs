@@ -5,10 +5,10 @@ title: Threads
 # :fontawesome-solid-comments: Threads
 
 ##Overview
-Threads are a powerful feature in Codiumate designed to enrich your interaction with the AI, allowing for deeper exploration, refinement, and expansion of responses to your commands. By engaging in a thread, you can fine-tune results, request additional information, or direct the conversation to more specific outcomes. This feature supports an iterative dialogue with Codiumate, making it possible to evolve initial responses into comprehensive solutions.
+Threads are a powerful feature in qodo Gen designed to enrich your interaction with the AI, allowing for deeper exploration, refinement, and expansion of responses to your commands. By engaging in a thread, you can fine-tune results, request additional information, or direct the conversation to more specific outcomes. This feature supports an iterative dialogue with qodo Gen, making it possible to evolve initial responses into comprehensive solutions.
 
 ##Supported Commands
-Threads enhance the functionality of several Codiumate commands by allowing users to delve deeper into their initial inquiries. Below is a list of commands that support the threading option, each linked to its respective documentation page for detailed information:
+Threads enhance the functionality of several qodo Gen commands by allowing users to delve deeper into their initial inquiries. Below is a list of commands that support the threading option, each linked to its respective documentation page for detailed information:
 
 - No selected focus: When using the free chat, each message can start a new thread.
 - [`/ask`](./commands/ask.md): Pose coding-related queries and receive detailed explanations.
@@ -29,26 +29,26 @@ After receiving an initial response to these commands, you'll see a "continue th
 
 1. **Initiate a Command**: Start by executing a command as you normally would in the appropriate focus (Free Chat, Current-File focus, or Git-Diff).
 2. **Extend the Conversation**: At the end of the response, click the "continue this chat" button to open a thread. This action shifts the dialogue into a focused conversation window where you can build upon the initial response.
-3. **Refine and Expand**: Within the thread, you can ask for more details, request modifications, or explore additional scenarios related to your initial query. Codiumate will maintain the context of the ongoing conversation, providing tailored follow-up responses.
+3. **Refine and Expand**: Within the thread, you can ask for more details, request modifications, or explore additional scenarios related to your initial query. qodo Gen will maintain the context of the ongoing conversation, providing tailored follow-up responses.
 
 ##Examples
 
 !!! example "Git-Diff Issue Resolution"
     - **Initial Command**: Call the `/issues` command to identify potential issues in your codebase.
-    - **In a Thread**: Dive into a specific issue listed in the initial response, asking Codiumate for potential solutions or workaround strategies.
+    - **In a Thread**: Dive into a specific issue listed in the initial response, asking qodo Gen for potential solutions or workaround strategies.
 
 !!! example "Current-File Test Suite Refinement"
     - **Initial Command**: Use `/quick-test` to generate an initial test suite for a piece of code.
     - **In a Thread**: Request refinements to the test suite, such as adding more tests, changing the testing framework, incorporating mocks, or adjusting to different testing scenarios.
 
 !!! example "Free Chat Code Evolution"
-    - **Initial Request**: Ask Codiumate to generate a class based on your specifications.
+    - **Initial Request**: Ask qodo Gen to generate a class based on your specifications.
     - **In a Thread**: Further develop the class by requesting additional functions, changing coding styles, or integrating design patterns.
 
 ##Benefits of Using Threads
 
-- **Detailed Exploration**: Threads allow for a granular examination of Codiumate's responses, enabling you to get precisely what you need.
-- **Iterative Improvement**: You can iteratively refine Codiumate's output, ensuring the final result closely matches your requirements.
-- **Contextual Continuity**: Threads maintain the context of your conversation, allowing Codiumate to provide more accurate and relevant responses with each interaction.
+- **Detailed Exploration**: Threads allow for a granular examination of qodo Gen's responses, enabling you to get precisely what you need.
+- **Iterative Improvement**: You can iteratively refine qodo Gen's output, ensuring the final result closely matches your requirements.
+- **Contextual Continuity**: Threads maintain the context of your conversation, allowing qodo Gen to provide more accurate and relevant responses with each interaction.
 
-Threads are an essential tool in Codiumate, bridging the gap between initial automated responses and the nuanced, detailed solutions developers need. By leveraging threads, you ensure that your interactions with Codiumate are as productive and informative as possible.
+Threads are an essential tool in qodo Gen, bridging the gap between initial automated responses and the nuanced, detailed solutions developers need. By leveraging threads, you ensure that your interactions with qodo Gen are as productive and informative as possible.

@@ -1,14 +1,14 @@
 ---
-title: Codiumate's Coding-Agent
+title: qodo Gen's Coding-Agent
 status: new
 ---
 
 
-# :material-new-box: Codiumate's Coding-Agent
+# :material-new-box: qodo Gen's Coding-Agent
 
 ##Overview
 
-The Coding Agent is Codiumate's AI-powered assistant, designed to significantly enhance your coding efficiency and code quality. It combines advanced AI capabilities with an intuitive interface to provide real-time assistance and guidance throughout the coding process.
+The Coding Agent is qodo Gen's AI-powered assistant, designed to significantly enhance your coding efficiency and code quality. It combines advanced AI capabilities with an intuitive interface to provide real-time assistance and guidance throughout the coding process.
 
 !!! pro "Semi-Pro feature"
     Coding-Agent is **available to all users**. However, loading the plan into Code-Completion is exclusively available to Teams and Enterprise.
@@ -26,12 +26,12 @@ The Coding Agent can generate a detailed plan for implementing a coding task des
 
 The Task Implementation Plan streamlines your coding process by breaking down complex tasks into manageable steps. Here's how to utilize this feature:
 
-- **Step 1: Select Your Context** - Begin by identifying all the files and code snippets relevant to your task. Add them as context by right-clicking on the code snippet and choosing "Add to Codiumate as context", or use the shortcut ++ctrl+shift+e++ on Windows, ++cmd+shift+e++ on Mac.
+- **Step 1: Select Your Context** - Begin by identifying all the files and code snippets relevant to your task. Add them as context by right-clicking on the code snippet and choosing "Add to qodo Gen as context", or use the shortcut ++ctrl+shift+e++ on Windows, ++cmd+shift+e++ on Mac.
 
-- **Step 2: Describe Your Task** - clearly defining the task you need to accomplish. This could be anything from adding a new feature, fixing a bug, or optimizing existing code. Be as detailed as necessary to ensure Codiumate can generate an accurate plan. You can add images to your description to improve the clarity of your task. Simply paste the image into your description and Codiumate will automatically include it in the generated plan. [Read more about Image Integration in Codiumate Chat](./images.md).
+- **Step 2: Describe Your Task** - clearly defining the task you need to accomplish. This could be anything from adding a new feature, fixing a bug, or optimizing existing code. Be as detailed as necessary to ensure qodo Gen can generate an accurate plan. You can add images to your description to improve the clarity of your task. Simply paste the image into your description and qodo Gen will automatically include it in the generated plan. [Read more about Image Integration in qodo Gen Chat](./images.md).
 
     
-- **Step 3: Generate the Plan** - Press `Enter` after describing your task. Codiumate will process your input and generate a detailed plan outlining the steps required to complete your task.
+- **Step 3: Generate the Plan** - Press `Enter` after describing your task. qodo Gen will process your input and generate a detailed plan outlining the steps required to complete your task.
 
 - **Step 4: Review the Plan** - Take a moment to review the generated plan. Ensure it aligns with your project's needs and covers all aspects of the task.
 
