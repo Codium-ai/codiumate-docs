@@ -28,7 +28,7 @@ The integration of Code Completion with Coding-Agent goes beyond traditional sug
 
 This unique approach ensures that code completion is not just about filling in the blanks but actively contributing to the realization of your project goals. By understanding the task at hand, qodo Gen's Code Completion becomes a proactive partner in your coding process, guiding you through the implementation of solutions that directly address your requirements.
 
-[Read more about qodo Gen's Coding-Agnet](../chat/coding-agent.md)
+[Read more about qodo Gen's Coding-Agent](../chat/coding-agent.md)
 
 ## Benefits
 
