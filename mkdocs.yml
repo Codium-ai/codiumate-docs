@@ -117,13 +117,13 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.com/invite/SgSxuQ65GF
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@Codium-AI
+      link: https://www.youtube.com/@QodoAI
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/codiumai
+      link: https://www.linkedin.com/company/qodoai
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/CodiumAI
+      link: https://twitter.com/QodoAI
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/codiumai/
+      link: https://www.instagram.com/qodo_ai
 
 extra_css:
   - css/custom.css
@@ -161,4 +161,4 @@ markdown_extensions:
 
 
 copyright: |
-  &copy; 2024 <a href="https://www.codium.ai/"  target="_blank" rel="noopener">CodiumAI</a>
+  &copy; 2024 <a href="https://www.qodo.ai/"  target="_blank" rel="noopener">Qodo</a>
