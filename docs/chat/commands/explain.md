@@ -9,11 +9,11 @@ Follow these steps to leverage the `/explain` command effectively:
 
 1. **Select Current File Focus**: The `/explain` command is exclusively available in Current File Focus, focusing on providing detailed explanations for specific code segments within a single file.
 
-2. **Select Your Secondary Focus**: Identify the piece of code you need elucidation on. This selection ensures that Codiumate tailors the explanation to the relevant code segment, offering precise and actionable insights.
+2. **Select Your Secondary Focus**: Identify the piece of code you need elucidation on. This selection ensures that qodo Gen tailors the explanation to the relevant code segment, offering precise and actionable insights.
 
-3. **Initiate the Command**: Type `/explain` into the chat interface after selecting your code. Codiumate will then process the selected segment and generate a structured explanation.
+3. **Initiate the Command**: Type `/explain` into the chat interface after selecting your code. qodo Gen will then process the selected segment and generate a structured explanation.
 
-4. **Review the Explanation**: Codiumate provides a comprehensive breakdown of the selected code, covering aspects such as:
+4. **Review the Explanation**: qodo Gen provides a comprehensive breakdown of the selected code, covering aspects such as:
     - A general description of what the code does.
     - Inputs and outputs, detailing the data the code segment receives and produces.
     - The code flow, outlining the execution path within the code.

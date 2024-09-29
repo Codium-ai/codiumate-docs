@@ -1,6 +1,6 @@
-# How to Use Test Generation in Codiumate
+# How to Use Test Generation in qodo Gen
 
-Test Generation is a standout feature of Codiumate, designed to streamline and enhance the process of creating comprehensive test suites for your code. Unlike the interactive chat, test generation operates within a dedicated advanced panel, providing a focused environment for creating and managing tests.
+Test Generation is a standout feature of qodo Gen, designed to streamline and enhance the process of creating comprehensive test suites for your code. Unlike the interactive chat, test generation operates within a dedicated advanced panel, providing a focused environment for creating and managing tests.
 
 ## Initiating Test Generation
 
@@ -14,12 +14,12 @@ There are multiple pathways to initiate test generation, catering to your workfl
 
 1. **Lens Buttons**: Generate tests through lens buttons above any class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
 
-2. **Context Menu**: Right-click on any selected code or component name and select "Codiumate - Test this component" from the context menu.
+2. **Context Menu**: Right-click on any selected code or component name and select "qodo Gen - Test this component" from the context menu.
 
 3. **Command Palette (VSCode)**: use command palettes to generate tests:
 
 
-4. **Codiumate Button (JetBrains) **: use Codiumate button near every class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
+4. **qodo Gen Button (JetBrains) **: use qodo Gen button near every class, function or method (can be disabled from the [extension settings](../installation/extension-settings.md)):
 
 ## The Advanced Panel
 
@@ -37,7 +37,7 @@ Following the behavior list, you will see generated tests covering a selection o
 
 ### Example Test
 
-At the top of the tab, there's an Example Test field, that lets you guide the style of generated tests by providing a sample test. Insert a test in the designated field or save it in the settings. If unspecified, Codiumate chooses an existing project test as a template, ensuring consistency across your test suite.
+At the top of the tab, there's an Example Test field, that lets you guide the style of generated tests by providing a sample test. Insert a test in the designated field or save it in the settings. If unspecified, qodo Gen chooses an existing project test as a template, ensuring consistency across your test suite.
 
 **[Read more about example test](./example-test.md)**
 

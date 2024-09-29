@@ -1,12 +1,12 @@
 ---
-title: Image Integration in Codiumate Chat
+title: Image Integration in qodo Gen Chat
 ---
 
-# Image Integration in Codiumate Chat
+# Image Integration in qodo Gen Chat
 
 ## Overview
 
-Image Integration in Codiumate chat allows users to paste images directly into the chat. This feature is available when no focus is selected, and [Coding-Agent](./coding-agent.md) modes, enhancing interactivity and providing valuable visual context to discussions.
+Image Integration in qodo Gen chat allows users to paste images directly into the chat. This feature is available when no focus is selected, and [Coding-Agent](./coding-agent.md) modes, enhancing interactivity and providing valuable visual context to discussions.
 
 !!! pro "Semi-Pro feature"
     Using images in the chat is **available to all users** in Coding-Agent mode, and is exclusively available to Teams and Enterprise users in Free-Chat mode.
