@@ -11,19 +11,19 @@ title: JetBrains IDEs
 
 - :simple-jetbrains: __JetBrains__ 
     
-    [:octicons-arrow-right-24: Install Codiumate plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
+    [:octicons-arrow-right-24: Install qodo Gen plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
 
 </div>
 
-## Install Codiumate 
+## Install qodo Gen 
 
 Follow these steps to install the Cody plugin:
 
 1. Open the JetBrains editor on your machine.
 2. Open Settings (Mac: ++cmd+comma++ Windows: ++ctrl+alt+s++) and select Plugins
-3. Type and search <b class="bold-green">**Codiumate**</b> plugin and click Install
+3. Type and search <b class="bold-green">**qodo Gen**</b> plugin and click Install
 4. After installing, you may be prompted to reload the IDE to activate the plugin.
-5. Now the Codiumate icon appears in the sidebar.
+5. Now the qodo Gen icon appears in the sidebar.
 
 ## Login methods
 
@@ -48,7 +48,7 @@ If your organization has Single Sign-On (SSO) configured, you may also use this 
 
 ## Android Studio support JCEF
 
-Codiumate Plugin uses JCEF (Java Chromium Embedded Framework) to create a webview component in the plugin's tool window.
+qodo Gen Plugin uses JCEF (Java Chromium Embedded Framework) to create a webview component in the plugin's tool window.
 By default, most IntelliJ-based IDEs come with a boot runtime that includes JCEF.
 However, Android Studio (and some other versions of IntelliJ-based IDEs) utilize a boot runtime lacking JCEF, which prevents the plugin from loading in these environments.
 
@@ -60,4 +60,4 @@ To address this issue:
   2. Navigate to the "Help" -> "Find Action..." and find(type) "Choose Boot Runtime for the IDE" dialog. Here, you can select a boot runtime equipped with JCEF.
   3. Restart the IDE.
 
-If the issue persist, please open an issue in our [GitHub issue tracker](https://github.com/Codium-ai/codiumai-jetbrains-release/issues) or contact [support@codium.ai](mailto:support@codium.ai).
+If the issue persist, please open an issue in our [GitHub issue tracker](https://github.com/Codium-ai/codiumai-jetbrains-release/issues) or contact [support@qodo.ai](mailto:support@qodo.ai).

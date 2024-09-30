@@ -1,6 +1,6 @@
 # Subscription Plans
 
-Codiumate offers three distinct subscription plans to cater to the diverse needs of individual developers, teams, and enterprises. Each plan is designed to provide the tools and features necessary to enhance your coding, testing, and review processes.
+qodo Gen offers three distinct subscription plans to cater to the diverse needs of individual developers, teams, and enterprises. Each plan is designed to provide the tools and features necessary to enhance your coding, testing, and review processes.
 
 ## Available Plans
 
@@ -10,7 +10,7 @@ Codiumate offers three distinct subscription plans to cater to the diverse needs
 
     ---
 
-    The Free plan is ideal for individual developers or small teams just getting started with Codiumate. It offers basic features that improve coding efficiency and test generation.
+    The Free plan is ideal for individual developers or small teams just getting started with qodo Gen. It offers basic features that improve coding efficiency and test generation.
 
 
 -   :fontawesome-solid-users: __Teams__
@@ -30,12 +30,12 @@ Codiumate offers three distinct subscription plans to cater to the diverse needs
 </div>
 
 
-[Learn more about our plans and choose the one that fits your needs](https://www.codium.ai/pricing/).
+[Learn more about our plans and choose the one that fits your needs](https://www.qodo.ai/pricing/).
 
 ## Two Weeks Free Trial
 
-New users signing up for Codiumate are welcomed with a 2-week free trial of the Teams tier, providing full access to all pro features.
+New users signing up for qodo Gen are welcomed with a 2-week free trial of the Teams tier, providing full access to all pro features.
 
 - **Immediate Access**: Start using all Teams features immediately upon signing up with the Free plan.
 - **Upgrading**: If you find the pro features beneficial, you can easily upgrade to the Teams or Enterprise plan at any time during or after your trial.
-- **Reverting to Free Plan**: If you decide not to upgrade, you'll automatically continue with the Free plan once the 2-week trial concludes, still enjoying access to Codiumate's essential features.
+- **Reverting to Free Plan**: If you decide not to upgrade, you'll automatically continue with the Free plan once the 2-week trial concludes, still enjoying access to qodo Gen's essential features.

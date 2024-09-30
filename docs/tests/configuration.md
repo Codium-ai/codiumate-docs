@@ -1,29 +1,29 @@
 # Testing Configuration
 
 ## Overview
-The Configuration tab within Codiumate's Advanced Panel provides a suite of options to tailor the test suite generation process to your specific needs. These configurations ensure that the generated tests align with your project's conventions, requirements, and preferences.
+The Configuration tab within qodo Gen's Advanced Panel provides a suite of options to tailor the test suite generation process to your specific needs. These configurations ensure that the generated tests align with your project's conventions, requirements, and preferences.
 
 ## Configuration Options
 
 ### 1. General Instructions
-A free text field where you can specify general instructions that apply to the entire test suite. Use this space to request specific styling, documentation inclusion, or any other overarching guidelines you'd like Codiumate to follow during test generation.
+A free text field where you can specify general instructions that apply to the entire test suite. Use this space to request specific styling, documentation inclusion, or any other overarching guidelines you'd like qodo Gen to follow during test generation.
 
 ### 2. Example Test
-Provide an example test in this field to guide Codiumate on your preferred naming conventions, styling, use of mocks, etc. Codiumate will analyze this example to align the generated tests with your project's existing patterns and practices.
+Provide an example test in this field to guide qodo Gen on your preferred naming conventions, styling, use of mocks, etc. qodo Gen will analyze this example to align the generated tests with your project's existing patterns and practices.
 
 ### 3. Number of Tests
-Set the desired number of tests for Codiumate to generate initially. This allows you to control the volume of tests based on your project's scale, coverage goals, or other considerations.
+Set the desired number of tests for qodo Gen to generate initially. This allows you to control the volume of tests based on your project's scale, coverage goals, or other considerations.
 
 ### 4. Testing Framework
-Select your preferred testing framework from the available options. This ensures that the tests Codiumate generates are compatible with your project's testing environment and conventions.
+Select your preferred testing framework from the available options. This ensures that the tests qodo Gen generates are compatible with your project's testing environment and conventions.
 
 ## Regenerate Test Suite
 
-After making any changes to the configurations, it's essential to apply these updates by clicking the **"Regenerate"** button. This action prompts Codiumate to regenerate the test suite based on the new configuration settings, ensuring that all modifications are accurately reflected in the generated tests.
+After making any changes to the configurations, it's essential to apply these updates by clicking the **"Regenerate"** button. This action prompts qodo Gen to regenerate the test suite based on the new configuration settings, ensuring that all modifications are accurately reflected in the generated tests.
 
 ## Saving Configuration to a File
 
-To preserve your configurations and ensure consistency across your project or team, Codiumate allows you to save these settings to a TOML file:
+To preserve your configurations and ensure consistency across your project or team, qodo Gen allows you to save these settings to a TOML file:
 
 1. **Save Configurations**: Within the Configuration tab, find the option to export your settings.
 2. **File Name**: Save the exported configurations to a file named `.codiumai.toml`.
@@ -71,8 +71,8 @@ For JavaScript / TypeScript projects, the following configuration values control
 
 - **`overrideTestRunScript`**:
     - **Description**: Defines the command used to run tests.
-    - **Important**: CodiumAI generates a temporary file containing the test code for a single test and runs that file. After testing, this file is deleted. For component-oriented tests, the temporary file is created next to the file being tested. For suite-extension tests, it is created next to the test suite file.
-    - **Note**: You should start the command with 'npx' (e.g., 'npx jest'), and ensure the test command can run test files in the same directory as the file under test. Adjust your package.json script to avoid exclusions that could cause CodiumAI tests to be "not found".
+    - **Important**: qodo Gen generates a temporary file containing the test code for a single test and runs that file. After testing, this file is deleted. For component-oriented tests, the temporary file is created next to the file being tested. For suite-extension tests, it is created next to the test suite file.
+    - **Note**: You should start the command with 'npx' (e.g., 'npx jest'), and ensure the test command can run test files in the same directory as the file under test. Adjust your package.json script to avoid exclusions that could cause qodo Gen tests to be "not found".
     - **Placeholder**: `TEST_FILEPATH` will be replaced with the actual path of the test file.
     - **Examples**:
         - Mocha:
@@ -83,7 +83,7 @@ For JavaScript / TypeScript projects, the following configuration values control
             ```bash
             npx jest --runTestsByPath TEST_FILEPATH
             ```
-    - **Debugging Note**: To debug test run issues, consult the run logs in VSCode's OUTPUT (select codium-ai from the dropdown). Clearing the output before running tests again can be helpful.
+    - **Debugging Note**: To debug test run issues, consult the run logs in VSCode's OUTPUT (select Qodo from the dropdown). Clearing the output before running tests again can be helpful.
 
 - **`overrideImports`**:
     - **Description**: A multiline string, enclosed in triple quotes (`"""`), containing import declarations that will be prepended to each test file.
