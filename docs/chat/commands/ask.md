@@ -6,11 +6,11 @@ Ask open questions about your code, useful to get a better understanding of the 
 ## How to Use
 To use the `/ask` command, follow these steps:
 
-1. **Select Your Focus**: First, determine the focus in which you need assistance. qodo Gen supports two main focuses for this command:
+1. **Select Your Focus**: First, determine the focus in which you need assistance. Qodo Gen supports two main focuses for this command:
     - **Current File Focus**: For queries related to a specific file, focusing on selected code or selected components.
     - **Git-Diff Focus**: For queries concerning a changeset, including committed changes, local changes and staged changes.
 
-2. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. qodo Gen will process your query and return a response tailored to the context of your selected mode and focus.
+2. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. Qodo Gen will process your query and return a response tailored to the context of your selected mode and focus.
 
 3. **Continue the Chat**: If you require further assistance or have additional questions, click the "continue this chat" button. This action creates a [thread](../threads.md), allowing for a more in-depth conversation regarding your query.
 

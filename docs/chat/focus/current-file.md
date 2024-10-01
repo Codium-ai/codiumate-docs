@@ -15,7 +15,7 @@ output:
 
 ## Overview {.unlisted .unnumbered}
 
-Focus on Current File in qodo Gen enhances your coding experience by concentrating on the file you're currently working on. This focus allows you to send selected portions of your code to the model, ensuring the responses are contextually relevant to your specific codebase. With two focus options available via a dropdown menu, Focus on Current File adapts to your needs, whether you're examining specific lines or a desired components.
+Focus on Current File in Qodo Gen enhances your coding experience by concentrating on the file you're currently working on. This focus allows you to send selected portions of your code to the model, ensuring the responses are contextually relevant to your specific codebase. With two focus options available via a dropdown menu, Focus on Current File adapts to your needs, whether you're examining specific lines or a desired components.
 
 ## Focus Options
 
@@ -37,7 +37,7 @@ In Current File Focus you can utilize the following commands:
 
 ## How to focus on Current File
 
-1. **Add Focus**: Within qodo Gen chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows, and choose `Current File`.
+1. **Add Focus**: Within Qodo Gen chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows, and choose `Current File`.
 2. **Choose Your Focus**: Utilize the secondary focus dropdown to select between Selected Lines or Selected Component based on your current requirement.
 3. **Execute a Command**: Type in your desired command (e.g., [`/ask`](../commands/ask.md), [`/docstring`](../commands/docstring.md)) followed by your question or request. Ensure your command matches the focus option you've selected for contextually relevant responses.
 

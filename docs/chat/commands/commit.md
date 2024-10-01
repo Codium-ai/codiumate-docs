@@ -1,7 +1,7 @@
 # `/commit`
 
 ##Description
-The `/commit` command streamlines the process of crafting commit messages for your staged changes. Available in Git-Diff Focus, this command analyzes your staged changes and generates a comprehensive commit message that succinctly describes all modifications. For added convenience, qodo Gen integrates an "Auto commit message" button within the source control panel of the IDE, offering an alternative method to directly apply the generated message to the commit field.
+The `/commit` command streamlines the process of crafting commit messages for your staged changes. Available in Git-Diff Focus, this command analyzes your staged changes and generates a comprehensive commit message that succinctly describes all modifications. For added convenience, Qodo Gen integrates an "Auto commit message" button within the source control panel of the IDE, offering an alternative method to directly apply the generated message to the commit field.
 
 ##How to Use
 To utilize the `/commit` command effectively, follow these steps:
@@ -10,9 +10,9 @@ To utilize the `/commit` command effectively, follow these steps:
 
 2. **Ensure Changes are Staged**: Before initiating the command, confirm that all changes you wish to include in your commit message are correctly staged.
 
-3. **Initiate the Command**: Type `/commit` in the chat interface. qodo Gen will analyze the staged changes and generate a detailed commit message reflecting the modifications.
+3. **Initiate the Command**: Type `/commit` in the chat interface. Qodo Gen will analyze the staged changes and generate a detailed commit message reflecting the modifications.
 
-4. **Copy and Paste the Commit Message**: Review the generated commit message provided by qodo Gen. You can copy this message and manually paste it into the commit message field in your source control panel.
+4. **Copy and Paste the Commit Message**: Review the generated commit message provided by Qodo Gen. You can copy this message and manually paste it into the commit message field in your source control panel.
 
     Alternatively, use the **Auto commit message** button directly in the source control panel of your IDE. This button performs the same action, automatically inserting the generated commit message into the commit field, streamlining the process.
 
