@@ -22,9 +22,6 @@ Follow these steps to leverage the `/explain` command effectively:
 !!! success "Available in"
     - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
 
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
-
 
 !!! example
     ### Command:
