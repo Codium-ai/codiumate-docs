@@ -14,6 +14,8 @@ Codiumate Chat maintains a history of your 20 most recent conversations, allowin
 3. **Start a new Conversation:** Click on the "New Chat" button on the top right of the chat interface to start a new conversation. Your current chat history will be cleared, and Codiumate will be ready to start a new conversation.
 4. **Check your Chat History:** Next to the "New Chat" button, find the History button and click on it. The Chat History interface will open. You can see your latest 20 chats with Codiumate, switch to each one and continue the conversation if you wish.
 
+Currently, your chat history wouldn't be saved between sessions, and will be deleted once you close VSCode. We are working on adding this feature in the future. Stay tuned!
+
 ## Examples
 
 !!! example "Using the New Chat button"
