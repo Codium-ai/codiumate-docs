@@ -18,9 +18,6 @@ Currently, your chat history wouldn't be saved between sessions, and will be del
 
 ## Examples
 
-!!! example "Using the New Chat button"
-    ![New Chat](../assets/gifs/23.9.2024NewChatButton.gif){width=700, loading=lazy}
-
 !!! example "Using Chat History"
-    ![Chat History](../assets/gifs/22.9.2024ChatHistory.gif){width=700, loading=lazy}
+    ![Chat History](https://www.qodo.ai/images/qodo-gen-gifs/ChatHistory.gif){width=700, loading=lazy}
 
