@@ -2,7 +2,7 @@
 
 ##Description
 
-The `/changelog` command in qodo Gen is a powerful tool for maintaining an up-to-date and detailed record of changes within your project. Aimed at enhancing project documentation, this command automates the process of updating your changelog file. By analyzing a selected changeset (local, staged, or committed changes), qodo Gen generates a structured changelog text summarizing the modifications. If an existing changelog file is detected in the project, qodo Gen uses it as a reference to match the style and formatting of the update, ensuring consistency across documentation.
+The `/changelog` command in Qodo Gen is a powerful tool for maintaining an up-to-date and detailed record of changes within your project. Aimed at enhancing project documentation, this command automates the process of updating your changelog file. By analyzing a selected changeset (local, staged, or committed changes), Qodo Gen generates a structured changelog text summarizing the modifications. If an existing changelog file is detected in the project, Qodo Gen uses it as a reference to match the style and formatting of the update, ensuring consistency across documentation.
 
 ##How to Use
 
@@ -12,9 +12,9 @@ Follow these steps to seamlessly update your changelog using the `/changelog` co
 
 2. **Select Target Branch (for committed changes)**: If your focus is on committed changes, you must select the target branch to which your current working branch will be compared. For local or staged changes, proceed directly to initiating the command as these do not require a target branch selection.
 
-3. **Initiate the Command**: Type `/changelog` in the chat interface. qodo Gen then examines the selected changeset, drafting a structured changelog entry that encapsulates the essence of the modifications.
+3. **Initiate the Command**: Type `/changelog` in the chat interface. Qodo Gen then examines the selected changeset, drafting a structured changelog entry that encapsulates the essence of the modifications.
 
-4. **Review and Implement the Update**: qodo Gen presents the proposed changelog update, formatted in line with any existing changelog documentation within the project. You can review this summary for accuracy and completeness before integrating it into your changelog file, ensuring that project stakeholders are kept informed of the latest developments.
+4. **Review and Implement the Update**: Qodo Gen presents the proposed changelog update, formatted in line with any existing changelog documentation within the project. You can review this summary for accuracy and completeness before integrating it into your changelog file, ensuring that project stakeholders are kept informed of the latest developments.
 
 !!! success "Available in"
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)

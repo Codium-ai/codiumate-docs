@@ -8,22 +8,22 @@ title: VSCode IDE
 
 <div class="grid cards" markdown>
 
-- :simple-visualstudiocode: __qodo Gen for VSCode__ 
+- :simple-visualstudiocode: __Qodo Gen for VSCode__ 
 
-    [:octicons-arrow-right-24: Install qodo Gen extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
+    [:octicons-arrow-right-24: Install Qodo Gen extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
 
 </div>
 
-## Install qodo Gen 
+## Install Qodo Gen 
 
 Follow these steps to install the Cody plugin:
 
 
 1. Open VSCode IDE on your machine
 2. Click the Extensions icon in the Activity Bar on the side of VSCode, or use the keyboard shortcut ++cmd+shift+x++ (macOS) or ++ctrl+shift+x++ (Windows/Linux)
-3. Type <b class="bold-green">**qodo Gen**</b> in the search bar and click the Install button.
+3. Type <b class="bold-green">**Qodo Gen**</b> in the search bar and click the Install button.
 4. After installing, you may be prompted to reload the extensions to activate the extension.
-5. Now the qodo Gen icon appears in the [Activity Bar](https://code.visualstudio.com/api/ux-guidelines/activity-bar).
+5. Now the Qodo Gen icon appears in the [Activity Bar](https://code.visualstudio.com/api/ux-guidelines/activity-bar).
 
 ## Login methods
 

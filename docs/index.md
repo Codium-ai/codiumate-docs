@@ -8,27 +8,27 @@ hide:
 ---
 
 
-# Welcome to qodo Gen
+# Welcome to Qodo Gen
 
 <h3 class="bold-green" markdown>
 **Code, Test, and Review with Confidence - Your AI Mate by Qodo**
 </h3>
 
-Welcome to qodo Gen, your AI-powered coding companion designed to enhance your software development cycle. From generating tests to writing and reviewing code, qodo Gen offers a suite of tools to increase efficiency, improve code quality, and streamline your development process.
+Welcome to Qodo Gen, your AI-powered coding companion designed to enhance your software development cycle. From generating tests to writing and reviewing code, Qodo Gen offers a suite of tools to increase efficiency, improve code quality, and streamline your development process.
 
 ## Getting started
 
-qodo Gen seamlessly integrates with your favorite IDEs:
+Qodo Gen seamlessly integrates with your favorite IDEs:
 
 <div class="grid cards" markdown>
 
 - :simple-visualstudiocode: __VSCode__ 
 
-    [:octicons-arrow-right-24: Install qodo Gen extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
+    [:octicons-arrow-right-24: Install Qodo Gen extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
 
 - :simple-jetbrains: __JetBrains__ 
     
-    [:octicons-arrow-right-24: Install qodo Gen plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
+    [:octicons-arrow-right-24: Install Qodo Gen plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
 
 </div>
 
@@ -39,7 +39,7 @@ qodo Gen seamlessly integrates with your favorite IDEs:
 
 ## Main capabilities
 
-qodo Gen comes packed with features to enhance every step of your development cycle:
+Qodo Gen comes packed with features to enhance every step of your development cycle:
 
 | Method      | Description                          |
 | ----------- | ------------------------------------ |
@@ -52,7 +52,7 @@ qodo Gen comes packed with features to enhance every step of your development cy
 
 ## Supported languages
 
-qodo Gen supports ALL programming languages for test generation, with enhanced support and features for:
+Qodo Gen supports ALL programming languages for test generation, with enhanced support and features for:
 
 - Python
 - JavaScript
@@ -63,7 +63,7 @@ qodo Gen supports ALL programming languages for test generation, with enhanced s
 
 ## Join the community
 
-If you need assistance or have questions about qodo Gen, feel free to join our community on GitHub Discussions for **[VSCode :simple-visualstudiocode:](https://github.com/Codium-ai/codiumai-vscode-release/issues)** or for **[JetBrains :simple-jetbrains:](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)**, or join our **[Discord community]()**.
+If you need assistance or have questions about Qodo Gen, feel free to join our community on GitHub Discussions for **[VSCode :simple-visualstudiocode:](https://github.com/Codium-ai/codiumai-vscode-release/issues)** or for **[JetBrains :simple-jetbrains:](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)**, or join our **[Discord community]()**.
 
 
 <h3 class="bold-green" markdown>

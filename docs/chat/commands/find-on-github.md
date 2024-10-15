@@ -1,7 +1,7 @@
 # `/find-on-github`
 
 ##Description
-The `/find-on-github` command connects your development environment to the vast world of open-source projects on GitHub. By selecting a segment of code, you can use this command to search for similar code across GitHub repositories. qodo Gen efficiently scans open-source projects, providing you with links to repositories that contain code akin to your selection. This feature is invaluable for discovering how similar challenges are addressed in other projects, learning new coding practices, or finding potential libraries to integrate into your project.
+The `/find-on-github` command connects your development environment to the vast world of open-source projects on GitHub. By selecting a segment of code, you can use this command to search for similar code across GitHub repositories. Qodo Gen efficiently scans open-source projects, providing you with links to repositories that contain code akin to your selection. This feature is invaluable for discovering how similar challenges are addressed in other projects, learning new coding practices, or finding potential libraries to integrate into your project.
 
 ##How to Use
 Leverage the `/find-on-github` command by following these steps:
@@ -10,9 +10,9 @@ Leverage the `/find-on-github` command by following these steps:
 
 2. **Select Your Secondary Focus**: Highlight the code segment you're interested in comparing with open-source projects on GitHub. This targeted approach ensures the search results are relevant to your specific code context.
 
-3. **Initiate the Command**: Type `/find-on-github` in the chat interface after selecting your code. qodo Gen then processes your request by searching GitHub for similar code snippets or implementations.
+3. **Initiate the Command**: Type `/find-on-github` in the chat interface after selecting your code. Qodo Gen then processes your request by searching GitHub for similar code snippets or implementations.
 
-4. **Review the Results**: qodo Gen provides a list of links to GitHub repositories that contain similar code. These links are directly accessible from the chat interface, allowing you to quickly explore the findings.
+4. **Review the Results**: Qodo Gen provides a list of links to GitHub repositories that contain similar code. These links are directly accessible from the chat interface, allowing you to quickly explore the findings.
 
 !!! success "Available in"
     - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)

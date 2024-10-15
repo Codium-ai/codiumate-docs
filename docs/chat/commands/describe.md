@@ -2,7 +2,7 @@
 
 ##Description
 
-The `/describe` command in qodo Gen is designed to streamline the process of preparing pull requests (PRs) and understanding changes within your workspace. By invoking this command with a focus on selected changes (local, staged, or committed), qodo Gen generates a structured description of the changeset. This includes a title, type of changes (e.g., bug fix, feature addition, performance improvement), and a detailed description. This functionality is particularly useful for developers looking to summarize their work before opening a PR, ensuring that colleagues and contributors can quickly grasp the intent and scope of the changes.
+The `/describe` command in Qodo Gen is designed to streamline the process of preparing pull requests (PRs) and understanding changes within your workspace. By invoking this command with a focus on selected changes (local, staged, or committed), Qodo Gen generates a structured description of the changeset. This includes a title, type of changes (e.g., bug fix, feature addition, performance improvement), and a detailed description. This functionality is particularly useful for developers looking to summarize their work before opening a PR, ensuring that colleagues and contributors can quickly grasp the intent and scope of the changes.
 
 ##How to Use
 
@@ -12,7 +12,7 @@ To utilize the `/describe` command effectively, follow these steps:
 
 2. **Select Target Branch (for committed changes)**: If your focus is on reviewing committed changes, you must select the target branch to which your current working branch will be compared. This step is crucial for understanding the context and impact of the changes within the broader project scope. For local or staged changes, proceed directly to initiating the command as these do not require a target branch selection.
 
-3. **Initiate the Command**: Type `/describe` in the chat interface. qodo Gen then processes your selected changes and compiles a structured description, including a suggested title, the type of changes made, and a comprehensive description of the changeset.
+3. **Initiate the Command**: Type `/describe` in the chat interface. Qodo Gen then processes your selected changes and compiles a structured description, including a suggested title, the type of changes made, and a comprehensive description of the changeset.
 
 4. **Review and Use the Description**: Review the generated description for accuracy and completeness. You can then use this structured summary directly in your Git PR, facilitating clear communication and efficient collaboration with your team.
 
