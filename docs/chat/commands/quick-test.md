@@ -10,9 +10,9 @@ To efficiently use the `/quick-test` command, follow these steps:
 
 2. **Select Your Secondary Focus**: Identify the code segment you wish to test. This selection is crucial for ensuring that the generated tests are relevant and targeted.
 
-3. **Initiate the Command**: Type `/quick-test` in the chat interface. Qodo Gen then analyzes the selected code segment and generates a few behaviors, which are printed in the chat interface along with the initial test suite covering these behaviors. This quick generation aims to give you an immediate understanding of what aspects of the code are being tested. If you require additional behaviors to be tested, you can request more directly in the current chat. qodo Gen will maintain the context of your initial query, providing tailored responses to your follow-up questions.
+3. **Initiate the Command**: Type `/quick-test` in the chat interface. Qodo Gen then analyzes the selected code segment and generates a few behaviors, which are printed in the chat interface along with the initial test suite covering these behaviors. This quick generation aims to give you an immediate understanding of what aspects of the code are being tested. If you require additional behaviors to be tested, you can request more directly in the current chat. Qodo Gen will maintain the context of your initial query, providing tailored responses to your follow-up questions.
 
-4. **Refine the Test Suite**: Engage in a conversation with Qodo Gen to specify adjustments to the test suite. This can include requests for testing additional behaviors, modifying existing tests, or clarifying the logic behind certain tests. qodo Gen responds iteratively, refining the test suite according to your directions and feedback.
+4. **Refine the Test Suite**: Engage in a conversation with Qodo Gen to specify adjustments to the test suite. This can include requests for testing additional behaviors, modifying existing tests, or clarifying the logic behind certain tests. Qodo Gen responds iteratively, refining the test suite according to your directions and feedback.
 
 5. **Finalize Your Test Suite**: Continue this interactive refinement until the test suite satisfactorily covers all desired behaviors and test scenarios. This step concludes the process, ensuring the final test suite is comprehensive and tailored to your specific testing goals.
 

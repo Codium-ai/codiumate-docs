@@ -36,7 +36,7 @@ For each message you send in the chat, you can enhance the accuracy of the resul
 Additionally, you can attach an image to the chat and make any request related to that image. [Explore Adding Image to the Chat.](./images.md)
 
 ### Chat History
-qodo Gen Chat maintains a history of your 20 most recent conversations, allowing you to review past interactions, refresh your memory, or explore new topics. You can continue a past chat to dive deeper into a topic or request additional information. [Learn more about Chat History.](./chat-history.md)
+Qodo Gen Chat maintains a history of your 20 most recent conversations, allowing you to review past interactions, refresh your memory, or explore new topics. You can continue a past chat to dive deeper into a topic or request additional information. [Learn more about Chat History.](./chat-history.md)
 
 ### Task Coding-Agent
 Coding-Agent harnesses the power of Qodo Gen's AI to offer unparalleled support in your coding journey, transforming your development workflow with intelligent, real-time assistance. This mode focuses on enhancing your coding efficiency and quality by generating detailed plans for your coding tasks and guiding you through their implementation. [Discover Coding-Agent.](./coding-agent.md)
