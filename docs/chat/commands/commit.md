@@ -19,9 +19,6 @@ To utilize the `/commit` command effectively, follow these steps:
 !!! success "Available in"
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
-
 !!! example "Commit message using Chat"
     ![commit-chat](./assets/commit-chat.gif){width=700, loading=lazy}
 

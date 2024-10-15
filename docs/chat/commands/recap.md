@@ -20,9 +20,6 @@ To effectively utilize the `/recap` command, adhere to the following steps:
 !!! success "Available in"
     - [:fontawesome-solid-code-compare: Git-Diff focus](../focus/git-diff.md)
 
-!!! threads "Threads"
-    This command supports threading. [Read more about Threads](../threads.md).
-
 !!! example
     ### Command: 
     `/recap`

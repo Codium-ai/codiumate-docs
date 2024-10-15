@@ -35,7 +35,7 @@ The Task Implementation Plan streamlines your coding process by breaking down co
 
 - **Step 4: Review the Plan** - Take a moment to review the generated plan. Ensure it aligns with your project's needs and covers all aspects of the task.
 
-- **Step 5: Adjust the Plan** - If you see areas for improvement or need to modify the plan, click on "Adjust the plan". You can ask for specific modifications inside the thread to refine the plan according to your needs.
+- **Step 5: Adjust the Plan** - If you see areas for improvement or need to modify the plan, click on "Adjust the plan". You can ask for specific modifications during the conversation to refine the plan according to your needs.
 
 - **Step 6: Create a Full Task Plan** - For a full detailed plan including time estimations, testing strategy, and more information, click on the "create a full task plan" button and read the full plan. This comprehensive plan will provide deeper insights and a broader strategy for accomplishing your task.
 
