@@ -51,7 +51,7 @@ nav:
 
 theme:
   logo: assets/logo.svg
-  favicon: assets/favicon.ico
+  favicon: assets/favicon2.ico
   name: material
   features:
     - navigation.tabs
