@@ -4,7 +4,6 @@ on:
 
 jobs:
   update-docs-context:
-    if: github.ref == 'refs/heads/docs-context'
     runs-on: ubuntu-latest
     steps:
       - run: python scripts/build_docs_context.py
