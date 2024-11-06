@@ -1,5 +1,8 @@
 name: ci 
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - docs-context
 
 jobs:
   update-docs-context:
