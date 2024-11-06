@@ -4,29 +4,14 @@ on:
     branches:
       - master 
       - main
+      - docs-context
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  deploy:
+  update-docs-context:
     runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'workflow_dispatch'
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material 
-      - run: pip install "mkdocs-material[imaging]"
-      - run: pip install mkdocs-glightbox
-      - run: pip install mkdocs-video
-      - run: mkdocs gh-deploy --force
+      - run: python scripts/build_docs_context.py
+  
