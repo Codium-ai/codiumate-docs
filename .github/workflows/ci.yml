@@ -1,17 +1,11 @@
 name: ci 
 on:
-  push:
-    branches:
-      - master 
-      - main
-      - docs-context
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   update-docs-context:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
     steps:
       - run: python scripts/build_docs_context.py
   
