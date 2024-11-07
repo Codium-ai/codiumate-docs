@@ -18,4 +18,12 @@ jobs:
           
       - name: Run build script
         run: python scripts/build_docs_context.py
+      
+      - name: Clone codium-proxy
+        env:
+          CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
+        run: |
+          git clone https://x-access-token:$CODIUM_PROXY_TOKEN@github.com/Codium-ai/codium-proxy.git
+          cd codium-proxy
+          echo "Successfully cloned codium-proxy"
   
