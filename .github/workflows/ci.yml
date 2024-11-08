@@ -49,6 +49,7 @@ jobs:
         run: sleep 10
 
       - name: Create pull request
+        id: create_pr
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.CODIUM_PROXY_TOKEN }}
