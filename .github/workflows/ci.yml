@@ -79,7 +79,8 @@ jobs:
         if: success()
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          PULL_REQUEST_URL: ${{ steps.create_pr.outputs.pull_request_url }}
         run: |
           curl -X POST -H 'Content-type: application/json' \
-          --data "{\"text\":\"A new pull request has been created: ${{ steps.create_pr.outputs.pull_request_url }}\"}" \
+          --data "{\"text\":\"A new pull request has been created: ${PULL_REQUEST_URL}\"}" \
           $SLACK_WEBHOOK_URL
