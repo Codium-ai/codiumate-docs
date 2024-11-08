@@ -83,5 +83,5 @@ jobs:
           PULL_REQUEST_URL: ${{ steps.create_pr.outputs.pull_request_url }}
         run: |
           curl -X POST -H 'Content-type: application/json' \
-          --data "{\"text\":\"A new pull request has been created: ${PULL_REQUEST_URL}\"}" \
+          --data "{\"text\":\"Documentation context is updated please approve PR: ${PULL_REQUEST_URL}\"}" \
           $SLACK_WEBHOOK_URL
