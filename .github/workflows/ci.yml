@@ -37,7 +37,7 @@ jobs:
           pwd
           ls -la
           # write .llm_context content to documentation/docs_context.txt
-          echo "$(cat .llm_context.txt)" > documentation/docs_context.txt
+          echo "$(cat ../.llm_context.txt)" > documentation/docs_context.txt
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b update-docs-context-branch
