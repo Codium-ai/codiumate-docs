@@ -53,6 +53,7 @@ jobs:
         with:
           github-token: ${{ secrets.CODIUM_PROXY_TOKEN }}
           script: |
+            try {
               // If we get here, try to create the PR
               console.log('Creating pull request...');
               const pullRequest = await github.rest.pulls.create({
@@ -82,3 +83,4 @@ jobs:
           curl -X POST -H 'Content-type: application/json' \
           --data "{\"text\":\"A new pull request has been created: ${{ steps.create_pr.outputs.pull_request_url }}\"}" \
           $SLACK_WEBHOOK_URL
+k
