@@ -50,9 +50,8 @@ jobs:
 
       - name: Create pull request
         uses: actions/github-script@v6
-        env:
-          GITHUB_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
         with:
+          github-token: ${{ secrets.CODIUM_PROXY_TOKEN }}
           script: |
             try {
               // First verify we can access the repo
