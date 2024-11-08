@@ -34,6 +34,8 @@ jobs:
       - name: Make updates to codium-proxy docs content
         working-directory: codium-proxy
         run: |
+          pwd
+          ls -la
           # write .llm_context content to documentation/docs_context.txt
           echo "$(cat .llm_context.txt)" > documentation/docs_context.txt
           git config --global user.name "github-actions[bot]"
