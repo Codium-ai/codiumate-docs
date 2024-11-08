@@ -83,4 +83,3 @@ jobs:
           curl -X POST -H 'Content-type: application/json' \
           --data "{\"text\":\"A new pull request has been created: ${{ steps.create_pr.outputs.pull_request_url }}\"}" \
           $SLACK_WEBHOOK_URL
-k
