@@ -38,7 +38,8 @@ def get_markdown_content(directory):
     markdown_content = re.sub(r'\n{3,}', '\n', markdown_content)
     return markdown_content
 
-docs_path = Path(__file__).parent.parent / "docs"
-markdown_content = get_markdown_content(docs_path)
-with open(".llm_context.txt", "w") as f:
-    f.write(markdown_content)
+if __name__ == "__main__":
+    docs_path = Path(__file__).parent.parent / "docs"
+    markdown_content = get_markdown_content(docs_path)
+    with open(".llm_context.txt", "w") as f:
+        f.write(markdown_content)
