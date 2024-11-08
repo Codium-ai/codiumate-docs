@@ -47,9 +47,11 @@ jobs:
 
       - name: Create pull request
         uses: actions/github-script@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
         with:
           script: |
-            const { data: pullRequest } = await github.rest.pulls.create({
+            const pullRequest = await github.rest.pulls.create({
               owner: 'Codium-ai',
               repo: 'codium-proxy',
               title: 'Automated update to docs_context.txt',
@@ -57,4 +59,4 @@ jobs:
               base: 'main',  # Adjust this if the target branch is different
               body: 'This is an automated pull request to update docs_context.txt',
             });
-            core.setOutput('pull_request_url', pullRequest.html_url);
+            core.setOutput("pull_request_url", pullRequest.data.html_url);
