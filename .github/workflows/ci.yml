@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -10,15 +10,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-          
+
       - name: Run build script
-        run: python scripts/build_docs_context.py
-      
+        run: python scripts/build_docs_context.py # this will create a .llm_context.txt file in repo-root/.llm_context.txt
+
       - name: Clone codium-proxy
         env:
           CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
@@ -26,7 +26,11 @@ jobs:
           git clone https://x-access-token:$CODIUM_PROXY_TOKEN@github.com/Codium-ai/codium-proxy.git
           cd codium-proxy
           echo "Successfully cloned codium-proxy"
-      
+      - name: Print working directory and list files
+        run: |
+          pwd
+          ls -la
+
       - name: Make updates to codium-proxy docs content
         working-directory: codium-proxy
         run: |
