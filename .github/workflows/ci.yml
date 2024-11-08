@@ -26,4 +26,15 @@ jobs:
           git clone https://x-access-token:$CODIUM_PROXY_TOKEN@github.com/Codium-ai/codium-proxy.git
           cd codium-proxy
           echo "Successfully cloned codium-proxy"
+      
+      - name: Make updates to codium-proxy docs content
+        working-directory: codium-proxy
+        run: |
+          # write .llm_context content to documentation/docs_context.txt
+          echo "$(cat .llm_context.txt)" > documentation/docs_context.txt
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-docs-context-branch
+          git add documentation/docs_context.txt
+          git commit -m "Automated update to docs_context.txt"
   
