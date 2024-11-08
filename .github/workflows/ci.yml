@@ -44,6 +44,8 @@ jobs:
           CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
         run: |
           git push -u origin update-docs-context-branch
+      - name: Wait for branch to propagate
+        run: sleep 10
 
       - name: Create pull request
         uses: actions/github-script@v6
