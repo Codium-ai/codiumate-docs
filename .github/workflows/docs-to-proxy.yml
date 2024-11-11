@@ -39,6 +39,21 @@ jobs:
           git add documentation/docs_context.txt
           git commit -m "Automated update to docs_context.txt"
 
+      - name: Send Slack Notification
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data "{\"text\":\"A update-docs branch already exist, please delete it and re-run  the workflow\"}" \"}" \
+          $SLACK_WEBHOOK_URL
+
+      - name: Stop workflow on failure
+        if: failure()
+        run: |
+          echo "Stopping workflow due to failure in the previous step."
+          exit 1
+
       - name: Push branch to remote
         working-directory: codium-proxy
         env:
