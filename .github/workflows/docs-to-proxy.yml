@@ -4,7 +4,6 @@ on:
     branches:
       - docs-context
 
-
 jobs:
   update-docs-context:
     runs-on: ubuntu-latest
@@ -67,6 +66,7 @@ jobs:
         id: create_pr
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.CODIUM_PROXY_TOKEN }} # This is YoavO personal access token need to move to a github app.
           script: |
             try {
               console.log('Creating pull request...');
