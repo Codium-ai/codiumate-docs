@@ -29,6 +29,7 @@ jobs:
           token: ${{secrets.CODIUM_PROXY_TOKEN}}
 
       - name: Make updates to codium-proxy docs content
+        continue-on-error: true
         working-directory: codium-proxy
         run: |
           # write .llm_context content to documentation/docs_context.txt
