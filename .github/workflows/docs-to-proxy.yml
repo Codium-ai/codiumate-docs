@@ -57,6 +57,7 @@ jobs:
         run: |
           echo "Stopping workflow due to an existing update-docs branch."
           exit 1
+
       - name: Wait for branch to propagate
         run: sleep 5
 
