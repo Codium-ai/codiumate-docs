@@ -26,7 +26,7 @@ jobs:
           repository: Codium-ai/codium-proxy
           ref: main
           path: codium-proxy
-          token: ${{secrets.CODIUM_PROXY_TOKEN}}
+          ssh-key: ${{secrets.CODIUM_PROXY_SSH}}
 
       - name: Make updates to codium-proxy docs content
         working-directory: codium-proxy
@@ -43,8 +43,6 @@ jobs:
         id: push-branch
         continue-on-error: true  # In case the branch fails we want to notify users on slack.
         working-directory: codium-proxy
-        env:
-          CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
         run: |
           git push -u origin update-docs-context-branch
 
@@ -54,7 +52,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           curl -X POST -H 'Content-type: application/json' \
-          --data "{\"text\":\"A update-docs branch already exist, please delete it and re-run  the workflow\"}" \"}" \
+          --data '{\"text\":\"A update-docs branch already exist, please delete it and re-run the workflow\"}' \
           $SLACK_WEBHOOK_URL
 
       - name: Stop workflow on failure
