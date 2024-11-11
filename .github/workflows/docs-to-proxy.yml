@@ -1,0 +1,87 @@
+name: ci
+on:
+  push:
+    branches:
+      - docs-context
+
+jobs:
+  update-docs-context:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run build script
+        run: python scripts/build_docs_context.py # this will create a .llm_context.txt file in repo-root/.llm_context.txt
+
+      - name: Clone codium-proxy
+        env:
+          CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
+        run: |
+          git clone https://x-access-token:$CODIUM_PROXY_TOKEN@github.com/Codium-ai/codium-proxy.git
+          cd codium-proxy
+          echo "Successfully cloned codium-proxy"
+
+      - name: Make updates to codium-proxy docs content
+        working-directory: codium-proxy
+        run: |
+          # write .llm_context content to documentation/docs_context.txt
+          echo "$(cat ../.llm_context.txt)" > documentation/docs_context.txt
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-docs-context-branch
+          git add documentation/docs_context.txt
+          git commit -m "Automated update to docs_context.txt"
+
+      - name: Push branch to remote
+        working-directory: codium-proxy
+        env:
+          CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
+        run: |
+          git push -u origin update-docs-context-branch
+
+      - name: Wait for branch to propagate
+        run: sleep 10
+
+      - name: Create pull request
+        id: create_pr
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.CODIUM_PROXY_TOKEN }}
+          script: |
+            try {
+              // If we get here, try to create the PR
+              console.log('Creating pull request...');
+              const pullRequest = await github.rest.pulls.create({
+                owner: 'Codium-ai',
+                repo: 'codium-proxy',
+                title: 'Automated update to docs_context.txt',
+                head: 'update-docs-context-branch',
+                base: 'main',
+                body: 'This is an automated pull request to update docs_context.txt',
+              });
+              console.log('Pull request created:', pullRequest.data.html_url);
+              core.setOutput("pull_request_url", pullRequest.data.html_url);
+            } catch (error) {
+              console.log('Error details:', {
+                message: error.message,
+                status: error.status,
+                response: error.response ? error.response.data : null
+              });
+              core.setFailed(error.message);
+            }
+
+      - name: Send Slack Notification
+        if: success()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          PULL_REQUEST_URL: ${{ steps.create_pr.outputs.pull_request_url }}
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data "{\"text\":\"Documentation context is updated please approve PR: ${PULL_REQUEST_URL}\"}" \
+          $SLACK_WEBHOOK_URL
