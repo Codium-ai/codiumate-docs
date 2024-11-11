@@ -40,6 +40,7 @@ jobs:
           git commit -m "Automated update to docs_context.txt"
 
       - name: Push branch to remote
+        id: push-branch
         continue-on-error: true  # In case the branch fails we want to notify users on slack.
         working-directory: codium-proxy
         env:
