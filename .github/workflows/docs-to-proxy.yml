@@ -52,7 +52,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           curl -X POST -H 'Content-type: application/json' \
-          --data "{\"text\":\"A update-docs branch already exists. Please delete it and re-run the workflow.\"}"
+          --data "{\"text\":\"A update-docs branch already exists. Please delete it and re-run the workflow.\"}" \ 
           $SLACK_WEBHOOK_URL
 
       - name: Stop workflow on failure
