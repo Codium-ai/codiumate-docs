@@ -52,13 +52,13 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           curl -X POST -H 'Content-type: application/json' \
-          --data '{\"text\":\"A update-docs branch already exist, please delete it and re-run the workflow\"}' \
+          --data "{\"text\":\"A update-docs branch already exists. Please delete it and re-run the workflow.\"}"
           $SLACK_WEBHOOK_URL
 
       - name: Stop workflow on failure
         if: steps.push-branch.outcome == 'failure'
         run: |
-          echo "Stopping workflow due to failure in the previous step."
+          echo "Stopping workflow due to an existing update-docs branch."
           exit 1
       - name: Wait for branch to propagate
         run: sleep 5
@@ -67,7 +67,6 @@ jobs:
         id: create_pr
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.CODIUM_PROXY_TOKEN }}
           script: |
             try {
               console.log('Creating pull request...');
