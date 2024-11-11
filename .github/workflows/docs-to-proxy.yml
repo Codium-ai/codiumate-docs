@@ -22,9 +22,9 @@ jobs:
       - name: Clone codium-proxy
         uses: actions/checkout@v2
         with:
-          repository: Codium-ai/pr-agent-pro
+          repository: Codium-ai/codium-proxy
           ref: main
-          path: pr-agent-pro
+          path: codium-proxy
           ssh-key: ${{secrets.CODIUM_PROXY_KEY}}
 
       - name: Make updates to codium-proxy docs content
