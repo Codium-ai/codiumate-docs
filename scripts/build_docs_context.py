@@ -4,9 +4,17 @@ from pathlib import Path
 import os
 import re
 
+CONTEXT_FILE_NAME = ".llm_context.txt"
+DOCS_DIRECTORY = "docs"
+
+
 def get_markdown_content(directory):
     """
     Recursively find and concatenate all markdown files in a directory.
+    Uses some ad-hoc logic to remove different elemnts:
+     - Images
+     - Examples.
+     - UI tags.
     
     Args:
         directory (str): Path to the directory to search
@@ -39,7 +47,7 @@ def get_markdown_content(directory):
     return markdown_content
 
 if __name__ == "__main__":
-    docs_path = Path(__file__).parent.parent / "docs"
+    docs_path = Path(__file__).parent.parent / DOCS_DIRECTORY
     markdown_content = get_markdown_content(docs_path)
-    with open(".llm_context.txt", "w") as f:
+    with open(CONTEXT_FILE_NAME, "w") as f:
         f.write(markdown_content)
