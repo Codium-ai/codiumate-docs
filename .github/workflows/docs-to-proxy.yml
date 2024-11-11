@@ -8,7 +8,6 @@ on:
 jobs:
   update-docs-context:
     runs-on: ubuntu-latest
-    continue-on-error: true  # In case the branch fails we want to notify users on slack.
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,6 +39,14 @@ jobs:
           git add documentation/docs_context.txt
           git commit -m "Automated update to docs_context.txt"
 
+      - name: Push branch to remote
+        continue-on-error: true  # In case the branch fails we want to notify users on slack.
+        working-directory: codium-proxy
+        env:
+          CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
+        run: |
+          git push -u origin update-docs-context-branch
+
       - name: Send Slack Notification
         if: failure()
         env:
@@ -54,14 +61,6 @@ jobs:
         run: |
           echo "Stopping workflow due to failure in the previous step."
           exit 1
-
-      - name: Push branch to remote
-        working-directory: codium-proxy
-        env:
-          CODIUM_PROXY_TOKEN: ${{ secrets.CODIUM_PROXY_TOKEN }}
-        run: |
-          git push -u origin update-docs-context-branch
-
       - name: Wait for branch to propagate
         run: sleep 5
 
