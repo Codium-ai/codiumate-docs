@@ -48,7 +48,7 @@ jobs:
           git push -u origin update-docs-context-branch
 
       - name: Send Slack Notification
-        if: failure()
+        if: steps.push-branch.outcome == 'failure'
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
@@ -57,7 +57,7 @@ jobs:
           $SLACK_WEBHOOK_URL
 
       - name: Stop workflow on failure
-        if: failure()
+        if: steps.push-branch.outcome == 'failure'
         run: |
           echo "Stopping workflow due to failure in the previous step."
           exit 1
