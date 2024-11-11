@@ -1,8 +1,5 @@
 name: ci
-on:
-  push:
-    branches:
-      - docs-context
+on: workflow_dispatch
 
 jobs:
   update-docs-context:
@@ -46,7 +43,7 @@ jobs:
           git push -u origin update-docs-context-branch
 
       - name: Wait for branch to propagate
-        run: sleep 10
+        run: sleep 5
 
       - name: Create pull request
         id: create_pr
@@ -55,7 +52,6 @@ jobs:
           github-token: ${{ secrets.CODIUM_PROXY_TOKEN }}
           script: |
             try {
-              // If we get here, try to create the PR
               console.log('Creating pull request...');
               const pullRequest = await github.rest.pulls.create({
                 owner: 'Codium-ai',
