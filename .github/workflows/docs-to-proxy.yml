@@ -8,6 +8,7 @@ on:
 jobs:
   update-docs-context:
     runs-on: ubuntu-latest
+    continue-on-error: true  # In case the branch fails we want to notify users on slack.
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,7 +30,6 @@ jobs:
           token: ${{secrets.CODIUM_PROXY_TOKEN}}
 
       - name: Make updates to codium-proxy docs content
-        continue-on-error: true
         working-directory: codium-proxy
         run: |
           # write .llm_context content to documentation/docs_context.txt
