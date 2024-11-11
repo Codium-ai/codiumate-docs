@@ -1,8 +1,6 @@
 name: docs-to-proxy
-on:
-  push:
-    branches:
-      - docs-context
+on: workflow_dispatch
+
 
 jobs:
   update-docs-context:
