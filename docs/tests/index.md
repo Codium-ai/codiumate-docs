@@ -36,7 +36,7 @@ Qodo Gen doesn't stop at generating tests. It offers an array of features for re
 
 **[Learn more about test suite refinement](./test-suite.md)**.
 
-### Running Tests (VSCode only :simple-visualstudiocode:)
+### Running Tests (VSCode only)
 Qodo Gen integrates directly with your development environment to offer a streamlined process for running tests. This feature, available for Python, JavaScript, and TypeScript, enables you to:
 
 - **Run and Auto-Fix Tests**: Automatically run generated tests with the option for Qodo Gen to attempt fixes on failing tests, enhancing efficiency by iteratively improving test success rates.

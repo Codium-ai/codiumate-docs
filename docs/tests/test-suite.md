@@ -3,10 +3,10 @@
 ## Overview
 Following the behavior analysis, Qodo Gen generates an initial list of tests based on the selected testing framework, which you can configure in the [configuration file](./configuration.md). Each test corresponds to a behavior identified in the preceding analysis and is tagged according to its type: happy path, edge case, other, or custom test.
 
-=== ":simple-visualstudiocode: VSCode"
+=== "VSCode"
     ![vscode-tests](https://qodo.ai/images/codiumate/vscode-tests.png){ width=900 }
 
-=== ":simple-jetbrains: JetBrains"
+=== "JetBrains"
     ![jb-tests](https://qodo.ai/images/codiumate/jb-tests.png){ width=900 }
 
 ## Refining Your Tests
@@ -23,7 +23,7 @@ Qodo Gen offers several options for refining and customizing the generated tests
 ### Test History and Feedback
 Qodo Gen maintains a history of each test's modifications, accessible through "Previous" and "Next" buttons, allowing you to track and revisit changes over time.
 
-### Provide Feedback (VSCode only :simple-visualstudiocode:)
+### Provide Feedback (VSCode only)
 Inside each test, you'll find "Like" or "Dislike" buttons. Your feedback helps Qodo Gen learn and improve test generation accuracy.
 
 ## Finalizing Your Test Suite

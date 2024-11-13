@@ -28,10 +28,10 @@ To utilize the `/commit` command effectively, follow these steps:
 
 !!! example "Commit message from Source Control panel"
 
-    === ":simple-visualstudiocode: VSCode"
+    === "VSCode"
         ![commit-source](./assets/commit-source-vs.gif){width=700, loading=lazy}
         
-    === ":simple-jetbrains: JetBrains"
+    === "JetBrains"
         ![commit-source](./assets/commit-source-jb.gif){width=700, loading=lazy}
     
     ---

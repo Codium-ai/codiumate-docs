@@ -2,13 +2,13 @@
 title: VSCode IDE
 ---
 
-# :simple-visualstudiocode: VSCode IDE 
+# VSCode IDE 
 
 ## Getting Started
 
 <div class="grid cards" markdown>
 
-- :simple-visualstudiocode: __Qodo Gen for VSCode__ 
+- __Qodo Gen for VSCode__ 
 
     [:octicons-arrow-right-24: Install Qodo Gen extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
 
