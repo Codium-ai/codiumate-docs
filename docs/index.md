@@ -22,11 +22,11 @@ Qodo Gen seamlessly integrates with your favorite IDEs:
 
 <div class="grid cards" markdown>
 
-- :simple-visualstudiocode: __VSCode__ 
+- __VSCode__ 
 
     [:octicons-arrow-right-24: Install Qodo Gen extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
 
-- :simple-jetbrains: __JetBrains__ 
+- __JetBrains__ 
     
     [:octicons-arrow-right-24: Install Qodo Gen plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
 
@@ -63,7 +63,7 @@ Qodo Gen supports ALL programming languages for test generation, with enhanced s
 
 ## Join the community
 
-If you need assistance or have questions about Qodo Gen, feel free to join our community on GitHub Discussions for **[VSCode :simple-visualstudiocode:](https://github.com/Codium-ai/codiumai-vscode-release/issues)** or for **[JetBrains :simple-jetbrains:](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)**, or join our **[Discord community]()**.
+If you need assistance or have questions about Qodo Gen, feel free to join our community on GitHub Discussions for **[VSCode](https://github.com/Codium-ai/codiumai-vscode-release/issues)** or for **[JetBrains](https://github.com/Codium-ai/codiumai-jetbrains-release/issues)**, or join our **[Discord community](https://discord.com/invite/SgSxuQ65GF)**.
 
 
 <h3 class="bold-green" markdown>
