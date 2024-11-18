@@ -12,7 +12,7 @@ To use the `/ask` command, follow these steps:
 
 2. **Initiate the Command**: Type `/ask` followed by your question in the chat interface. Qodo Gen will process your query and return a response tailored to the context of your selected mode and focus.
 
-3. **Continue the Chat**: If you require further assistance or have additional questions, continue your conversation in the same chat. Codiumate will maintain the context of your initial query, providing tailored responses to your follow-up questions.
+3. **Continue the Chat**: If you require further assistance or have additional questions, continue your conversation in the same chat. Qodo Gen will maintain the context of your initial query, providing tailored responses to your follow-up questions.
 
 !!! success "Available in"
     - [:fontawesome-solid-file-code: Current File focus](../focus/current-file.md)
