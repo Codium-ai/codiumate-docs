@@ -2,14 +2,14 @@
 title: JetBrains IDEs
 ---
 
-# :simple-jetbrains: JetBrains IDEs 
+# JetBrains IDEs 
 
 ## Getting Started
 
 
 <div class="grid cards" markdown>
 
-- :simple-jetbrains: __JetBrains__ 
+- __JetBrains__ 
     
     [:octicons-arrow-right-24: Install Qodo Gen plugin for all JetBrains IDEs](https://plugins.jetbrains.com/plugin/21206-codiumate--code-test-and-review-with-confidence--by-codiumai)
 

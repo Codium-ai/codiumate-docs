@@ -31,7 +31,7 @@ nav:
       - 'chat/commands/index.md'
       - /ask: 'chat/commands/ask.md'
       - /docstring: 'chat/commands/docstring.md'
-      - /enahnce: 'chat/commands/enhance.md'
+      - /enhance: 'chat/commands/enhance.md'
       - /explain: 'chat/commands/explain.md'
       - /improve: 'chat/commands/improve.md'
       - /test-suite: 'chat/commands/test-suite.md'

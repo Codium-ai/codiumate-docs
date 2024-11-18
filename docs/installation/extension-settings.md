@@ -2,7 +2,7 @@
 
 Customize your Qodo Gen experience with a range of settings designed to tailor the extension's functionality to your workflow. Whether you're using VSCode or JetBrains, you can adjust Qodo Gen to fit your development environment perfectly.
 
-=== ":simple-visualstudiocode: VSCode"
+=== "VSCode"
 
     ### 1. Enable / Disable Qodo Gen
     Toggle Qodo Gen's functionality on or off within your VSCode environment.
@@ -35,7 +35,7 @@ Customize your Qodo Gen experience with a range of settings designed to tailor t
     Adjust settings for automatically running `/improve` on mid-size changesets and `/issues` on small-size changesets, optimizing your use of Qodo Gen's AI assistance.
 
 
-=== ":simple-jetbrains: JetBrains"
+=== "JetBrains"
 
     ### 1. Enable / Disable Lens Button Display
     Control the visibility of lens buttons within your editor, tailoring how Qodo Gen integrates into your coding environment.
