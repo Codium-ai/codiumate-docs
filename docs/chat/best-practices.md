@@ -1,6 +1,16 @@
-Introducing support for best practices:
+---
+title: Best Practices
+---
 
-Qodo Gen now reads a best_practices.md file from the root of the project. when interacting with the chat, Qodo Gen takes into account those best practices when suggesting code.
-It currently supports all free chat and code chat commands.
-It does not support diff commands, advanced panel test generation, and code completion.
-Qodo Gen supports up to 1500 lines in the best practices file.
+# :fontawesome-solid-list-check: Best Practices
+
+**Best Practices** helps your team follow coding guidelines effortlessly by integrating them into Qodo Gen's suggestions. Use this feature to enforce consistency and quality across your project.
+
+## The `best_practices.md` File
+
+Qodo Gen automatically reads a `best_practices.md` file located at the root of your project directory. This file should contain guidelines and standards that your team should follow when coding.
+
+**File Size Limit:** The best_practices.md file can contain up to 1,500 lines. If the file exceeds this limit, Qodo Gen will ignore any lines beyond the threshold.
+
+## Example `best_practices.md` File
+
