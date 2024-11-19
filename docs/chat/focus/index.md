@@ -1,6 +1,5 @@
 ---
 title: Introduction to Focus Selection
-status: new
 ---
 
 # Introduction to Focus Selection

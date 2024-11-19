@@ -1,6 +1,5 @@
 ---
 title: Qodo Gen's Coding-Agent
-status: new
 ---
 
 

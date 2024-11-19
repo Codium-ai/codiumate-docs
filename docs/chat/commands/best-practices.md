@@ -1,3 +1,7 @@
+---
+status: new
+---
+
 # `/generate-best-practices` 
 
 ## Description
