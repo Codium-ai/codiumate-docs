@@ -44,6 +44,7 @@ nav:
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
+      - /generate-best-practices: 'chat/commands/best-practices.md'
     - Coding-Agent: 'chat/coding-agent.md'
     - Chat History: 'chat/chat-history.md'
     - Model Selection: 'chat/model-selection.md'
