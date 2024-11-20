@@ -14,6 +14,15 @@ By leveraging your company's codebase, Qodo Gen gains deeper context about your 
 !!! pro "Pro feature"
     This feature is available for Enterprise users only.
 
+<!-- ## Using Company Codebase
+
+To start using Company Codebase:
+
+1. **Install the Github App**: 
+2. **Select Repositories**: Select the repositories you'd like to use as context. Read more on this page to learn more about indexing strategy. -->
+
+![Company's Codebase](https://www.qodo.ai/images/codiumate/companys-codebase.png){width=700, loading=lazy}
+
 ## Indexing Strategy
 
 * **Focus on Specific Contexts:** Index folders or files relevant to your task (e.g., src, code completions). Avoid indexing the entire project.
