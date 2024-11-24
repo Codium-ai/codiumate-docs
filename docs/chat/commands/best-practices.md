@@ -19,7 +19,7 @@ To use the `/generate-best-practices` command, follow these steps:
 
 3. **Copy the Response as Markdown**: Click the three dots button in the top-right corner of Qodo Gen's response message, and select `Copy message as markdown`. Paste the markdown content into a new file named `best_practices.md`.
 
-4. **Customize `best_practices.md`**: Modify the content of `best_practices.md` as needed. You can add new best practices, modify existing ones, or remove parts to better suit your team's requirements.
+4. **Customize `best_practices.md`**: Modify the content of `best_practices.md` as needed. You can add new best practices, modify existing ones, or remove parts to better suit your team's requirements. You can also ask Qodo Chat to do that for you!
 
 ## The `best_practices.md` File
 

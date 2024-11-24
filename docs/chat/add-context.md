@@ -34,7 +34,7 @@ Different context options include:
     You can add an image as a context to your request. [Read more about adding images to the chat.](./images.md)
 
 6. **Add Company Codebase**
-    You can add entire folders and files from your company's codebase as extra context, making your experience more relevant and tailored to your specific needs. [Read more about adding images to the chat.](./company-codebase.md)
+    You can add entire folders and files from your company's codebase as extra context, making your experience more relevant and tailored to your specific needs. Read more about adding images to the chat.
 
 !!! alert "Please Notice"
     In JetBrains, you can index up to 1,000 files in a single folder or project.

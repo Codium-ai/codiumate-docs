@@ -1,9 +1,17 @@
----
+<!-- ---
 title: Company Codebase
 status: new
 ---
 
 # :fontawesome-solid-file-code: Company Codebase
+
+הסבר כללי על מה זה אומר, דוגמאות לאיך אפשר להשתמש בפיצ'ר הזה
+context awareness, לשאול את אילנה
+לתת דוגמאות לשאלות מעניינות שאפשר לשאול את הראג וכו. איפה כדאי להשתמש בו ואיפה לא?
+היוזר יכול לשאול שאלות שהן חוצות ריפוזיטוריז
+הצ'אט מחובר לכל הקודבייס של החברה
+בהמשך: פילטרים פר קודבייס, פר פרונטאנד/בקאנד/שפה...
+
 
 ## Overview
 
@@ -21,7 +29,7 @@ To start using Company Codebase:
 1. **Install the Github App**: 
 2. **Select Repositories**: Select the repositories you'd like to use as context. Read more on this page to learn more about indexing strategy. -->
 
-![Company's Codebase](https://www.qodo.ai/images/codiumate/companys-codebase.png){width=700, loading=lazy}
+<!-- ![Company's Codebase](https://www.qodo.ai/images/codiumate/companys-codebase.png){width=700, loading=lazy}
 
 ## Indexing Strategy
 
@@ -32,4 +40,4 @@ To start using Company Codebase:
 ## Example Usage 
 
 * **Template Generation:** Use RAG to generate templates for common tasks, such as creating a Kotlin class with logging. This can help standardize code across your project.
-* **Avoiding Code Duplication:** Use RAG to check for code duplication by selecting the context of the current file and asking relevant questions.
+* **Avoiding Code Duplication:** Use RAG to check for code duplication by selecting the context of the current file and asking relevant questions. --> -->
