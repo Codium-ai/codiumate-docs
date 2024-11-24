@@ -27,6 +27,7 @@ nav:
       - Current File: 'chat/focus/current-file.md'
       - Git Diff: 'chat/focus/git-diff.md'
     - Add Extra Context: 'chat/add-context.md'
+    - Images: 'chat/images.md'
     - Commands:
       - 'chat/commands/index.md'
       - /ask: 'chat/commands/ask.md'
@@ -43,9 +44,11 @@ nav:
       - /issues: 'chat/commands/issues.md'
       - /recap: 'chat/commands/recap.md'
       - /changelog: 'chat/commands/update-changelog.md'
+      - /generate-best-practices: 'chat/commands/best-practices.md'
     - Coding-Agent: 'chat/coding-agent.md'
     - Chat History: 'chat/chat-history.md'
-    - Images: 'chat/images.md'
+    - Model Selection: 'chat/model-selection.md'
+    # - Company Codebade: 'chat/company-codebase.md'
   - Code Completion:
     - 'code-completion/index.md'
 
