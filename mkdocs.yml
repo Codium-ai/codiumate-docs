@@ -48,7 +48,7 @@ nav:
     - Coding-Agent: 'chat/coding-agent.md'
     - Chat History: 'chat/chat-history.md'
     - Model Selection: 'chat/model-selection.md'
-    # - Company Codebade: 'chat/company-codebase.md'
+    - Company Codebade: 'chat/company-codebase.md'
   - Code Completion:
     - 'code-completion/index.md'
 
