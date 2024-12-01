@@ -49,6 +49,7 @@ nav:
     - Chat History: 'chat/chat-history.md'
     - Model Selection: 'chat/model-selection.md'
     - Company Codebade: 'chat/company-codebase.md'
+    - Chat Preferences: 'chat/chat-preferences.md'
   - Code Completion:
     - 'code-completion/index.md'
 
