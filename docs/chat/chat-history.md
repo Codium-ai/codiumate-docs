@@ -7,6 +7,8 @@ title: Chat History
 ## Overview
 Qodo Gen Chat maintains a history of your 20 most recent conversations, allowing you to review past interactions, refresh your memory, or explore new topics. You can continue a past chat to dive deeper into a topic or request additional information.
 
+Chat history persists between sessions, meaning even if you close your IDE, past chat sessions will still remain available.
+
 ## Using Chat History
 
 1. **Initiate a Command:** Call a command by typing it in the chatbox. 
