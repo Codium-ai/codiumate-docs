@@ -6,10 +6,6 @@ Qodo Gen offers extensive support across a wide range of programming languages, 
 
 Qodo Gen supports test generation for **ALL programming languages**, offering a broad spectrum of developers the ability to automatically create test suites for their code.
 
-### Enhanced Support for Specific Languages
-
-For **Python, JavaScript, TypeScript, Java, and C++**, Qodo Gen goes a step further by supporting multiple testing frameworks.
-
 ## Test Running Support
 
 While Qodo Gen's test generation feature is universally applicable, the ability to run tests directly from Qodo Gen is currently available for a select group of languages:
