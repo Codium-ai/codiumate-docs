@@ -15,6 +15,6 @@ Qodo Gen offers a versatile range of focuses to address various coding needs and
 
 ## Selecting a Focus
 
-1. **Add Focus**: Within Qodo Gen chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows.
+1. **Add Focus**: Within Qodo Gen chat, click on the `@` button, or type `@` in the chat and use the keyboard arrows.
 2. **Choose Your Focus**: Select the focus that best fits your current coding task or question. Consider the scope of your query and whether it pertains to general coding knowledge, specific code files, or broader project changes.
 3. **Switch Focus as Needed**: You can switch the focus at any time based on the evolving needs of your development work. Qodo Gen seamlessly adapts to the selected focus, providing contextually relevant assistance.

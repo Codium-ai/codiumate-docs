@@ -18,16 +18,16 @@ Different context options include:
         - In JetBrains: ++ctrl+alt+comma++ on Windows, ++cmd+alt+comma++ on Mac.
 
 2. **Files**:
-    - **Action**: Click on the "Add a file or a folder" option in the `+` button, or by typing `@` in the chat.
+    - **Action**: Click on the "Add a file or a folder" option in the `@` button, or by typing `@` in the chat.
     - **Search**: Look up and select any file from your project to add as context.
 
 3. **Folder**:
-    - **Action**: Click on the "Add a file or a folder" option in the `+` button, or by typing `@` in the chat.
+    - **Action**: Click on the "Add a file or a folder" option in the `@` button, or by typing `@` in the chat.
     - **Search**: Look up and select any folder from your project to add as context.
     - **Process**: Qodo Gen Chat will index the selected folder and include it as part of the context. A pre-request search identifies relevant code within the indexed folder.
 
 4. **Entire Project**:
-    - **Action**: Click on the "Add a file or a folder" option in the `+` button, or by typing `@` in the chat. Select "Entire Project" to index and include your entire project as context.
+    - **Action**: Click on the "Add a file or a folder" option in the `@` button, or by typing `@` in the chat. Select "Entire Project" to index and include your entire project as context.
     - **Behavior**: This option functions similarly to the Folder option, providing comprehensive context.
 
 5. **Add an Image**
