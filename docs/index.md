@@ -52,12 +52,7 @@ Qodo Gen comes packed with features to enhance every step of your development cy
 
 ## Supported languages
 
-Qodo Gen supports ALL programming languages for test generation, with enhanced support and features for:
-
-- Python
-- JavaScript
-- TypeScript
-- Java
+Qodo Gen supports ALL programming languages for test generation!
 
 **[Learn more about language support](./tests/supported-languages.md)**
 

@@ -37,7 +37,7 @@ In Current File Focus you can utilize the following commands:
 
 ## How to focus on Current File
 
-1. **Add Focus**: Within Qodo Gen chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows, and choose `Current File`.
+1. **Add Focus**: Within Qodo Gen chat, click on the `@` button, or type `@` in the chat and use the keyboard arrows, and choose `Current File`.
 2. **Choose Your Focus**: Utilize the secondary focus dropdown to select between Selected Lines or Selected Component based on your current requirement.
 3. **Execute a Command**: Type in your desired command (e.g., [`/ask`](../commands/ask.md), [`/docstring`](../commands/docstring.md)) followed by your question or request. Ensure your command matches the focus option you've selected for contextually relevant responses.
 

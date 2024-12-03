@@ -58,7 +58,7 @@ To preserve your configurations and ensure consistency across your project or te
     - **Possible Values**: `true`, `false`.
 
 - **`num_desired_tests`**:
-    - **Description**: Specifies the default number of tests to be generated. Selecting fewer tests results in faster generation. Currently, this does not apply to extending test suites.
+    - **Description**: Specifies the default number of tests to be generated. Selecting fewer tests results in faster generation.
 
 #### `[tests.javascript]`
 

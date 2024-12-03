@@ -30,7 +30,7 @@ The following commands are supported in Git-Diff focus, offering a wide range of
 
 ## How to Use Git-Diff focus
 
-1. **Access Git-Diff Focus**: Within Qodo Gen chat, click on the `+` button, or type `@` in the chat and use the keyboard arrows, choose `Git-Diff` and choose your desired diff - `Local Changes`, `Staged Changes` or `Committed Changes`.
+1. **Access Git-Diff Focus**: Within Qodo Gen chat, click on the `@` button, or type `@` in the chat and use the keyboard arrows, choose `Git-Diff` and choose your desired diff - `Local Changes`, `Staged Changes` or `Committed Changes`.
 2. **Choose Your Focus**: Use the focus dropdown to select among Local Changes, Local Changes Without New Files, Staged Changes, or Committed Changes.
 3. **Select Target Branch (if necessary)**: For committed changes, specify the target branch you're comparing changes against to refine Qodo Gen's insights.
 4. **Execute a Command**: Enter your chosen command to gain insights, documentation, review, or other assistance based on your selected focus.

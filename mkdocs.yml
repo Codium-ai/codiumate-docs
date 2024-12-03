@@ -18,7 +18,6 @@ nav:
     - Example Test: 'tests/example-test.md'
     - Context Tab: 'tests/context.md'
     - Running Tests: 'tests/running-tests.md'
-    - Extend Test Suite: 'tests/extend.md'
     - Supported Languages: 'tests/supported-languages.md'
   - Chat:
     - 'chat/index.md'

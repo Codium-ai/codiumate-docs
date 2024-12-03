@@ -14,7 +14,7 @@ Image Integration in Qodo Gen chat allows users to paste images directly into th
 ## Using Image Integration
 
 1. **Start a Chat**: Open a session in Free Chat or Coding Agent mode.
-2. **Upload an Image**: Click on the `+` button and choose `Upload a PNG from computer`, or paste your image into the chat window.
+2. **Upload an Image**: Click on the `@` button and choose `Upload an image`, or paste your image into the chat window.
 3. **Engage**: Add your request - ask specific questions or request actions such as code generation or diagram interpretation.
 
 ##Examples of Usage
