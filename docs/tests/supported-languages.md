@@ -18,14 +18,3 @@ This functionality enables developers working in these languages to not only gen
 
 !!! vscode "VSCode only"
     This feature is available for VSCode users only.
-
-## Extend Test Suite
-
-In JetBrains, you can extend your test suite in all languages. 
-
-For VSCode, the extend test suite feature is supported for:
-
-- **Python**
-- **JavaScript**
-- **TypeScript**
-
